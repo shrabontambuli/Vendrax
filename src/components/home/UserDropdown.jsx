@@ -20,7 +20,7 @@ const UserDropdown = () => {
             </div>
             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow flex gap-2">
                 <li>
-                    <NavLink to='/'>Dashboard</NavLink>
+                    <NavLink to='/dashboard/overview'>Dashboard</NavLink>
                 </li>
                 <li>
                     <button onClick={handleLogOut} className='btn btn-primary btn-outline btn-sm'>LogOut</button>
