@@ -6,7 +6,7 @@ import GoogleLogin from "../components/login-registration/GoogleLogin";
 
 const Login = () => {
     const { Login } = useAuth();
-    const { register, handleSubmit, formState: errors } = useForm();
+    const { register, handleSubmit, formState: {errors} } = useForm();
     const navigate = useNavigate();
 
     const onSubmit = (data) => {

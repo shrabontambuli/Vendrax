@@ -8,7 +8,7 @@ import Swal from 'sweetalert2';
 
 const Register = () => {
     const { createUser } = useAuth();
-    const { register, handleSubmit, watch, formState: errors } = useForm();
+    const { register, handleSubmit, watch, formState: {errors} } = useForm();
     const navigate = useNavigate();
 
     const onSubmit = (data) => {

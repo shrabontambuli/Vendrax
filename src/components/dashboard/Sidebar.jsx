@@ -33,7 +33,7 @@ const Sidebar = () => {
             <h1 className="text-3xl font-bold mb-8 text-center">Gadget Shop</h1>
             <ul className="flex flex-col gap-2">
                 <li className="p-2 border border-black rounded-md">
-                    <NavLink to='/dashboard/overview' className="flex items-center gap-3 px-16">
+                    <NavLink to='/dashboard/overview' className="flex items-center gap-2 px-14">
                         <GrOverview />
                         <p>Overview</p>
                     </NavLink>
@@ -42,7 +42,8 @@ const Sidebar = () => {
                 {
                     userData.role === "seller" && sellerRoutes.map((route) => (
                         <li key={route.id} className="p-2 border border-black rounded-md">
-                            <NavLink to={route.route} className="flex items-center gap-3 px-16">
+                            <NavLink to={route.route} className="flex items-center gap-2 px-14">
+                                <>{route.icon}</>
                                 <p>{route.title}</p>
                             </NavLink>
                         </li>
@@ -50,13 +51,13 @@ const Sidebar = () => {
                 }
 
                 <li className="p-2 border border-black rounded-md">
-                    <NavLink to='/' className="flex items-center gap-3 px-16">
+                    <NavLink to='/' className="flex items-center gap-2 px-14">
                         <IoHomeOutline />
                         <p>Home</p>
                     </NavLink>
                 </li>
                 <li className="p-2 border border-black rounded-md" onClick={() => LogOut()}>
-                    <NavLink className="flex items-center gap-3 px-16">
+                    <NavLink className="flex items-center gap-2 px-14">
                         <CgLogOut />
                         <p>LogOut</p>
                     </NavLink>

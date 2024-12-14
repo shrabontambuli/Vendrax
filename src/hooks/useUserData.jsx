@@ -21,7 +21,6 @@ const useUserData = () => {
         }
 
     }, [user, loading]);
-    console.log(userData)
 
     return userData;
 };
