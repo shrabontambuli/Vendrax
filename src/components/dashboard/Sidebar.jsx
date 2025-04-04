@@ -1,31 +1,28 @@
-import { NavLink, Route } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { GrOverview } from "react-icons/gr";
 import { IoHomeOutline } from "react-icons/io5";
 import { CgLogOut } from "react-icons/cg";
-import useUserData from "../../hooks/useUserData";
-import { MdOutlineInventory2 } from "react-icons/md";
-import { IoAddCircleOutline } from "react-icons/io5";
-import useAuth from "../../hooks/useAuth";
+// import useUserData from "../../hooks/useUserData";
+// import { MdOutlineInventory2 } from "react-icons/md";
+// import { IoAddCircleOutline } from "react-icons/io5";
 
-const sellerRoutes = [
-    {
-        id: 1,
-        route: "/dashboard/my-products",
-        title: "My Products",
-        icon: <MdOutlineInventory2 />,
-    },
-    {
-        id: 2,
-        route: "/dashboard/add-products",
-        title: "Add Products",
-        icon: <IoAddCircleOutline />,
-    },
-];
+// const sellerRoutes = [
+//     {
+//         id: 1,
+//         route: "/dashboard/my-products",
+//         title: "My Products",
+//         icon: <MdOutlineInventory2 />,
+//     },
+//     {
+//         id: 2,
+//         route: "/dashboard/add-products",
+//         title: "Add Products",
+//         icon: <IoAddCircleOutline />,
+//     },
+// ];
 
 const Sidebar = () => {
-
-    const { LogOut } = useAuth();
-    const userData = useUserData();
+    // const userData = useUserData();
 
 
     return (
@@ -39,7 +36,7 @@ const Sidebar = () => {
                     </NavLink>
                 </li>
 
-                {
+                {/* {
                     userData.role === "seller" && sellerRoutes.map((route) => (
                         <li key={route.id} className="p-2 border border-black rounded-md">
                             <NavLink to={route.route} className="flex items-center gap-2 px-14">
@@ -48,7 +45,7 @@ const Sidebar = () => {
                             </NavLink>
                         </li>
                     ))
-                }
+                } */}
 
                 <li className="p-2 border border-black rounded-md">
                     <NavLink to='/' className="flex items-center gap-2 px-14">
@@ -56,7 +53,7 @@ const Sidebar = () => {
                         <p>Home</p>
                     </NavLink>
                 </li>
-                <li className="p-2 border border-black rounded-md" onClick={() => LogOut()}>
+                <li className="p-2 border border-black rounded-md">
                     <NavLink className="flex items-center gap-2 px-14">
                         <CgLogOut />
                         <p>LogOut</p>

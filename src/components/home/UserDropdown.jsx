@@ -1,21 +1,21 @@
-import React from 'react';
-import useAuth from '../../hooks/useAuth';
+
+
 import {NavLink } from 'react-router-dom';
 
 const UserDropdown = () => {
 
-    const { user, LogOut } = useAuth();
-    const handleLogOut = () => {
-        LogOut();
-    };
+    // const { user, LogOut } = useAuth();
+    // const handleLogOut = () => {
+    //     LogOut();
+    // };
 
     return (
         <div className="dropdown dropdown-hover dropdown-bottom dropdown-end">
             <div tabIndex={0} role="button">
                 <div className="avatar">
-                    <div className=" w-10 rounded-full">
+                    {/* <div className=" w-10 rounded-full">
                         <img src={`${user?.photoURL || "https://cdn-icons-png.flaticon.com/512/1144/1144760.png"}`} />
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow flex gap-2">
@@ -23,7 +23,7 @@ const UserDropdown = () => {
                     <NavLink to='/dashboard/overview'>Dashboard</NavLink>
                 </li>
                 <li>
-                    <button onClick={handleLogOut} className='btn btn-primary btn-outline btn-sm'>LogOut</button>
+                    {/* <button onClick={handleLogOut} className='btn btn-primary btn-outline btn-sm'>LogOut</button> */}
                 </li>
             </ul>
         </div>

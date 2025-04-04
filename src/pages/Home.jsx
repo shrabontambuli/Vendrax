@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Banner from '../components/home/Banner';
 import FeatureProducts from '../components/home/FeatureProducts';
 import UserReview from '../components/home/UserReview';

@@ -1,21 +1,23 @@
-import React from 'react';
+import { Link } from "react-router-dom";
+
 
 const Banner = () => {
     return (
         <div
             className="hero min-h-screen"
             style={{
-                backgroundImage: "url(https://img.freepik.com/free-photo/workplace-business-modern-male-accessories-laptop-black-background_155003-3944.jpg?t=st=1733846815~exp=1733850415~hmac=61e1e77552d4006a2d66d7621882c09856e265b15d1939e22d08fc7a4b6e885b&w=740",
+                backgroundImage: "url(https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             }}>
-            <div className="hero-overlay bg-opacity-60"></div>
-            <div className="hero-content text-neutral-content text-center">
-                <div className="max-w-md">
-                    <h1 className="mb-5 text-4xl font-bold">Welcome To Gadget Shop</h1>
-                    <p className="mb-5">
-                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                        quasi. In deleniti eaque aut repudiandae et a id nisi.
+            <div className="hero-overlay bg-opacity-35"></div>
+            <div className="hero-content text-neutral-content">
+                <div className="max-w-full text-black">
+                    <h1 className="mb-5 text-6xl font-bold">Welcome To MISX</h1>
+                    <p className="mb-5 max-w-xl">
+                    MIS is Management Information System. In the context of banking and finance, MIS refers to a system used to collect, store, and analyze data to assist in decision-making.
                     </p>
-                    <button className="btn btn-primary">Get Started</button>
+                    <Link to='#'>
+                    <button className="btn btn-accent">Get Started</button>
+                    </Link>
                 </div>
             </div>
         </div>

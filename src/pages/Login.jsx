@@ -1,11 +1,9 @@
 import { Link, useNavigate } from "react-router-dom";
-import useAuth from "../hooks/useAuth";
 import { useForm } from "react-hook-form";
-import GoogleLogin from "../components/login-registration/GoogleLogin";
+// import GoogleLogin from "../components/login-registration/GoogleLogin";
 
 
 const Login = () => {
-    const { Login } = useAuth();
     const { register, handleSubmit, formState: {errors} } = useForm();
     const navigate = useNavigate();
 
@@ -43,7 +41,7 @@ const Login = () => {
                         <div className="form-control mt-6">
                             <button type="submit" className="btn btn-primary">Register</button>
                         </div>
-                        <GoogleLogin />
+                        {/* <GoogleLogin /> */}
                         <p className='my-4 text-sm font-normal'>Already have an account? <Link className='text-purple-700' to='/register'>Register</Link></p>
                     </form>
                 </div>

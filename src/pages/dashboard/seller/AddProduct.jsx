@@ -1,11 +1,9 @@
 import { useForm } from "react-hook-form";
-import useAuth from "../../../hooks/useAuth";
 import axios from "axios";
 import Swal from "sweetalert2";
 
 
 const AddProduct = () => {
-    const { user } = useAuth();
     const { register, handleSubmit, formState: { errors } } = useForm();
 
     const onSubmit = (data) => {
@@ -109,10 +107,6 @@ const AddProduct = () => {
                             <label className="label">
                                 <span className="label-text">Seller Email</span>
                             </label>
-                            <select className="select select-bordered"
-                                {...register("email", { required: true })}>
-                                <option value={user.email}>{user.email}</option>
-                            </select>
                         </div>
                     </div>
                     <div className="form-control w-full">

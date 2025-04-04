@@ -1,22 +1,22 @@
-import React from 'react';
-import useAuth from '../../hooks/useAuth';
-import { Navigate, useLocation } from 'react-router-dom';
-import Loading from '../../pages/Loading';
-import useUserData from '../../hooks/useUserData';
+// import React from 'react';
+// import useAuth from '../../hooks/useAuth';
+// import { Navigate, useLocation } from 'react-router-dom';
+// import Loading from '../../pages/Loading';
+// import useUserData from '../../hooks/useUserData';
 
-const SellerRoute = ({ children }) => {
-    const { user, loading } = useAuth();
-    const userData = useUserData();
-    const location = useLocation();
+// const SellerRoute = ({ children }) => {
+//     const { user, loading } = useAuth();
+//     const userData = useUserData();
+//     const location = useLocation();
 
-    if (loading || !userData.role) {
-        return <Loading />
-    }
-    if (user && userData.role === "seller") {
-        return children;
-    }
+//     if (loading || !userData.role) {
+//         return <Loading />
+//     }
+//     if (user && userData.role === "seller") {
+//         return children;
+//     }
 
-    return <Navigate to='/' state={{ from: location }} replace></Navigate>
-};
+//     return <Navigate to='/' state={{ from: location }} replace></Navigate>
+// };
 
-export default SellerRoute;
+// export default SellerRoute;
