@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
-// import GoogleLogin from "../components/login-registration/GoogleLogin";
+import GoogleLogin from "../components/login-registration/GoogleLogin";
 import axios from "axios";
 import Swal from "sweetalert2";
 
@@ -36,8 +36,16 @@ const Register = () => {
   };
 
   return (
-    <div className="hero bg-base-200 min-h-screen">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+    <div
+      className="hero bg-base-200 min-h-screen"
+      style={{
+        backgroundImage:
+          "url(https://images.unsplash.com/photo-1625225233840-695456021cde?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <div className="hero-content flex-col lg:flex-row-reverse gap-10">
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">Register Now!</h1>
           <p className="py-6">
@@ -46,16 +54,16 @@ const Register = () => {
             a id nisi.
           </p>
         </div>
-        <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+        <div className="card bg-[#92b98a34] w-full max-w-xl shrink-0 shadow-2xl">
           <form onSubmit={handleSubmit(onSubmit)} className="card-body">
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Email</span>
+                <span className="label-text text-black">Email</span>
               </label>
               <input
                 type="email"
                 placeholder="email"
-                className="input input-bordered"
+                className="input bg-transparent text-black input-bordered focus:outline-none focus:ring-1 focus:ring-green-600"
                 {...register("email", { required: true })}
               />
               {errors.email && (
@@ -64,12 +72,12 @@ const Register = () => {
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Password</span>
+                <span className="label-text text-black">Password</span>
               </label>
               <input
                 type="password"
                 placeholder="password"
-                className="input input-bordered"
+                className="input bg-transparent text-black input-bordered focus:outline-none focus:ring-1 focus:ring-green-600"
                 {...register("password", { required: true, minLength: 6 })}
               />
               {errors.password?.type === "required" && (
@@ -84,12 +92,12 @@ const Register = () => {
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Confirm Password</span>
+                <span className="label-text text-black">Confirm Password</span>
               </label>
               <input
                 type="password"
                 placeholder="confirm password"
-                className="input input-bordered"
+                className="input bg-transparent text-black input-bordered focus:outline-none focus:ring-1 focus:ring-green-600"
                 {...register("confirmPassword", {
                   required: true,
                   validate: (value) => {
@@ -107,14 +115,13 @@ const Register = () => {
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Role</span>
+                <span className="label-text text-black">Role</span>
               </label>
               <select
-                className="select select-bordered w-full max-w-xs"
+                className="select select-bordered bg-transparent text-black w-full input focus:outline-none focus:ring-1 focus:ring-green-600"
                 {...register("role", { required: true })}
               >
-                <option value="buyer">Buyer</option>
-                <option value="seller">Seller</option>
+                <option value="buyer">Employee</option>
               </select>
               {errors.role && (
                 <p className="text-red-500 font-light">
@@ -123,14 +130,14 @@ const Register = () => {
               )}
             </div>
             <div className="form-control mt-6">
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn-pri text-white">
                 Register
               </button>
             </div>
-            {/* <GoogleLogin /> */}
-            <p className="my-4 text-sm font-normal">
+            <GoogleLogin />
+            <p className="my-4 text-sm font-normal text-black">
               Already have an account?{" "}
-              <Link className="text-purple-700" to="/login">
+              <Link className="text-green-600" to="/login">
                 Login
               </Link>
             </p>

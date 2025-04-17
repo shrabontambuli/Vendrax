@@ -1,6 +1,16 @@
 import { Link, NavLink } from "react-router-dom";
+import useAuth from "../hooks/useAuth";
+import { FiLogOut } from "react-icons/fi";
 
 const Navbar = () => {
+  const { user, LogOut } = useAuth();
+
+  const handleLogOut = () => {
+    LogOut()
+      .then()
+      .catch((error) => error);
+  };
+
   const navOptions = (
     <>
       <li>
@@ -124,28 +134,46 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="space-y-1 p-3 menu-sm dropdown-content bg-[#338f2b] rounded-box z-[1] mt-3 text-black font-medium w-52 shadow"
+            className="space-y-1 p-3 menu-sm dropdown-content bg-[#338f2b] rounded-box z-[1] mt-3 text-white font-medium w-52 shadow"
           >
             {navOptions}
           </ul>
         </div>
-        <h2 className="text-3xl text-black font-semibold">MISX</h2>
+        <h2 className="text-3xl text-white font-semibold">MISX</h2>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className=" space-x-1 menu-horizontal text-black font-medium px-1">
+        <ul className=" space-x-1 menu-horizontal text-white font-medium px-1">
           {navOptions}
         </ul>
       </div>
       <div className="navbar-end">
-        <div className="flex gap-2 items-center">
-          <Link to="/login">
-            <button className=" btn btn-neutral btn-outline">Login</button>
-          </Link>
+        {user ? (
+          <div className="flex gap-2 items-center">
+            <img
+              title={user?.displayName}
+              className="w-12 h-12 rounded-full border-2"
+              src={user?.photoURL}
+              alt=""
+            />
 
-          <Link to="/register">
-            <button className=" btn btn-neutral">Register</button>
-          </Link>
-        </div>
+            <button onClick={handleLogOut} className="flex justify-center items-center gap-2 btn-pri text-white">
+              LogOut
+              <FiLogOut size={20} />
+            </button>
+          </div>
+        ) : (
+          <div className="flex gap-2 items-center">
+            <Link to="/login">
+              <button className=" btn btn-neutral btn-outline">Login</button>
+            </Link>
+
+            <Link to="/register">
+              <button className="btn-pri text-black font-medium">
+                Register
+              </button>
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );
