@@ -5,7 +5,9 @@ const Footer = () => {
         backgroundImage: "url(/images/bg-foot.webp)",
       }}
     >
-      <div className="md:max-w-screen-2xl mx-auto pt-20">
+        <img className="absolute top-4 -right-5 md:right-2 lg:right-64 md:-top-4" src="/images/foot-bg1.webp" alt="" />
+
+      <div className="md:max-w-screen-2xl mx-auto pt-20 lg:pt-44">
         <div className="md:flex items-center gap-10 mb-14 px-4 lg:px-10">
           <div className="lg:w-[790px] relative mb-16 md:mb-0">
             <h1 className="text-2xl lg:text-[43px] leading-tight text-white font-bold mb-6">
@@ -50,7 +52,7 @@ const Footer = () => {
           </div>
         </div>
         <img
-          className="absolute right-0 bottom-72 md:-right-52 md:bottom-64 lg:right-0 lg:bottom-72"
+          className="absolute right-0 bottom-72 md:right-20 md:top-80 lg:right-0 lg:top-[350px]"
           src="/images/foot-bg2.webp"
           alt=""
         />
