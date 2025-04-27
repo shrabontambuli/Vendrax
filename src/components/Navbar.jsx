@@ -64,17 +64,29 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bgC text-black z-10 mt-3 w-[415px] p-6 shadow space-y-10"
+              className="menu menu-sm dropdown-content bgC text-black z-10 mt-3 w-96 p-6 shadow space-y-10"
             >
               <li>
-                <Link to="/" className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">Home</Link>
+                <Link
+                  to="/"
+                  className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0"
+                >
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/" className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">About</Link>
+                <Link
+                  to="/"
+                  className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0"
+                >
+                  About
+                </Link>
               </li>
               <li>
                 <details>
-                  <summary className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">Services</summary>
+                  <summary className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">
+                    Services
+                  </summary>
                   <ul className=" lg:bg-white text-black lg:border-b-2 rounded-sm w-40">
                     <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/">Ecommerce</Link>
@@ -98,11 +110,18 @@ const Navbar = () => {
                 </details>
               </li>
               <li>
-                <Link to="/" className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">Features</Link>
+                <Link
+                  to="/"
+                  className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0"
+                >
+                  Features
+                </Link>
               </li>
               <li>
                 <details>
-                  <summary className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">Partnership</summary>
+                  <summary className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">
+                    Partnership
+                  </summary>
                   <ul className="lg:bg-white text-black lg:border-b-2 rounded-sm w-52">
                     <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/">Referral Program</Link>
@@ -120,7 +139,20 @@ const Navbar = () => {
                 </details>
               </li>
               <li>
-                <Link to="/" className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">Contact</Link>
+                <Link
+                  to="/"
+                  className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0"
+                >
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/"
+                  className="border border-[#00c6c0] text-[#00c6c0] py-3 px-10 rounded-full w-40"
+                >
+                  Get started
+                </Link>
               </li>
             </ul>
           </div>
@@ -188,7 +220,10 @@ const Navbar = () => {
                 <Link to="/">Contact</Link>
               </li>
               <li>
-                <Link to="/" className="border border-[#00c6c0] text-[#00c6c0] py-3 px-10 rounded-full">
+                <Link
+                  to="/"
+                  className="border border-[#00c6c0] text-[#00c6c0] py-3 px-10 rounded-full"
+                >
                   Get started
                 </Link>
               </li>
