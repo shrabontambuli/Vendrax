@@ -5,7 +5,7 @@ const TailoringPos = () => {
     <div className="mb-44 md:mb-20 lg:mb-0 p-1">
       <div>
         <div className="relative lg:w-[1139px]">
-          <img src="public/images/about-helpimg.webp" alt="img" />
+          <img src="/images/about-helpimg.webp" alt="img" />
           <div className="absolute right-2 -bottom-24 md:bottom-20 md:right-40 lg:-right-[42%] lg:-bottom-10">
             <div className="relative h-[400px] w-[390px] mx-auto lg:mx-0 md:w-[300px] md:h-[600px] lg:h-[760px] lg:w-[624px]">
               <div className="bg-[#2a2e30] p-5 md:p-6 lg:p-16 rounded-lg space-y-10 md:space-y-6 lg:space-y-10 h-full w-full text-center absolute z-30 mt-10">
