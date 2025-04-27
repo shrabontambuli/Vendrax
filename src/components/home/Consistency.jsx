@@ -27,7 +27,7 @@ const Consistency = () => {
               />
             </button>
           </div>
-          <div className="relative h-[620px] w-[390px] md:w-[844px] lg:h-[708px] lg:w-[624px]">
+          <div className="relative h-[620px] w-[400px] mx-auto md:mx-0 md:w-[844px] lg:h-[708px] lg:w-[624px]">
             <div className="bg-[#00a7a2] p-5 md:p-16 rounded-3xl space-y-8 h-full w-full absolute z-30">
                 <div className="flex items-center gap-6">
                     <img className="w-16 h-14" src="/images/need-ic1.webp" alt="icon" />
@@ -54,7 +54,7 @@ const Consistency = () => {
                     <h3 className="text-2xl text-white font-medium">An All-In-One Solution for Instore POS</h3>
                 </div>
             </div>
-            <div className="absolute -bottom-5 right-0 md:-bottom-5 md:-right-0 lg:-right-5 h-[460px] w-[300px] md:h-[460px] md:w-[560px] bg-[#ffbf41] z-20 rounded-3xl">
+            <div className="absolute -bottom-5 -right-5 md:-bottom-5 md:-right-0 lg:-right-5 h-[460px] w-[300px] md:h-[460px] md:w-[560px] bg-[#ffbf41] z-20 rounded-3xl">
             </div>
             <img className="absolute -top-7 -left-7" src="/images/bg2.webp" alt="icon" />
             <img className="absolute z-10 -bottom-16 -right-5 md:right-0 md:-bottom-28 lg:-bottom-32 lg:-right-32" src="/images/bg1.webp" alt="icon" />
