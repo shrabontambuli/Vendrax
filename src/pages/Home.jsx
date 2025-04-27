@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import BannerCarousel from "../components/home/BannerCarousel";
 import Features from "../components/home/Features";
 import POSSection from "../components/home/POSSection";
+import Consistency from "../components/home/Consistency";
 
 const Home = () => {
   useEffect(() => {
@@ -12,6 +13,7 @@ const Home = () => {
       <BannerCarousel />
       <Features/>
       <POSSection/>
+      <Consistency/>
     </>
   );
 };

@@ -5,7 +5,7 @@ const Features = () => {
     <div className="flex flex-col lg:flex-row max-w-screen-2xl mx-auto items-center justify-between py-28 px-10 bg-[#ffffff]">
       {/* Left content */}
       <div className="lg:w-1/2 space-y-10">
-        <span className="inline-block w-44 py-2 bg-red-100 text-red-600 rounded-full font-semibold text-lg text-center tracking-widest">
+        <span className="inline-block w-44 py-1 bg-red-100 text-red-600 rounded-full font-semibold text-lg text-center tracking-widest">
           What We Offer
         </span>
         <h2 className="text-4xl lg:text-6xl font-bold text-gray-900">
