@@ -4,8 +4,11 @@ import { PiMapPinAreaFill } from "react-icons/pi";
 import { RiInstagramFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import Logo from "/public/images/logo.webp";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="absolute z-20 w-[100%]">
       {/* top nav  */}
@@ -45,8 +48,8 @@ const Navbar = () => {
       <div className="navbar bg-transparent text-white lg:mt-7 py-6 md:py-0">
         <div className="w-[40%]">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg
+            <div tabIndex={0}  onClick={() => setIsOpen(!isOpen)} role="button" className="btn btn-ghost lg:hidden">
+              {/* <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
                 fill="none"
@@ -60,11 +63,13 @@ const Navbar = () => {
                   strokeWidth="2"
                   d="M4 6h16M4 12h8m-8 6h16"
                 />{" "}
-              </svg>
+              </svg> */}
+                 {isOpen ? <Menu size={28} /> : <Menu size={28} />}
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bgC text-black z-10 mt-3 w-96 p-6 shadow space-y-10"
+              className={`menu menu-sm dropdown-content bgC text-black z-10 mt-3 w-96 p-6 shadow space-y-10 transition-all ${isOpen ? "block" : "hidden"
+               }`}
             >
               <li>
                 <Link

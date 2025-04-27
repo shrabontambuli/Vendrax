@@ -8,6 +8,12 @@ const banners = [
       "Vendrax, your gateway to maximizing revenue through our ISO/Reseller Program. As an ISO, you can leverage our industry expertise and robust infrastructure to focus solely on sales while we handle all post-sale services.",
     btn: "Get Started",
     imageUrl: "https://www.vendrax.com/assets/images/slide1.jpg",
+    points: [
+    "Apparel Stores",
+    "Electronic Retailers",
+    "Food & Beverage Wholesalers",
+    "Auto Repair Shops",
+  ],
   },
   {
     id: 2,
@@ -25,12 +31,6 @@ const banners = [
   },
 ];
 
-// points: [
-//     "Apparel Stores",
-//     "Electronic Retailers",
-//     "Food & Beverage Wholesalers",
-//     "Auto Repair Shops",
-//   ],
 export default function BannerCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -51,10 +51,10 @@ export default function BannerCarousel() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8 px-6 py-12">
           {/* Left Content */}
           <div className="flex flex-col justify-center text-white absolute z-10 lg:left-52 left-0 p-3 md:mt-20 lg:mt-0 lg:top-72 lg:max-w-3xl">
-            <h1 className="text-3xl lg:text-6xl font-bold mb-8 md:mb-4 lg:mb-8 leading-tight">
+            <h1 className="text-[32px] md:text-3xl lg:text-6xl font-bold mb-8 md:mb-4 lg:mb-8 leading-tight">
               {banners[currentIndex].title}
             </h1>
-            <p className="text-lg lg:text-2xl font-medium text-gray-300 mb-8 md:mb-4 lg:mb-8">
+            <p className="text-xl md:text-lg lg:text-2xl font-medium text-gray-300 mb-8 md:mb-4 lg:mb-8">
               {banners[currentIndex].description}
             </p>
 
