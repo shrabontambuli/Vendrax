@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import BannerCarousel from "../components/home/BannerCarousel";
+import Features from "../components/home/Features";
+import POSSection from "../components/home/POSSection";
 
 const Home = () => {
   useEffect(() => {
@@ -8,6 +10,8 @@ const Home = () => {
   return (
     <>
       <BannerCarousel />
+      <Features/>
+      <POSSection/>
     </>
   );
 };
