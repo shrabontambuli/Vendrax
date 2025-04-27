@@ -66,7 +66,7 @@ const Footer = () => {
             <a href="/" className="hover:text-[#ee5028] transition-all">
               Home
             </a>
-            <a href="/" className="hover:text-[#ee5028] transition-all">
+            <a href="/about" className="hover:text-[#ee5028] transition-all">
               About
             </a>
             <a href="/" className="hover:text-[#ee5028] transition-all">

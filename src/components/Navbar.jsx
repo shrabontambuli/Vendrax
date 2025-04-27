@@ -81,7 +81,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/"
+                  to="/about"
                   className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0"
                 >
                   About
@@ -172,7 +172,7 @@ const Navbar = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/">About</Link>
+                <Link to="/about">About</Link>
               </li>
               <li>
                 <details>
@@ -241,3 +241,36 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
+
+
+{/* <button
+                    className="border border-[#00c6c0] text-[#00c6c0] py-3 px-10 rounded-full"
+                    onClick={() =>
+                      document.getElementById("my_modal_4").showModal()
+                    }
+                  >
+                    Get started
+                  </button>
+                  <dialog id="my_modal_4" className="modal max-w-5xl mx-auto w-11/12">
+                    <div
+                      style={{
+                        backgroundImage: "url(/images/bg-popup.webp)",
+                      }}
+                      className=" w-full h-full max-w-5xl absolute top-[80]"
+                    >
+                      <div>
+                        <div></div>
+                      </div>
+
+                      <div className="modal-action">
+                        <form method="dialog">
+
+                          <button className="btn">Close</button>
+                        </form>
+                      </div>
+                    </div>
+                  </dialog> */}
