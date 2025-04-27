@@ -27,7 +27,7 @@ const Consistency = () => {
               />
             </button>
           </div>
-          <div className="relative h-[620px] w-[400px] mx-auto lg:mx-0 md:w-[844px] lg:h-[708px] lg:w-[624px]">
+          <div className="relative h-[620px] w-[390px] mx-auto lg:mx-0 md:w-[844px] lg:h-[708px] lg:w-[624px]">
             <div className="bg-[#00a7a2] p-5 md:p-16 rounded-3xl space-y-8 h-full w-full absolute z-30">
                 <div className="flex items-center gap-6">
                     <img className="w-16 h-14" src="/images/need-ic1.webp" alt="icon" />
