@@ -5,3 +5,7 @@
 body{
     @apply bg-white
 }
+
+.bgC{
+    background: linear-gradient(170deg, #e6002d 0%, #e75838 100%);
+}

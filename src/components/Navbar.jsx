@@ -4,11 +4,10 @@ import { PiMapPinAreaFill } from "react-icons/pi";
 import { RiInstagramFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import Logo from "/public/images/logo.webp";
-import { useState } from "react";
 
 const Navbar = () => {
   return (
-    <div className="absolute z-10 w-[100%]">
+    <div className="absolute z-20 w-[100%]">
       {/* top nav  */}
 
       <div className="bg-white hidden lg:flex items-center text-black py-1 px-3">
@@ -43,7 +42,7 @@ const Navbar = () => {
 
       {/* main nav  */}
 
-      <div className="navbar bg-transparent text-white lg:mt-7">
+      <div className="navbar bg-transparent text-white lg:mt-7 py-6 md:py-0">
         <div className="w-[40%]">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -65,133 +64,133 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-white text-black z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bgC text-black z-10 mt-3 w-[415px] p-6 shadow space-y-10"
             >
               <li>
-                <a>Home</a>
+                <Link to="/" className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">Home</Link>
               </li>
               <li>
-                <a>About</a>
+                <Link to="/" className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">About</Link>
               </li>
               <li>
                 <details>
-                  <summary>Services</summary>
-                  <ul className="bg-white text-black border-b-2 rounded-sm w-40">
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Ecommerce</a>
+                  <summary className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">Services</summary>
+                  <ul className=" lg:bg-white text-black lg:border-b-2 rounded-sm w-40">
+                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                      <Link to="/">Ecommerce</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Restaurant</a>
+                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                      <Link to="/">Restaurant</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Desktop Terminal</a>
+                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                      <Link to="/">Desktop Terminal</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Pay at the table</a>
+                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                      <Link to="/">Pay at the table</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Wireless Terminal</a>
+                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                      <Link to="/">Wireless Terminal</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Mobile Payment</a>
+                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                      <Link to="/">Mobile Payment</Link>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <a>Features</a>
+                <Link to="/" className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">Features</Link>
               </li>
               <li>
                 <details>
-                  <summary>Partnership</summary>
-                  <ul className="bg-white text-black border-b-2 rounded-sm w-52">
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Referral Program</a>
+                  <summary className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">Partnership</summary>
+                  <ul className="lg:bg-white text-black lg:border-b-2 rounded-sm w-52">
+                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                      <Link to="/">Referral Program</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>ISO Reseller Program</a>
+                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                      <Link to="/">ISO Reseller Program</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Agent Revenue Share</a>
+                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                      <Link to="/">Agent Revenue Share</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Submit Referral</a>
+                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                      <Link to="/">Submit Referral</Link>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <a>Contact</a>
+                <Link to="/" className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">Contact</Link>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">
+          <Link to="/" className="btn btn-ghost text-xl">
             <img src={Logo} alt="logo" />
-          </a>
+          </Link>
         </div>
         <div className="w-[60] gap-8 pe-6">
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal items-center text-2xl gap-8 font-medium">
               <li>
-                <a>Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a>About</a>
+                <Link to="/">About</Link>
               </li>
               <li>
                 <details>
                   <summary>Services</summary>
                   <ul className="bg-white text-black border-b-2 rounded-sm w-40">
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Ecommerce</a>
+                      <Link to="/">Ecommerce</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Restaurant</a>
+                      <Link to="/">Restaurant</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Desktop Terminal</a>
+                      <Link to="/">Desktop Terminal</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Pay at the table</a>
+                      <Link to="/">Pay at the table</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Wireless Terminal</a>
+                      <Link to="/">Wireless Terminal</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Mobile Payment</a>
+                      <Link to="/">Mobile Payment</Link>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <a>Features</a>
+                <Link to="/">Features</Link>
               </li>
               <li>
                 <details>
                   <summary>Partnership</summary>
                   <ul className="bg-white text-black border-b-2 rounded-sm w-52">
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Referral Program</a>
+                      <Link to="/">Referral Program</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>ISO Reseller Program</a>
+                      <Link to="/">ISO Reseller Program</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Agent Revenue Share</a>
+                      <Link to="/">Agent Revenue Share</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <a>Submit Referral</a>
+                      <Link to="/">Submit Referral</Link>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <a>Contact</a>
+                <Link to="/">Contact</Link>
               </li>
               <li>
-                <a className="border border-[#00c6c0] text-[#00c6c0] py-3 px-10 rounded-full">
+                <Link to="/" className="border border-[#00c6c0] text-[#00c6c0] py-3 px-10 rounded-full">
                   Get started
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
