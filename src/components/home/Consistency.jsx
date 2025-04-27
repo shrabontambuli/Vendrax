@@ -2,7 +2,6 @@ import React from "react";
 
 const Consistency = () => {
   return (
-    <div className="">
       <div className="max-w-screen-2xl mx-auto lg:px-10 py-20 md:py-36">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
           <div className="space-y-10 p-4">
@@ -55,14 +54,13 @@ const Consistency = () => {
                     <h3 className="text-2xl text-white font-medium">An All-In-One Solution for Instore POS</h3>
                 </div>
             </div>
-            <div className="absolute -bottom-5 right-0 md:-bottom-5 md:-right-5 h-[460px] w-[300px] md:h-[460px] md:w-[560px] bg-[#ffbf41] z-20 rounded-3xl">
+            <div className="absolute -bottom-5 right-0 md:-bottom-5 md:-right-0 lg:-right-5 h-[460px] w-[300px] md:h-[460px] md:w-[560px] bg-[#ffbf41] z-20 rounded-3xl">
             </div>
             <img className="absolute -top-7 -left-7" src="/images/bg2.webp" alt="icon" />
-            <img className="absolute z-10 -bottom-16 -right-5 md:-bottom-32 md:-right-32" src="/images/bg1.webp" alt="icon" />
+            <img className="absolute z-10 -bottom-16 -right-5 md:right-0 md:-bottom-28 lg:-bottom-32 lg:-right-32" src="/images/bg1.webp" alt="icon" />
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
