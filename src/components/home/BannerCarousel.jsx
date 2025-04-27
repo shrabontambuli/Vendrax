@@ -50,11 +50,11 @@ export default function BannerCarousel() {
       <div className="relative w-full min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8 px-6 py-12">
           {/* Left Content */}
-          <div className="flex flex-col justify-center text-white absolute z-10 lg:left-52 left-0 p-3 lg:top-72 lg:max-w-3xl">
-            <h1 className="text-3xl lg:text-6xl font-bold mb-8 leading-tight">
+          <div className="flex flex-col justify-center text-white absolute z-10 lg:left-52 left-0 p-3 md:mt-20 lg:mt-0 lg:top-72 lg:max-w-3xl">
+            <h1 className="text-3xl lg:text-6xl font-bold mb-8 md:mb-4 lg:mb-8 leading-tight">
               {banners[currentIndex].title}
             </h1>
-            <p className="text-lg lg:text-2xl font-medium text-gray-300 mb-8">
+            <p className="text-lg lg:text-2xl font-medium text-gray-300 mb-8 md:mb-4 lg:mb-8">
               {banners[currentIndex].description}
             </p>
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <div className="flex flex-col lg:flex-row max-w-screen-2xl mx-auto items-center justify-between py-28 px-10 bg-[#ffffff]">
+    <div className="flex flex-col lg:flex-row md:max-w-screen-2xl mx-auto items-center justify-between py-28 px-4 md:px-10 bg-[#ffffff]">
       {/* Left content */}
       <div className="lg:w-1/2 space-y-10">
         <span className="inline-block w-44 py-1 bg-red-100 text-red-600 rounded-full font-semibold text-lg text-center tracking-widest">

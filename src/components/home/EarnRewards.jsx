@@ -7,7 +7,7 @@ const EarnRewards = () => {
         backgroundImage: "url(/images/orctabg.jpg)",
       }}
     >
-      <div className="max-w-screen-2xl mx-auto lg:px-10 text-center py-28 space-y-10">
+      <div className="md:max-w-screen-2xl mx-auto lg:px-10 text-center py-28 space-y-10">
         <h1 className="text-3xl lg:text-6xl text-white font-medium">
         Partner with Vendrax: <br />
           <span className="font-bold">Earn Rewards and Revenue</span>

@@ -5,7 +5,7 @@ const Footer = () => {
         backgroundImage: "url(/images/bg-foot.webp)",
       }}
     >
-        <img className="absolute top-4 -right-5 md:right-2 lg:right-64 md:-top-4" src="/images/foot-bg1.webp" alt="" />
+        <img className="absolute top-4 md:w-72 lg:w-96 md:right-0 lg:right-64 md:-top-4" src="/images/foot-bg1.webp" alt="" />
 
       <div className="md:max-w-screen-2xl mx-auto pt-20 lg:pt-44">
         <div className="md:flex items-center gap-10 mb-14 px-4 lg:px-10">
@@ -15,7 +15,7 @@ const Footer = () => {
               <span className="text-[#e53e29]">Business?</span>
             </h1>
             <div className="md:flex items-center">
-              <p className="text-xl md:w-9/12 mb-20 md:mb-0">
+              <p className="text-xl text-white md:text-slate-500 md:w-9/12 mb-20 md:mb-0">
                 Maximize the potential of your business with our growth-driven
                 solutions. Let’s together achieve your goals in an innovative
                 and thriving dynamics.
@@ -30,7 +30,7 @@ const Footer = () => {
               </button>
             </div>
             <img
-              className="absolute right-32 bottom-20 md:right-10 md:bottom-32 lg:right-32 lg:bottom-20"
+              className="absolute left-20 bottom-20 md:left-80 md:bottom-28 lg:right-32 lg:bottom-20"
               src="/images/arr1.webp"
               alt=""
             />

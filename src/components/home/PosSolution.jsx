@@ -2,7 +2,7 @@ import React from "react";
 
 const PosSolution = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto lg:px-10 py-20 md:py-36">
+    <div className="md:max-w-screen-2xl mx-auto lg:px-10 py-20 md:py-36">
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
         <div className="space-y-10 p-4">
           <span className="inline-block w-44 py-1 bg-red-100 text-red-600 rounded-full font-semibold text-lg text-center tracking-widest">

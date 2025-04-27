@@ -8,7 +8,7 @@ const POSSection = () => {
         backgroundImage: "url(/images/bg-ser.webp)",
       }}
     >
-      <div className="max-w-screen-2xl mx-auto lg:px-10 p-4 relative">
+      <div className="md:max-w-screen-2xl mx-auto lg:px-10 p-4 relative">
         <div>
           <span className="inline-block w-80 py-1 bg-[#553a29] text-[#ee5e2e] rounded-full font-semibold text-lg text-center mt-40 md:mt-24 mb-6 tracking-widest">
             POS SYSTEM SERVICES
