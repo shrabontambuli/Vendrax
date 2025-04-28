@@ -81,7 +81,7 @@ const Footer = () => {
             <a href="/" className="hover:text-[#ee5028] transition-all">
               Agent Revenue Share
             </a>
-            <a href="/" className="hover:text-[#ee5028] transition-all">
+            <a href="/contact" className="hover:text-[#ee5028] transition-all">
               Contact Us
             </a>
           </nav>

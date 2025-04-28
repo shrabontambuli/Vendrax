@@ -145,7 +145,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/"
+                  to="/contact"
                   className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0"
                 >
                   Contact
@@ -222,7 +222,7 @@ const Navbar = () => {
                 </details>
               </li>
               <li>
-                <Link to="/">Contact</Link>
+                <Link to="/contact">Contact</Link>
               </li>
               <li>
                 <Link

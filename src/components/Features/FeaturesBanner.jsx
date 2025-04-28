@@ -16,7 +16,8 @@ const FeaturesBanner = () => {
           <img src="/images/feat-ban1.webp" alt="img" />
         </div>
         <div>
-          <h4 className="text-white text-xl lg:text-2xl mt-6 md:mt-0 mb-8 w-96">A number of essential features are offered by our POS systems to simplify your client interactions, inventory control, and sales.</h4>
+          <h4 className="text-white text-xl lg:text-2xl mt-6 md:mt-0 w-96">A number of essential features are offered by our POS systems to simplify your client interactions, inventory control, and sales.</h4>
+          <div className="w-20 h-2 bg-[#105964] my-4"></div>
           <img src="/images/about-ban2.webp" alt="img" />
         </div>
       </div>

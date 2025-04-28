@@ -1,0 +1,176 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import {
+  FaCheckCircle,
+  FaChevronDown,
+  FaCommentAlt,
+  FaMapMarkedAlt,
+  FaUser,
+} from "react-icons/fa";
+import { FaPhoneVolume } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+import { IoCheckmarkSharp } from "react-icons/io5";
+
+const ContactForm = () => {
+  return (
+    <div className="max-w-screen-2xl mx-auto rounded-2xl bg-[#f6fcfc] shadow-xl lg:px-20 py-20 lg:mt-60 mb-28 relative p-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
+        <div>
+          <div>
+            <h1 className="text-5xl text-black font-bold lg:w-10/12">
+              We Would Love To Assist You!
+            </h1>
+            <img src="/images/head-bg3.webp" alt="icon" />
+            <p className="mt-14 text-xl lg:w-10/12">
+              Contact us today to learn more about how our POS solutions can
+              revolutionize your business and elevate customer experience.
+            </p>
+          </div>
+          <div className="flex items-center mt-10">
+            <div>
+              <div className="flex items-center gap-4 mb-20">
+                <div>
+                  <img
+                    className="w-14 h-14"
+                    src="/images/phone4.webp"
+                    alt="icon"
+                  />
+                </div>
+                <div>
+                  <p>Call Us</p>
+                  <h3 className="text-3xl text-black font-medium">
+                    833-604-8051
+                  </h3>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <div>
+                  <img
+                    className="w-14 h-14"
+                    src="/images/map3.webp"
+                    alt="icon"
+                  />
+                </div>
+                <div>
+                  <p>Address</p>
+                  <h3 className="text-xl text-black font-medium w-80">
+                    15500 Voss Rd Suite 200 1171 Sugar Land, TX 77498-4601
+                    United States
+                  </h3>
+                </div>
+              </div>
+              <div className="mt-28">
+                <h2 className="text-2xl text-black font-medium tracking-[10px]">
+                  Our Social Media:
+                </h2>
+                <div className="flex space-x-14 md:space-x-20 mt-10">
+                  <Link to="#">
+                    <img src="/images/face2.webp" alt="icon" />
+                  </Link>
+                  <Link to="#">
+                    <img src="/images/twit2.webp" alt="icon" />
+                  </Link>
+                  <Link to="#">
+                    <img src="/images/insta2.webp" alt="icon" />
+                  </Link>
+                  <Link to="#">
+                    <img src="/images/link2.webp" alt="icon" />
+                  </Link>
+                  <Link to="#">
+                    <img src="/images/pint2.webp" alt="icon" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                className="hidden lg:flex h-[735px] -mb-40"
+                src="/images/cont-img1.webp"
+                alt="img"
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h1 className="text-5xl text-black font-bold">
+              We Would Love To Assist You!
+            </h1>
+            <img src="/images/head-bg3.webp" alt="icon" />
+          </div>
+          <div>
+            <div className="mt-24">
+              <div className="shadow-xl p-8 md:p-16 bg-white rounded-3xl">
+                <form className="flex flex-col gap-5">
+                  <div className="md:flex items-center gap-8">
+                    <div className="w-full">
+                      <label className="label">Full Name*</label>
+                      <input
+                        type="text"
+                        placeholder="Full name here"
+                        className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#e53e29]"
+                      />
+                    </div>
+                    <div className="w-full">
+                      <label className="label">Email Address*</label>
+                      <input
+                        type="text"
+                        placeholder="Add email"
+                        className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#e53e29]"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="md:flex items-center gap-8">
+                    <div className="w-full">
+                      <label className="label">Phone*</label>
+                      <input
+                        type="text"
+                        placeholder="Your number"
+                        className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#e53e29]"
+                      />
+                    </div>
+                    <div className="w-full">
+                      <label className="label">Subject*</label>
+                      <input
+                        type="text"
+                        placeholder="Business Name"
+                        className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#e53e29]"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <div className="w-full">
+                    <label className="label">Comments/Questions*</label>
+                      <textarea
+                        placeholder="Enter Your Message Here"
+                        className="w-full bg-white border-2 p-3 rounded-sm focus:outline-none focus:ring-1 focus:ring-[#e53e29] resize-none"
+                        rows="4"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="mt-8">
+                    <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase">
+                      Submit Now
+                      <img
+                        className="absolute -right-3"
+                        src="/images/red-btn.webp"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img className="absolute hidden lg:flex top-10 lg:-right-10" src="/images/cont-bg2.webp" alt="icon" />
+      <img className="absolute hidden lg:flex top-10 lg:-left-10" src="/images/cont-bg1.webp" alt="icon" />
+    </div>
+  );
+};
+
+export default ContactForm;

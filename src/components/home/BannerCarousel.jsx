@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const banners = [
   {
@@ -9,11 +10,11 @@ const banners = [
     btn: "Get Started",
     imageUrl: "https://www.vendrax.com/assets/images/slide1.jpg",
     points: [
-    "Apparel Stores",
-    "Electronic Retailers",
-    "Food & Beverage Wholesalers",
-    "Auto Repair Shops",
-  ],
+      "Apparel Stores",
+      "Electronic Retailers",
+      "Food & Beverage Wholesalers",
+      "Auto Repair Shops",
+    ],
   },
   {
     id: 2,
@@ -71,14 +72,16 @@ export default function BannerCarousel() {
             </div>
 
             {/* Button */}
-            <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase">
-              {banners[currentIndex].btn}{" "}
-              <img
-                className="absolute -right-3"
-                src="/images/red-btn.webp"
-                alt=""
-              />
-            </button>
+            <Link to="/">
+              <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase">
+                {banners[currentIndex].btn}{" "}
+                <img
+                  className="absolute -right-3"
+                  src="/images/red-btn.webp"
+                  alt=""
+                />
+              </button>
+            </Link>
           </div>
 
           {/* Right Image */}
@@ -120,13 +123,17 @@ export default function BannerCarousel() {
             </h1>
             <div className="md:flex items-center gap-10">
               <div>
-                <h1 className="text-[#ee5028] text-5xl lg:text-7xl font-bold mb-5">100%</h1>
+                <h1 className="text-[#ee5028] text-5xl lg:text-7xl font-bold mb-5">
+                  100%
+                </h1>
                 <p className="text-xl text-black">
                   Success rate in installing top-tier point-of-sale machines
                 </p>
               </div>
               <div>
-                <h1 className="text-[#ee5028] text-5xl lg:text-7xl font-bold mb-5">100%</h1>
+                <h1 className="text-[#ee5028] text-5xl lg:text-7xl font-bold mb-5">
+                  100%
+                </h1>
                 <p className="text-xl text-black">
                   Businesses equipped with high-tech payment solutions
                 </p>

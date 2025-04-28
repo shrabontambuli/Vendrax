@@ -15,7 +15,8 @@ const AboutBanner = () => {
             <img src="/images/about-ban1.webp" alt="img" />
           </div>
           <div>
-            <h4 className="text-white text-xl lg:text-2xl mt-6 md:mt-0 mb-8">On Reporting, Financials, and Measurable Goals</h4>
+            <h4 className="text-white text-xl lg:text-2xl mt-6 md:mt-0 ">On Reporting, Financials, and Measurable Goals</h4>
+            <div className="w-16 h-2 bg-[#105964] my-8"></div>
             <img src="/images/about-ban2.webp" alt="img" />
           </div>
         </div>
