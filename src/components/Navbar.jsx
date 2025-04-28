@@ -132,13 +132,13 @@ const Navbar = () => {
                       <Link to="/referral">Referral Program</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/">ISO Reseller Program</Link>
+                      <Link to="/reseller">ISO Reseller Program</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/">Agent Revenue Share</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/">Submit Referral</Link>
+                      <Link to="/submit-referral">Submit Referral</Link>
                     </li>
                   </ul>
                 </details>
@@ -210,13 +210,13 @@ const Navbar = () => {
                       <Link to="/referral">Referral Program</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/">ISO Reseller Program</Link>
+                      <Link to="/reseller">ISO Reseller Program</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
                       <Link to="/">Agent Revenue Share</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/">Submit Referral</Link>
+                      <Link to="/submit-referral">Submit Referral</Link>
                     </li>
                   </ul>
                 </details>

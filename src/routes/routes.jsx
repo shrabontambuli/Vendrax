@@ -5,6 +5,9 @@ import About from "../pages/About";
 import Features from "../pages/Features";
 import Contact from "../pages/Contact";
 import Referral from "../pages/Referral";
+import Reseller from "../pages/Reseller";
+import SubmitReferralForm from "../components/Partnership/SubmitReferral/SubmitReferralForm";
+import SubmitReferral from "../pages/SubmitReferral";
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +33,14 @@ export const router = createBrowserRouter([
       {
         path: "/referral",
         element: <Referral/>,
+      },
+      {
+        path: "/reseller",
+        element: <Reseller/>,
+      },
+      {
+        path: "/submit-referral",
+        element: <SubmitReferral/>,
       },
     ],
   },

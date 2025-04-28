@@ -75,7 +75,7 @@ const Footer = () => {
             <a href="/referral" className="hover:text-[#ee5028] transition-all">
               Referral Program
             </a>
-            <a href="/" className="hover:text-[#ee5028] transition-all">
+            <a href="/reseller" className="hover:text-[#ee5028] transition-all">
               ISO Reseller Program
             </a>
             <a href="/" className="hover:text-[#ee5028] transition-all">

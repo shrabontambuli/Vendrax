@@ -21,7 +21,6 @@ const MainLayOut = () => {
         <Footer />
       </div>
     </div>
-    // Referral
   );
 };
 
