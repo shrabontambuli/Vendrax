@@ -14,13 +14,14 @@ const MainLayOut = () => {
       <div>
         <Navbar />
       </div>
-      <div className="">
+      <div>
         <Outlet />
       </div>
       <div>
         <Footer />
       </div>
     </div>
+    // Referral
   );
 };
 

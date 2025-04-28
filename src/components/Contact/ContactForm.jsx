@@ -1,15 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  FaCheckCircle,
-  FaChevronDown,
-  FaCommentAlt,
-  FaMapMarkedAlt,
-  FaUser,
-} from "react-icons/fa";
-import { FaPhoneVolume } from "react-icons/fa6";
-import { MdEmail } from "react-icons/md";
-import { IoCheckmarkSharp } from "react-icons/io5";
 
 const ContactForm = () => {
   return (

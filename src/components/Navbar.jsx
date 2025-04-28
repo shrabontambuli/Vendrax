@@ -129,7 +129,7 @@ const Navbar = () => {
                   </summary>
                   <ul className="lg:bg-white text-black lg:border-b-2 rounded-sm w-52">
                     <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/">Referral Program</Link>
+                      <Link to="/referral">Referral Program</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/">ISO Reseller Program</Link>
@@ -207,7 +207,7 @@ const Navbar = () => {
                   <summary>Partnership</summary>
                   <ul className="bg-white text-black border-b-2 rounded-sm w-52">
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/">Referral Program</Link>
+                      <Link to="/referral">Referral Program</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
                       <Link to="/">ISO Reseller Program</Link>

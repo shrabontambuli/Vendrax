@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Features from "../pages/Features";
 import Contact from "../pages/Contact";
+import Referral from "../pages/Referral";
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact/>,
+      },
+      {
+        path: "/referral",
+        element: <Referral/>,
       },
     ],
   },
