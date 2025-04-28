@@ -116,7 +116,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/"
+                  to="/features"
                   className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0"
                 >
                   Features
@@ -200,7 +200,7 @@ const Navbar = () => {
                 </details>
               </li>
               <li>
-                <Link to="/">Features</Link>
+                <Link to="/features">Features</Link>
               </li>
               <li>
                 <details>
