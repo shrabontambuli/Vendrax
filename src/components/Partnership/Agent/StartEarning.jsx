@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ResellerPartnership = () => {
+const StartEarning = () => {
   return (
     <div className="bg-[#eff9f9]">
       <div className=" lg:mx-10 rounded-3xl pt-16 lg:pt-0 pb-32 lg:pb-20">
@@ -12,23 +12,29 @@ const ResellerPartnership = () => {
             </span>
           </div>
           <h2 className="text-3xl text-center md:text-4xl lg:text-5xl font-bold text-gray-900">
-            How to Partner with Vendrax?
+            How to Start Earning
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-5 lg:gap-16 max-w-screen-2xl mx-auto lg:10 mt-10 md:mt-20 lg:mt-20 p-1">
           <div>
-            <img className="w-[660px] h-[600px]" src="/images/iso-part1.webp" alt="img" />
+            <img
+              className="w-[660px] h-[600px]"
+              src="/images/agent-part1.webp"
+              alt="img"
+            />
           </div>
           <div>
             <div className="relative">
               <div className="absolute z-10 bg-white shadow-2xl rounded-xl p-10 flex gap-14">
                 <div>
-                  <h1 className="text-2xl lg:text-4xl text-black font-bold">Apply</h1>
+                  <h1 className="text-2xl lg:text-4xl text-black font-bold">
+                    Sign Up
+                  </h1>
                 </div>
                 <div>
                   <p className="text-gray-500 text-xl lg:text-2xl">
-                    Submit your application to join our Vendrax ISO Reseller
-                    Program
+                    Complete our KYC verification and become an authorized
+                    agent.
                   </p>
                 </div>
               </div>
@@ -38,7 +44,7 @@ const ResellerPartnership = () => {
                 alt="icon"
               />
               <img
-                className="hidden lg:flex absolute top-[67px] -right-[37px] z-20"
+                className="hidden lg:flex absolute top-[83px] -right-[37px] z-20"
                 src="/images/01.png"
                 alt="icon"
               />
@@ -46,11 +52,13 @@ const ResellerPartnership = () => {
             <div className="relative mt-52">
               <div className="absolute z-10 bg-white shadow-2xl rounded-xl p-10 flex gap-14">
                 <div>
-                  <h1 className="text-2xl lg:text-4xl text-black font-bold">Sell</h1>
+                  <h1 className="text-2xl lg:text-4xl text-black font-bold">
+                    Build Your Portfolio
+                  </h1>
                 </div>
                 <div>
                   <p className="text-gray-500 text-xl lg:text-2xl">
-                  Focus on sales and building your portfolio with our solutions.
+                  Sign up merchants and grow your portfolio.
                   </p>
                 </div>
               </div>
@@ -60,7 +68,7 @@ const ResellerPartnership = () => {
                 alt="icon"
               />
               <img
-                className="hidden lg:flex absolute top-[70px] -right-[28px] z-20"
+                className="hidden lg:flex absolute top-[87px] -right-[28px] z-20"
                 src="/images/02.png"
                 alt="icon"
               />
@@ -68,11 +76,14 @@ const ResellerPartnership = () => {
             <div className="relative mt-[420px]">
               <div className="absolute z-10 bg-white shadow-2xl rounded-xl p-10 flex gap-14">
                 <div>
-                  <h1 className="text-2xl lg:text-4xl text-black font-bold">Earn</h1>
+                  <h1 className="text-2xl lg:text-4xl text-black font-bold">
+                  Earn
+                  Monthly
+                  </h1>
                 </div>
                 <div>
                   <p className="text-gray-500 text-xl lg:text-2xl">
-                  Begin earning revenue share based on the processing volume of your portfolio
+                  Receive ongoing revenue share from the processing revenue.
                   </p>
                 </div>
               </div>
@@ -82,7 +93,7 @@ const ResellerPartnership = () => {
                 alt="icon"
               />
               <img
-                className="hidden lg:flex absolute top-[79px] -right-[37px] z-20"
+                className="hidden lg:flex absolute top-[95px] -right-[37px] z-20"
                 src="/images/03.png"
                 alt="icon"
               />
@@ -104,4 +115,4 @@ const ResellerPartnership = () => {
   );
 };
 
-export default ResellerPartnership;
+export default StartEarning;
