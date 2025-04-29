@@ -94,22 +94,25 @@ const Navbar = () => {
                   </summary>
                   <ul className=" lg:bg-white text-black lg:border-b-2 rounded-sm w-40">
                     <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/">Ecommerce</Link>
+                      <Link to="/ecommerce">Ecommerce</Link>
+                    </li>
+                    <li className="hover:bg-[#00c6c0] text-sm">
+                      <Link to="/pos-service">POS service</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/">Restaurant</Link>
+                      <Link to="/restaurant">Restaurant</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/">Desktop Terminal</Link>
+                      <Link to="/desktop-terminal">Desktop Terminal</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/">Pay at the table</Link>
+                      <Link to="/Pay">Pay at the table</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/">Wireless Terminal</Link>
+                      <Link to="/wireless">Wireless Terminal</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/">Mobile Payment</Link>
+                      <Link to="/mobile-payment">Mobile Payment</Link>
                     </li>
                   </ul>
                 </details>
@@ -179,22 +182,25 @@ const Navbar = () => {
                   <summary>Services</summary>
                   <ul className="bg-white text-black border-b-2 rounded-sm w-40">
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/">Ecommerce</Link>
+                      <Link to="/ecommerce">Ecommerce</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/">Restaurant</Link>
+                      <Link to="/pos-service">POS service</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/">Desktop Terminal</Link>
+                      <Link to="/restaurant">Restaurant</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/">Pay at the table</Link>
+                      <Link to="/desktop-terminal">Desktop Terminal</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/">Wireless Terminal</Link>
+                      <Link to="/pay">Pay at the table</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/">Mobile Payment</Link>
+                      <Link to="/wireless">Wireless Terminal</Link>
+                    </li>
+                    <li className="hover:bg-[#00c6c0] text-sm">
+                      <Link to="/mobile-payment">Mobile Payment</Link>
                     </li>
                   </ul>
                 </details>

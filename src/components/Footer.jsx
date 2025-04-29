@@ -87,31 +87,31 @@ const Footer = () => {
           </nav>
           <nav>
             <h6 className="font-medium text-3xl mb-2">Services</h6>
-            <a href="/" className="hover:text-[#ee5028] transition-all">
+            <a href="/ecommerce" className="hover:text-[#ee5028] transition-all">
               Ecommerce
             </a>
-            <a href="/" className="hover:text-[#ee5028] transition-all">
+            <a href="/restaurant" className="hover:text-[#ee5028] transition-all">
               Restaurant
             </a>
-            <a href="/" className="hover:text-[#ee5028] transition-all">
+            <a href="/Pay" className="hover:text-[#ee5028] transition-all">
               Pay at the table
             </a>
-            <a href="/" className="hover:text-[#ee5028] transition-all">
+            <a href="/mobile-payment" className="hover:text-[#ee5028] transition-all">
               Mobile Payment
             </a>
           </nav>
           <nav>
             <h6 className="font-medium text-3xl"></h6>
             <a
-              href="/"
+              href="/pos-service"
               className="hover:text-[#ee5028] lg:mt-10 transition-all"
             >
               POS service
             </a>
-            <a href="/" className="hover:text-[#ee5028] transition-all">
+            <a href="/desktop-terminal" className="hover:text-[#ee5028] transition-all">
               Desktop Terminal
             </a>
-            <a href="/" className="hover:text-[#ee5028] transition-all">
+            <a href="/wireless" className="hover:text-[#ee5028] transition-all">
               Wireless Terminal
             </a>
           </nav>

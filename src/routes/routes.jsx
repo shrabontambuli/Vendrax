@@ -6,9 +6,15 @@ import Features from "../pages/Features";
 import Contact from "../pages/Contact";
 import Referral from "../pages/Referral";
 import Reseller from "../pages/Reseller";
-import SubmitReferralForm from "../components/Partnership/SubmitReferral/SubmitReferralForm";
 import SubmitReferral from "../pages/SubmitReferral";
 import Agent from "../pages/Agent";
+import Ecommerce from "../pages/Ecommerce";
+import PoSservice from "../pages/PoSservice";
+import Restaurant from "../pages/Restaurant";
+import DesktopTerminal from "../pages/DesktopTerminal";
+import Pay from "../pages/Pay";
+import Wireless from "../pages/Wireless";
+import MobilePayment from "../pages/MobilePayment";
 
 export const router = createBrowserRouter([
   {
@@ -46,6 +52,34 @@ export const router = createBrowserRouter([
       {
         path: "/agent",
         element: <Agent/>,
+      },
+      {
+        path: "/ecommerce",
+        element: <Ecommerce/>,
+      },
+      {
+        path: "/pos-service",
+        element: <PoSservice/>,
+      },
+      {
+        path: "/restaurant",
+        element: <Restaurant/>,
+      },
+      {
+        path: "/desktop-terminal",
+        element: <DesktopTerminal/>,
+      },
+      {
+        path: "/pay",
+        element: <Pay/>,
+      },
+      {
+        path: "/wireless",
+        element: <Wireless/>,
+      },
+      {
+        path: "/mobile-payment",
+        element: <MobilePayment/>,
       },
     ],
   },

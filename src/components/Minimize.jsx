@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Minimize = () => {
   return (
     <div
-      className="my-20 h-[500px] lg:w-10/12 mx-auto rounded-3xl"
+      className="my-28 h-[500px] lg:w-10/12 mx-auto rounded-3xl"
       style={{
         backgroundImage: "url(/images/bg-cta.webp)",
         backgroundRepeat: "no-repeat",
