@@ -1,5 +1,8 @@
 import React, { useEffect } from 'react';
 import PayBanner from '../components/Services/Pay/PayBanner';
+import PaymentMethod from '../components/Services/Pay/PaymentMethod';
+import Turnaround from '../components/Services/Pay/Turnaround';
+import Minimize from '../components/Minimize';
 
 const Pay = () => {
     useEffect(() => {
@@ -8,6 +11,9 @@ const Pay = () => {
     return (
         <>
             <PayBanner/>
+            <PaymentMethod/>
+            <Turnaround/>
+            <Minimize/>
         </>
     );
 };
