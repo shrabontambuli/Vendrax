@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
 import RestaurantBanner from "../components/Services/Restaurant/RestaurantBanner";
+import Analytics from "../components/Services/Restaurant/Analytics";
+import Minimize from "../components/Minimize";
+import YourRestaurant from "../components/Services/Restaurant/YourRestaurant";
 
 const Restaurant = () => {
   useEffect(() => {
@@ -8,6 +11,9 @@ const Restaurant = () => {
   return (
     <>
       <RestaurantBanner />
+      <YourRestaurant/>
+      <Analytics/>
+      <Minimize/>
     </>
   );
 };
