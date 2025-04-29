@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const AgentBanner = () => {
   return (
     <div>
-      <div className="bg-[#ccd0d1] pt-24 lg:pt-40">
+      <div className="bg-[#eaeced] pt-24 lg:pt-40">
         <div
           className="h-[780px] pt-16 relative"
           style={{

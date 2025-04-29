@@ -3,6 +3,7 @@ import AgentBanner from "../components/Partnership/Agent/AgentBanner";
 import AgentProgram from "../components/Partnership/Agent/AgentProgram";
 import StartEarning from "../components/Partnership/Agent/StartEarning";
 import AgentForm from "../components/Partnership/Agent/AgentForm";
+import Navbar2 from "../components/Navbar2";
 
 const Agent = () => {
   useEffect(() => {
@@ -10,10 +11,11 @@ const Agent = () => {
   }, []);
   return (
     <>
+      <Navbar2 />
       <AgentBanner />
       <AgentProgram />
       <StartEarning />
-      <AgentForm/>
+      <AgentForm />
     </>
   );
 };

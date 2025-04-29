@@ -3,11 +3,11 @@ import { FaFacebookF, FaPinterestP, FaTwitter } from "react-icons/fa";
 import { PiMapPinAreaFill } from "react-icons/pi";
 import { RiInstagramFill } from "react-icons/ri";
 import { Link, useLocation } from "react-router-dom";
-import Logo from "/public/images/logo.webp";
+import Logo from "/public/images/logo2.webp";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
-const Navbar = () => {
+const Navbar2 = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
   useEffect(() => {
@@ -19,7 +19,6 @@ const Navbar = () => {
       .querySelectorAll("details[open]")
       .forEach((d) => d.removeAttribute("open"));
   };
-
   return (
     <div className="absolute z-20 w-[100%]">
       {/* top nav  */}
@@ -56,7 +55,7 @@ const Navbar = () => {
 
       {/* main nav  */}
 
-      <div className="navbar bg-transparent text-white lg:mt-7 py-6 md:py-0">
+      <div className="navbar bg-transparent text-black lg:mt-7 py-6 md:py-0">
         <div className="w-[40%]">
           <div className="dropdown">
             <div
@@ -185,25 +184,39 @@ const Navbar = () => {
                   <summary>Services</summary>
                   <ul className="bg-white text-black border-b-2 rounded-sm w-40">
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/ecommerce" onClick={closeAllDetails}>Ecommerce</Link>
+                      <Link to="/ecommerce" onClick={closeAllDetails}>
+                        Ecommerce
+                      </Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/pos-service" onClick={closeAllDetails}>POS service</Link>
+                      <Link to="/pos-service" onClick={closeAllDetails}>
+                        POS service
+                      </Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/restaurant" onClick={closeAllDetails}>Restaurant</Link>
+                      <Link to="/restaurant" onClick={closeAllDetails}>
+                        Restaurant
+                      </Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/desktop-terminal" onClick={closeAllDetails}>Desktop Terminal</Link>
+                      <Link to="/desktop-terminal" onClick={closeAllDetails}>
+                        Desktop Terminal
+                      </Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/pay" onClick={closeAllDetails}>Pay at the table</Link>
+                      <Link to="/pay" onClick={closeAllDetails}>
+                        Pay at the table
+                      </Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/wireless" onClick={closeAllDetails}>Wireless Terminal</Link>
+                      <Link to="/wireless" onClick={closeAllDetails}>
+                        Wireless Terminal
+                      </Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/mobile-payment" onClick={closeAllDetails}>Mobile Payment</Link>
+                      <Link to="/mobile-payment" onClick={closeAllDetails}>
+                        Mobile Payment
+                      </Link>
                     </li>
                   </ul>
                 </details>
@@ -216,16 +229,24 @@ const Navbar = () => {
                   <summary>Partnership</summary>
                   <ul className="bg-white text-black border-b-2 rounded-sm w-52">
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/referral" onClick={closeAllDetails}>Referral Program</Link>
+                      <Link to="/referral" onClick={closeAllDetails}>
+                        Referral Program
+                      </Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/reseller" onClick={closeAllDetails}>ISO Reseller Program</Link>
+                      <Link to="/reseller" onClick={closeAllDetails}>
+                        ISO Reseller Program
+                      </Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/agent" onClick={closeAllDetails}>Agent Revenue Share</Link>
+                      <Link to="/agent" onClick={closeAllDetails}>
+                        Agent Revenue Share
+                      </Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/submit-referral" onClick={closeAllDetails}>Submit Referral</Link>
+                      <Link to="/submit-referral" onClick={closeAllDetails}>
+                        Submit Referral
+                      </Link>
                     </li>
                   </ul>
                 </details>
@@ -236,7 +257,7 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/"
-                  className="border border-[#00c6c0] text-[#00c6c0] py-3 px-10 rounded-full"
+                  className="border border-[#ed2325] bg-[#ed2325] text-white py-3 px-10 rounded-full"
                 >
                   Get started
                 </Link>
@@ -249,5 +270,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
-
+export default Navbar2;
