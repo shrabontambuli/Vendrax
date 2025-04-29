@@ -2,13 +2,24 @@ import { BiLogoLinkedin, BiSolidPhoneCall } from "react-icons/bi";
 import { FaFacebookF, FaPinterestP, FaTwitter } from "react-icons/fa";
 import { PiMapPinAreaFill } from "react-icons/pi";
 import { RiInstagramFill } from "react-icons/ri";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Logo from "/public/images/logo.webp";
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+  useEffect(() => {
+    setIsOpen(false);
+  }, [location]);
+
+  const closeAllDetails = () => {
+    document
+      .querySelectorAll("details[open]")
+      .forEach((d) => d.removeAttribute("open"));
+  };
+
   return (
     <div className="absolute z-20 w-[100%]">
       {/* top nav  */}
@@ -48,28 +59,20 @@ const Navbar = () => {
       <div className="navbar bg-transparent text-white lg:mt-7 py-6 md:py-0">
         <div className="w-[40%]">
           <div className="dropdown">
-            <div tabIndex={0}  onClick={() => setIsOpen(!isOpen)} role="button" className="btn btn-ghost lg:hidden">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                {" "}
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />{" "}
-              </svg> */}
-                 {isOpen ? <Menu size={28} /> : <Menu size={28} />}
+            <div
+              tabIndex={0}
+              // onClick={() => setIsOpen(!isOpen)}
+              onClick={() => setIsOpen((o) => !o)}
+              role="button"
+              className="btn btn-ghost lg:hidden"
+            >
+              {isOpen ? <X size={28} /> : <Menu size={28} />}
             </div>
             <ul
               tabIndex={0}
-              className={`menu menu-sm dropdown-content bgC text-black z-10 mt-3 w-96 p-6 shadow space-y-10 transition-all ${isOpen ? "block" : "hidden"
-               }`}
+              className={`menu menu-sm dropdown-content bgC text-black z-10 mt-3 w-96 p-6 shadow space-y-10 transition-all ${
+                isOpen ? "block" : "hidden"
+              }`}
             >
               <li>
                 <Link
@@ -96,7 +99,7 @@ const Navbar = () => {
                     <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/ecommerce">Ecommerce</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
+                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/pos-service">POS service</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
@@ -182,25 +185,25 @@ const Navbar = () => {
                   <summary>Services</summary>
                   <ul className="bg-white text-black border-b-2 rounded-sm w-40">
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/ecommerce">Ecommerce</Link>
+                      <Link to="/ecommerce" onClick={closeAllDetails}>Ecommerce</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/pos-service">POS service</Link>
+                      <Link to="/pos-service" onClick={closeAllDetails}>POS service</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/restaurant">Restaurant</Link>
+                      <Link to="/restaurant" onClick={closeAllDetails}>Restaurant</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/desktop-terminal">Desktop Terminal</Link>
+                      <Link to="/desktop-terminal" onClick={closeAllDetails}>Desktop Terminal</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/pay">Pay at the table</Link>
+                      <Link to="/pay" onClick={closeAllDetails}>Pay at the table</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/wireless">Wireless Terminal</Link>
+                      <Link to="/wireless" onClick={closeAllDetails}>Wireless Terminal</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/mobile-payment">Mobile Payment</Link>
+                      <Link to="/mobile-payment" onClick={closeAllDetails}>Mobile Payment</Link>
                     </li>
                   </ul>
                 </details>
@@ -213,16 +216,16 @@ const Navbar = () => {
                   <summary>Partnership</summary>
                   <ul className="bg-white text-black border-b-2 rounded-sm w-52">
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/referral">Referral Program</Link>
+                      <Link to="/referral" onClick={closeAllDetails}>Referral Program</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/reseller">ISO Reseller Program</Link>
+                      <Link to="/reseller" onClick={closeAllDetails}>ISO Reseller Program</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/agent">Agent Revenue Share</Link>
+                      <Link to="/agent" onClick={closeAllDetails}>Agent Revenue Share</Link>
                     </li>
                     <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/submit-referral">Submit Referral</Link>
+                      <Link to="/submit-referral" onClick={closeAllDetails}>Submit Referral</Link>
                     </li>
                   </ul>
                 </details>
@@ -248,12 +251,8 @@ const Navbar = () => {
 
 export default Navbar;
 
-
-
-
-
-
-{/* <button
+{
+  /* <button
                     className="border border-[#00c6c0] text-[#00c6c0] py-3 px-10 rounded-full"
                     onClick={() =>
                       document.getElementById("my_modal_4").showModal()
@@ -279,4 +278,5 @@ export default Navbar;
                         </form>
                       </div>
                     </div>
-                  </dialog> */}
+                  </dialog> */
+}
