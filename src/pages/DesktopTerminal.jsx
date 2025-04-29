@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import DesktopTerminalBanner from '../components/Services/DesktopTerminal/DesktopTerminalBanner';
+import TerminalMachines from '../components/Services/DesktopTerminal/TerminalMachines';
+import Minimize from '../components/Minimize';
 
 const DesktopTerminal = () => {
      useEffect(() => {
@@ -8,6 +10,8 @@ const DesktopTerminal = () => {
     return (
         <>
             <DesktopTerminalBanner/>
+            <TerminalMachines/>
+            <Minimize/>
         </>
     );
 };
