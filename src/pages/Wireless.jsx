@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import WirelessBanner from "../components/Services/Wireless/WirelessBanner";
+import Minimize from "../components/Minimize";
+import TerminalWirelessMachines from "../components/Services/Wireless/TerminalWirelessMachines";
 
 const Wireless = () => {
   useEffect(() => {
@@ -8,6 +10,8 @@ const Wireless = () => {
   return (
     <>
       <WirelessBanner/>
+      <TerminalWirelessMachines/>
+      <Minimize/>
     </>
   );
 };
