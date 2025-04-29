@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
 import PoSserviceBanner from "../components/Services/PoSservice/PoSserviceBanner";
+import ReliableSolutions from "../components/Services/PoSservice/ReliableSolutions";
+import SimplyProcess from "../components/Services/PoSservice/SimplyProcess";
+import Minimize from "../components/Minimize";
 
 const PoSservice = () => {
   useEffect(() => {
@@ -8,6 +11,9 @@ const PoSservice = () => {
   return (
     <>
       <PoSserviceBanner />
+      <ReliableSolutions />
+      <SimplyProcess />
+      <Minimize/>
     </>
   );
 };

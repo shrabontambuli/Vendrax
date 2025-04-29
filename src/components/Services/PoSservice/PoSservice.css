@@ -1,0 +1,14 @@
+.card2:hover {
+  background: #2aacae;
+  transition: 0.4s;
+  img {
+    filter: brightness(0) invert(1);
+  }
+  .br {
+    background: #ffff;
+  }
+  .text-c,
+  h4 {
+    color: #ffff;
+  }
+}
