@@ -17,7 +17,7 @@ const TailoringPos = () => {
                   <span className="text-[#ee642e]"> Beauty </span> Any Other{" "}
                   <span className="text-[#ee642e]"> Businesses </span>.
                 </h1>
-                <p className="text-base md:text-xl">
+                <p className="text-gray-300 md:text-xl">
                   Our POS systems are designed to be versatile and adaptable,
                   catering to a wide range of industries including restaurants,
                   retail stores, beauty salons, and more. Whether you run a
