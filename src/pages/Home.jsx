@@ -13,8 +13,8 @@ const Home = () => {
   }, []);
   return (
     <>
-      <Banner />
       {/* <BannerCarousel /> */}
+      <Banner/>
       <Features />
       <POSSection />
       <Consistency />
