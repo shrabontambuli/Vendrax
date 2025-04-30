@@ -3,7 +3,7 @@ import React from "react";
 const SubmitReferralForm = () => {
   return (
     <div className="h-full lg:pb-64">
-      <div className="pb-60 md:pb-[860px] lg:pb-[600px]">
+      <div className="pb-96 md:pb-[860px] lg:pb-[600px]">
         <div
           className="h-screen pt-40 lg:pt-52 relative"
           style={{
@@ -11,7 +11,7 @@ const SubmitReferralForm = () => {
           }}
         >
           <div
-            className="w-[400px] md:w-[800px] lg:w-[1350px] mx-auto px-4 lg:px-10 pt-14 lg:pt-10 absolute right-2/4 transform translate-x-1/2"
+            className="w-[390px] md:w-[800px] lg:w-[1350px] mx-auto px-4 lg:px-10 pt-14 lg:pt-10 absolute right-2/4 transform translate-x-1/2"
             style={{
               backgroundImage: "url(/images/ref-ban.webp)",
               backgroundRepeat: "no-repeat",

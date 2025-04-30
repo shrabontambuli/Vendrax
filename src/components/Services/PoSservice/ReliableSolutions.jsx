@@ -3,7 +3,7 @@ import "./PoSservice.css"
 
 const ReliableSolutions = () => {
   return (
-    <div className="bg-[#eff9f9] h-[3200px] md:h-full pb-28">
+    <div className="bg-[#eff9f9] h-[2708px] md:h-full pb-28">
       <div className="max-w-screen-2xl mx-auto lg:px-10">
         <div className="pt-20 grid grid-cols-1 md:grid-cols-2 items-center gap-2">
           <div className="space-y-4 p-4">
@@ -57,7 +57,7 @@ const ReliableSolutions = () => {
               </div>
               <div className="absolute right-2 -bottom-24 md:bottom-20 md:right-40 lg:right-[42%] lg:-top-48 px-2">
                 <div className="relative h-[400px] w-[390px] mx-auto lg:mx-0 md:w-[768px] md:h-[600px] lg:h-[1152px] lg:w-[765px]">
-                  <div className="bg-white shadow-xl rounded-lg space-y-10 md:space-y-6 lg:space-y-10 h-full w-full text-center absolute z-30 mt-10 bottom-[800px] md:bottom-[500px] md:left-28 lg:left-0 lg:bottom-[-100px]">
+                  <div className="bg-white shadow-xl rounded-lg space-y-10 md:space-y-6 lg:space-y-10 h-full w-full text-center absolute z-30 mt-10 bottom-[800px] md:bottom-[500px] left-1 md:left-32 lg:left-0 lg:bottom-[-100px]">
                     <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center items-center">
 
                       <div className="card2 bg-white hover:text-white transition-all w-96 h-96 py-20 px-16 space-y-3">

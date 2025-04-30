@@ -16,7 +16,7 @@ const PayBanner = () => {
             <img src="/images/paytab-ban1.webp" alt="img" />
           </div>
           <div>
-            <h4 className="text-white text-xl lg:text-2xl mt-6 md:mt-0 w-96">
+            <h4 className="text-white text-xl lg:text-2xl mt-6 md:mt-0 w-full md:w-96">
             With our pay-at-the-table services, your guests can settle their checks using handheld payment terminals brought over by servers.
             </h4>
             <div className="w-20 h-2 bg-[#105964] my-4"></div>

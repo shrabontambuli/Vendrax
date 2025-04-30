@@ -20,7 +20,7 @@ const Consistency = () => {
             evolve and adapt to emerging trends.
           </p>
           <Link to='/'>
-            <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase">
+            <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-6 lg:mt-0">
               Get Started
               <img
                 className="absolute -right-3"
@@ -93,7 +93,7 @@ const Consistency = () => {
               </h3>
             </div>
           </div>
-          <div className="absolute -bottom-5 right-0 md:-bottom-5 md:-right-5 lg:-right-5 h-[460px] w-[300px] md:h-[460px] md:w-[560px] bg-[#ffbf41] z-20 rounded-3xl"></div>
+          <div className="absolute -bottom-5 right-0 md:-bottom-5 md:-right-0 lg:-right-5 h-[460px] w-[300px] md:h-[460px] md:w-[560px] bg-[#ffbf41] z-20 rounded-3xl"></div>
           <img
             className="absolute -top-7 -left-7"
             src="/images/bg2.webp"

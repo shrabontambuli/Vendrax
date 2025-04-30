@@ -51,11 +51,11 @@ export default function BannerCarousel() {
       <div className="relative w-full min-h-screen flex items-center">
         <div className="max-w-screen-2xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8 px-6 py-12">
           {/* Left Content */}
-          <div className="flex flex-col justify-center text-white absolute z-10 lg:left-52 left-0 p-3 md:mt-20 lg:mt-0 lg:top-[50%] top-2/4 transform -translate-y-1/2 lg:max-w-3xl lg:pt-28">
+          <div className="flex flex-col justify-center text-white absolute z-10 lg:left-52 left-0 p-3 md:mt-10 lg:mt-0 lg:top-[50%] top-2/4 transform -translate-y-1/2 lg:max-w-3xl lg:pt-28">
             <h1 className="text-[32px] md:text-3xl lg:text-6xl font-bold mb-8 md:mb-4 lg:mb-8 leading-tight">
               {banners[currentIndex].title}
             </h1>
-            <p className="text-xl md:text-lg lg:text-2xl font-medium text-gray-300 mb-8 md:mb-4 lg:mb-8">
+            <p className="text-xl md:text-sm lg:text-2xl font-medium text-gray-300 mb-8 md:mb-4 lg:mb-8">
               {banners[currentIndex].description}
             </p>
 
@@ -85,7 +85,7 @@ export default function BannerCarousel() {
           </div>
 
           {/* Right Image */}
-          <div className="w-full h-screen left-0 top-0 absolute">
+          <div className="w-full h-screen lg:h-full left-0 top-0 absolute">
             <img
               src={banners[currentIndex].imageUrl}
               alt="Banner"

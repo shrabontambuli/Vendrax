@@ -18,7 +18,7 @@ const PoSserviceBanner = () => {
             <img src="/images/pos-ban1.webp" alt="img" />
           </div>
           <div>
-            <h4 className="text-white text-xl lg:text-2xl mt-6 md:mt-0 w-96">
+            <h4 className="text-white text-xl lg:text-2xl mt-6 md:mt-0 w-full md:w-96">
             Vendrax POS system offers flexibility in operating both online and offline. With cloud-based software, you can operate your POS system even when offline, ensuring uninterrupted service and convenience for your business.
             </h4>
             <div className="w-20 h-2 bg-[#105964] my-4"></div>

@@ -10,7 +10,7 @@ const ReferralBanner = () => {
         }}
       >
         <div
-          className="w-[400px] md:w-[800px] lg:w-[1350px] mx-auto px-4 lg:px-10 pt-14 lg:pt-10 absolute right-2/4 transform translate-x-1/2"
+          className="w-[390px] md:w-[800px] lg:w-[1350px] mx-auto px-4 lg:px-10 pt-14 lg:pt-10 absolute right-2/4 transform translate-x-1/2"
           style={{
             backgroundImage: "url(/images/ref-ban.webp)",
             backgroundRepeat: "no-repeat",

@@ -2,11 +2,11 @@ import React from "react";
 
 const MaximizeEarnings = () => {
   return (
-    <div className="mb-44 md:mb-20 lg:mb-0 p-1 pt-[730px] md:pt-[850px] pb-16 lg:pb-40 max-w-screen-2xl mx-auto">
+    <div className="mb-44 md:mb-20 lg:mb-0 p-1 pt-[760px] md:pt-[850px] pb-16 lg:pb-40 max-w-screen-2xl mx-auto">
       <div>
         <div className="relative lg:w-[948px]">
           <img src="/images/ref-img11.webp" alt="img" />
-          <div className="absolute right-2 -bottom-24 md:bottom-20 md:right-40 lg:-right-[42%] lg:-bottom-10">
+          <div className="absolute -right-1 -bottom-24 md:bottom-20 md:right-40 lg:-right-[42%] lg:-bottom-10">
             <div className="relative h-[700px] w-[390px] mx-auto lg:mx-0 md:w-[420px] md:h-[600px] lg:h-[760px] lg:w-[624px]">
               <div className="bg-[#2a2e30] p-5 md:p-6 lg:p-16 rounded-lg space-y-10 md:space-y-6 lg:space-y-10 h-full w-full absolute z-30 mt-10">
                 <h1 className="text-white font-medium text-xl lg:text-5xl">

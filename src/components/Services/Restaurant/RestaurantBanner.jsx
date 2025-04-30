@@ -18,7 +18,7 @@ const RestaurantBanner = () => {
               <img src="/images/res-ban1.webp" alt="img" />
             </div>
             <div>
-              <h4 className="text-white text-xl lg:text-2xl mt-6 md:mt-0 w-96">
+              <h4 className="text-white text-xl lg:text-2xl mt-6 md:mt-0 w-full md:w-96">
                 With our restaurant POS, gain valuable insights into your sales
                 trends, inventory levels, employee performance, and customer
                 behavior through comprehensive reporting and analytics tools.

@@ -16,7 +16,7 @@ const MobilePaymentBanner = () => {
             <img src="/images/mp-ban1.webp" alt="img" />
           </div>
           <div>
-            <h4 className="text-white text-xl lg:text-2xl mt-6 md:mt-0 w-96">
+            <h4 className="text-white text-xl lg:text-2xl mt-6 md:mt-0 w-full md:w-96">
             Our innovative technology allows you to facilitate fast, secure, and smooth transactions with just one tap, from anywhere and at any time.
             </h4>
             <div className="w-20 h-2 bg-[#105964] my-4"></div>
