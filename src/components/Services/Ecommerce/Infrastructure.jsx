@@ -11,7 +11,7 @@ const Infrastructure = () => {
           </h1>
         </div>
         <div>
-          <p className="text-2xl md:text-xl lg:text-2xl text-gray-500">
+          <p className="text-xl lg:text-2xl text-gray-500">
             When it comes to E-commerce platforms, there are various methods and
             payment gateways, that allow to accept payments from customers
             around the world. Our simple payment methods result in higher
