@@ -20,7 +20,7 @@ const Turnaround = () => {
             satisfaction.
           </p>
           <Link to="/">
-            <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-10">
+            <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-10">
               Get Started
               <img
                 className="absolute -right-3"
@@ -51,7 +51,7 @@ const Turnaround = () => {
           By leveraging our Vendrax solution, businesses can significantly reduce labor costs. Our system automates repetitive tasks, optimizes workforce management, and improves efficiency, allowing you to achieve more with fewer resources. This results in lower operational expenses and improved profitability for your business.
           </p>
           <Link to="/">
-            <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-10">
+            <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-10">
               Get Started
               <img
                 className="absolute -right-3"

@@ -127,13 +127,13 @@ const TerminalWirelessMachines = () => {
                   </div>
                   <div className="lg:flex items-center gap-4">
                     <Link to="/">
-                      <button className="flex items-center justify-center gap-3 bg-[#00c6c0] text-white font-semibold px-6 py-[14px] rounded-full hover:bg-[#e53e29] transition-all w-80 text-lg uppercase">
+                      <button className="flex items-center justify-center gap-3 bg-[#00c6c0] text-white font-semibold px-6 py-[14px] rounded-full hover:bg-[#228800] transition-all w-80 text-lg uppercase">
                         <img src="/images/brochure.webp" alt="" />
                         DOWNLOAD BROCHURE
                       </button>
                     </Link>
                     <Link to="/">
-                      <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-8 lg:mt-0">
+                      <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-8 lg:mt-0">
                         Get Started
                         <img
                           className="absolute -right-3"
@@ -294,13 +294,13 @@ const TerminalWirelessMachines = () => {
                   </div>
                   <div className="lg:flex items-center gap-4">
                     <Link to="/">
-                      <button className="flex items-center justify-center gap-3 bg-[#00c6c0] text-white font-semibold px-6 py-[14px] rounded-full hover:bg-[#e53e29] transition-all w-80 text-lg uppercase">
+                      <button className="flex items-center justify-center gap-3 bg-[#00c6c0] text-white font-semibold px-6 py-[14px] rounded-full hover:bg-[#228800] transition-all w-80 text-lg uppercase">
                         <img src="/images/brochure.webp" alt="" />
                         DOWNLOAD BROCHURE
                       </button>
                     </Link>
                     <Link to="/">
-                      <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-8 lg:mt-0">
+                      <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-8 lg:mt-0">
                         Get Started
                         <img
                           className="absolute -right-3"
@@ -400,13 +400,13 @@ const TerminalWirelessMachines = () => {
                   </div>
                   <div className="lg:flex items-center gap-4">
                     <Link to="/">
-                      <button className="flex items-center justify-center gap-3 bg-[#00c6c0] text-white font-semibold px-6 py-[14px] rounded-full hover:bg-[#e53e29] transition-all w-80 text-lg uppercase">
+                      <button className="flex items-center justify-center gap-3 bg-[#00c6c0] text-white font-semibold px-6 py-[14px] rounded-full hover:bg-[#228800] transition-all w-80 text-lg uppercase">
                         <img src="/images/brochure.webp" alt="" />
                         DOWNLOAD BROCHURE
                       </button>
                     </Link>
                     <Link to="/">
-                      <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-8 lg:mt-0">
+                      <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-8 lg:mt-0">
                         Get Started
                         <img
                           className="absolute -right-3"
@@ -507,13 +507,13 @@ const TerminalWirelessMachines = () => {
                   </div>
                   <div className="lg:flex items-center gap-4">
                     <Link to="/">
-                      <button className="flex items-center justify-center gap-3 bg-[#00c6c0] text-white font-semibold px-6 py-[14px] rounded-full hover:bg-[#e53e29] transition-all w-80 text-lg uppercase">
+                      <button className="flex items-center justify-center gap-3 bg-[#00c6c0] text-white font-semibold px-6 py-[14px] rounded-full hover:bg-[#228800] transition-all w-80 text-lg uppercase">
                         <img src="/images/brochure.webp" alt="" />
                         DOWNLOAD BROCHURE
                       </button>
                     </Link>
                     <Link to="/">
-                      <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-8 lg:mt-0">
+                      <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-8 lg:mt-0">
                         Get Started
                         <img
                           className="absolute -right-3"
@@ -615,13 +615,13 @@ const TerminalWirelessMachines = () => {
                   </div>
                   <div className="lg:flex items-center gap-4">
                     <Link to="/">
-                      <button className="flex items-center justify-center gap-3 bg-[#00c6c0] text-white font-semibold px-6 py-[14px] rounded-full hover:bg-[#e53e29] transition-all w-80 text-lg uppercase">
+                      <button className="flex items-center justify-center gap-3 bg-[#00c6c0] text-white font-semibold px-6 py-[14px] rounded-full hover:bg-[#228800] transition-all w-80 text-lg uppercase">
                         <img src="/images/brochure.webp" alt="" />
                         DOWNLOAD BROCHURE
                       </button>
                     </Link>
                     <Link to="/">
-                      <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-8 lg:mt-0">
+                      <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-8 lg:mt-0">
                         Get Started
                         <img
                           className="absolute -right-3"

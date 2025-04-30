@@ -18,6 +18,9 @@ const ReferralBanner = () => {
         className="h-[700px] pt-40 lg:pt-52 relative"
         style={{
           backgroundImage: "url(/images/acc-banner.webp)",
+          backgroundRepeat:"no-repeat",
+          backgroundPosition:"center",
+          backgroundSize:"cover"
         }}
       >
         <div
@@ -116,7 +119,7 @@ const ReferralBanner = () => {
                 </div>
 
                 <div className="mt-8">
-                  <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mx-auto">
+                  <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mx-auto">
                     Submit Now
                     <img
                       className="absolute -right-3"

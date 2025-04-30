@@ -3,7 +3,7 @@ import { FaFacebookF, FaPinterestP, FaTwitter } from "react-icons/fa";
 import { PiMapPinAreaFill } from "react-icons/pi";
 import { RiInstagramFill } from "react-icons/ri";
 import { Link, useLocation } from "react-router-dom";
-import Logo from "/public/images/logo.webp";
+import Logo from "/public/images/logo2.webp";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -24,39 +24,42 @@ const Navbar = () => {
     <div className="absolute z-20 w-[100%]">
       {/* top nav  */}
 
-      <div className="bg-white hidden lg:flex items-center text-black py-1 px-3">
-        <div className="w-[50%] flex justify-start items-center gap-2">
-          <PiMapPinAreaFill size={25} />
-          <p className="font-medium text-sm">
-            15500 Voss Rd Suite 200 1171 Sugar Land, TX 77498-4601 United States
-          </p>
-        </div>
-        <div className="flex items-center gap-6">
-          <Link to="#">
-            <FaFacebookF size={20} />
-          </Link>
-          <Link to="#">
-            <FaTwitter size={20} />
-          </Link>
-          <Link to="#">
-            <RiInstagramFill size={20} />
-          </Link>
-          <Link to="#">
-            <BiLogoLinkedin size={20} />
-          </Link>
-          <Link to="#">
-            <FaPinterestP size={20} />
-          </Link>
-        </div>
-        <div className="w-[50%] flex justify-end items-center gap-2">
-          <BiSolidPhoneCall size={24} />
-          <p>833-604-8051</p>
+      <div className="bgs2">
+        <div className="hidden lg:flex items-center text-black py-1 px-3 max-w-screen-xl mx-auto">
+          <div className="w-[50%] flex justify-start items-center gap-2">
+            <PiMapPinAreaFill size={25} />
+            <p className="font-medium text-sm">
+              15500 Voss Rd Suite 200 1171 Sugar Land, TX 77498-4601 United
+              States
+            </p>
+          </div>
+          <div className="flex items-center gap-6">
+            <Link to="#">
+              <FaFacebookF size={20} />
+            </Link>
+            <Link to="#">
+              <FaTwitter size={20} />
+            </Link>
+            <Link to="#">
+              <RiInstagramFill size={20} />
+            </Link>
+            <Link to="#">
+              <BiLogoLinkedin size={20} />
+            </Link>
+            <Link to="#">
+              <FaPinterestP size={20} />
+            </Link>
+          </div>
+          <div className="w-[50%] flex justify-end items-center gap-2">
+            <BiSolidPhoneCall size={24} />
+            <p>833-604-8051</p>
+          </div>
         </div>
       </div>
 
       {/* main nav  */}
 
-      <div className="navbar justify-between bg-transparent text-white lg:mt-7 py-6 md:py-0">
+      <div className="flex justify-between items-center text2 py-6 md:py-8 px-4 lg:px-0 max-w-screen-xl mx-auto">
         <div>
           <div className="dropdown">
             <div
@@ -96,25 +99,25 @@ const Navbar = () => {
                     Services
                   </summary>
                   <ul className=" lg:bg-white text-black lg:border-b-2 rounded-sm w-40">
-                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/ecommerce">Ecommerce</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/pos-service">POS service</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/restaurant">Restaurant</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/desktop-terminal">Desktop Terminal</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/Pay">Pay at the table</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/wireless">Wireless Terminal</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/mobile-payment">Mobile Payment</Link>
                     </li>
                   </ul>
@@ -134,16 +137,16 @@ const Navbar = () => {
                     Partnership
                   </summary>
                   <ul className="lg:bg-white text-black lg:border-b-2 rounded-sm w-52">
-                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/referral">Referral Program</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/reseller">ISO Reseller Program</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/agent">Agent Revenue Share</Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
+                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
                       <Link to="/submit-referral">Submit Referral</Link>
                     </li>
                   </ul>
@@ -158,10 +161,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/"
-                  className="border border-[#00c6c0] text-[#00c6c0] py-3 px-10 rounded-full w-40"
-                >
+                <Link to="/" className="btn1 uppercase w-48">
                   Get started
                 </Link>
               </li>
@@ -173,71 +173,98 @@ const Navbar = () => {
         </div>
         <div className=" ">
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal items-center gap-2 text-2xl  font-medium">
+            <ul className="menu menu-horizontal items-center gap-2 text-xl  font-medium">
               <li>
-                <Link to="/" onClick={closeAllDetails}>Home</Link>
+                <Link to="/" onClick={closeAllDetails}>
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/about" onClick={closeAllDetails}>About</Link>
+                <Link to="/about" onClick={closeAllDetails}>
+                  About
+                </Link>
               </li>
               <li>
                 <details>
                   <summary>Services</summary>
                   <ul className="bg-white text-black border-b-2 rounded-sm w-40">
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/ecommerce" onClick={closeAllDetails}>Ecommerce</Link>
+                    <li className="hover:bg-[#228800] hover:text-white  text-sm">
+                      <Link to="/ecommerce" onClick={closeAllDetails}>
+                        Ecommerce
+                      </Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/pos-service" onClick={closeAllDetails}>POS service</Link>
+                    <li className="hover:bg-[#228800] hover:text-white  text-sm">
+                      <Link to="/pos-service" onClick={closeAllDetails}>
+                        POS service
+                      </Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/restaurant" onClick={closeAllDetails}>Restaurant</Link>
+                    <li className="hover:bg-[#228800] hover:text-white  text-sm">
+                      <Link to="/restaurant" onClick={closeAllDetails}>
+                        Restaurant
+                      </Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/desktop-terminal" onClick={closeAllDetails}>Desktop Terminal</Link>
+                    <li className="hover:bg-[#228800] hover:text-white  text-sm">
+                      <Link to="/desktop-terminal" onClick={closeAllDetails}>
+                        Desktop Terminal
+                      </Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/pay" onClick={closeAllDetails}>Pay at the table</Link>
+                    <li className="hover:bg-[#228800] hover:text-white  text-sm">
+                      <Link to="/pay" onClick={closeAllDetails}>
+                        Pay at the table
+                      </Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/wireless" onClick={closeAllDetails}>Wireless Terminal</Link>
+                    <li className="hover:bg-[#228800] hover:text-white  text-sm">
+                      <Link to="/wireless" onClick={closeAllDetails}>
+                        Wireless Terminal
+                      </Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/mobile-payment" onClick={closeAllDetails}>Mobile Payment</Link>
+                    <li className="hover:bg-[#228800] hover:text-white  text-sm">
+                      <Link to="/mobile-payment" onClick={closeAllDetails}>
+                        Mobile Payment
+                      </Link>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <Link to="/features" onClick={closeAllDetails}>Features</Link>
+                <Link to="/features" onClick={closeAllDetails}>
+                  Features
+                </Link>
               </li>
               <li>
                 <details>
                   <summary>Partnership</summary>
                   <ul className="bg-white text-black border-b-2 rounded-sm w-52">
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/referral" onClick={closeAllDetails}>Referral Program</Link>
+                    <li className="hover:bg-[#228800] hover:text-white  text-sm">
+                      <Link to="/referral" onClick={closeAllDetails}>
+                        Referral Program
+                      </Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/reseller" onClick={closeAllDetails}>ISO Reseller Program</Link>
+                    <li className="hover:bg-[#228800] hover:text-white  text-sm">
+                      <Link to="/reseller" onClick={closeAllDetails}>
+                        ISO Reseller Program
+                      </Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/agent" onClick={closeAllDetails}>Agent Revenue Share</Link>
+                    <li className="hover:bg-[#228800] hover:text-white  text-sm">
+                      <Link to="/agent" onClick={closeAllDetails}>
+                        Agent Revenue Share
+                      </Link>
                     </li>
-                    <li className="hover:bg-[#00c6c0] text-sm">
-                      <Link to="/submit-referral" onClick={closeAllDetails}>Submit Referral</Link>
+                    <li className="hover:bg-[#228800] hover:text-white  text-sm">
+                      <Link to="/submit-referral" onClick={closeAllDetails}>
+                        Submit Referral
+                      </Link>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <Link to="/contact" onClick={closeAllDetails}>Contact</Link>
+                <Link to="/contact" onClick={closeAllDetails}>
+                  Contact
+                </Link>
               </li>
               <li>
-                <Link
-                  to="/"
-                  className="border border-[#00c6c0] text-[#00c6c0] py-3 px-10 rounded-full"
-                >
+                <Link to="/" className="btn1 uppercase">
                   Get started
                 </Link>
               </li>
@@ -250,4 +277,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

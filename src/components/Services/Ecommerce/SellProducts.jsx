@@ -6,6 +6,9 @@ const SellProducts = () => {
     <div
       style={{
         backgroundImage: "url(/images/bg-choose.webp)",
+        backgroundRepeat:"no-repeat",
+        backgroundPosition:"center",
+        backgroundSize:"cover"
       }}
     >
       <div className="max-w-screen-2xl mx-auto py-10 px-4 md:py-20">

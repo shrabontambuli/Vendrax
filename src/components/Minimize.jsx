@@ -7,8 +7,9 @@ const Minimize = () => {
       className="my-28 h-[500px] lg:w-10/12 mx-auto rounded-3xl"
       style={{
         backgroundImage: "url(/images/bg-cta.webp)",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
+        backgroundRepeat:"no-repeat",
+        backgroundPosition:"center",
+        backgroundSize:"cover"
       }}
     >
       <div className="lg:w-10/12 p-8 md:p-10 lg:p-20">
@@ -32,7 +33,7 @@ const Minimize = () => {
           </div>
           <div>
             <Link to="/">
-              <button className="bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-xl uppercase">
+              <button className="bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-xl uppercase">
                 Get Started
               </button>
             </Link>

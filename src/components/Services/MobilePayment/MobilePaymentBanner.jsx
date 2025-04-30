@@ -5,6 +5,9 @@ const MobilePaymentBanner = () => {
     <div
       style={{
         backgroundImage: "url(/images/acc-banner.webp)",
+        backgroundRepeat:"no-repeat",
+        backgroundPosition:"center",
+        backgroundSize:"cover"
       }}
     >
       <div className="md:max-w-screen-2xl mx-auto px-4 lg:px-10 pt-32 md:pt-24 lg:pt-56">

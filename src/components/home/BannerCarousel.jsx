@@ -52,36 +52,33 @@ export default function BannerCarousel() {
         <div className="max-w-screen-2xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8 px-6 py-12">
           {/* Left Content */}
           <div className="flex flex-col justify-center text-white absolute z-10 lg:left-52 left-0 p-3 md:mt-10 lg:mt-0 lg:top-[50%] top-2/4 transform -translate-y-1/2 lg:max-w-3xl lg:pt-28">
-            <h1 className="text-[32px] md:text-3xl lg:text-6xl font-bold mb-8 md:mb-4 lg:mb-8 leading-tight">
-              {banners[currentIndex].title}
-            </h1>
-            <p className="text-xl md:text-sm lg:text-2xl font-medium text-gray-300 mb-8 md:mb-4 lg:mb-8">
-              {banners[currentIndex].description}
-            </p>
+            <div>
+              <h1 className="text-[24px] md:text-3xl lg:text-5xl font-bold mb-8 md:mb-4 lg:mb-8 leading-tight">
+                {banners[currentIndex].title}
+              </h1>
+              <p className="text-xl md:text-sm lg:text-2xl font-medium text-gray-300 mb-8 md:mb-4 lg:mb-8">
+                {banners[currentIndex].description}
+              </p>
 
-            {/* Bullet Points */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-8">
-              {banners[currentIndex].points?.map((point, idx) => (
-                <div key={idx} className="flex items-center space-x-2">
-                  <span className="text-green-400">
-                    <img src="/images/tick1.webp" alt="" />
-                  </span>
-                  <span className="text-gray-300">{point}</span>
-                </div>
-              ))}
+              {/* Bullet Points */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-8">
+                {banners[currentIndex].points?.map((point, idx) => (
+                  <div key={idx} className="flex items-center space-x-2">
+                    <span className="text-green-400">
+                      <img src="/images/tick1.webp" alt="" />
+                    </span>
+                    <span className="text-gray-300">{point}</span>
+                  </div>
+                ))}
+              </div>
+
+              {/* Button */}
+              <Link to="/">
+                <button className="btn1 uppercase">
+                  {banners[currentIndex].btn}{" "}
+                </button>
+              </Link>
             </div>
-
-            {/* Button */}
-            <Link to="/">
-              <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase">
-                {banners[currentIndex].btn}{" "}
-                <img
-                  className="absolute -right-3"
-                  src="/images/red-btn.webp"
-                  alt=""
-                />
-              </button>
-            </Link>
           </div>
 
           {/* Right Image */}
@@ -101,13 +98,13 @@ export default function BannerCarousel() {
               key={index}
               onClick={() => setCurrentIndex(index)}
               className={`w-4 h-4 rounded-full cursor-pointer ${
-                currentIndex === index ? "bg-[#e53e29]" : "bg-gray-400"
+                currentIndex === index ? "bg-[#228800]" : "bg-gray-400"
               }`}
             />
           ))}
         </div>
       </div>
-      <div className="bg-[#d4f3f2] pt-14 lg:pt-28 md:h-[500px]">
+      <div className="bg1 pt-14 lg:pt-28 md:h-[500px]">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center gap-8 max-w-screen-2xl mx-auto p-2 lg:p-0">
           <div>
             <img
@@ -117,24 +114,24 @@ export default function BannerCarousel() {
             />
           </div>
           <div className="text-center md:text-start pb-5 md:pb-0">
-            <h1 className="text-3xl lg:text-6xl text-black font-medium mb-10">
+            <h1 className="text-3xl lg:text-6xl text-white font-medium mb-10">
               <span className="font-bold">More Than 200K</span> <br />{" "}
               Entrepreneurs Use Vendrax
             </h1>
             <div className="md:flex items-center gap-10">
               <div>
-                <h1 className="text-[#ee5028] text-5xl lg:text-7xl font-bold mb-5">
+                <h1 className="text-white text-5xl lg:text-7xl font-bold mb-5">
                   100%
                 </h1>
-                <p className="text-xl text-black">
+                <p className="text-xl text-white">
                   Success rate in installing top-tier point-of-sale machines
                 </p>
               </div>
               <div>
-                <h1 className="text-[#ee5028] text-5xl lg:text-7xl font-bold mb-5">
+                <h1 className="text-white text-5xl lg:text-7xl font-bold mb-5">
                   100%
                 </h1>
-                <p className="text-xl text-black">
+                <p className="text-xl text-white">
                   Businesses equipped with high-tech payment solutions
                 </p>
               </div>

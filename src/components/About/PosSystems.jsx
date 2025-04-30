@@ -17,7 +17,7 @@ const PosSystems = () => {
           At Vendrax, our core focus revolves around optimizing reporting processes, managing financials effectively, and setting measurable goals. We understand the role accuracy reporting plays in decision-making and performance evaluation. Our efficient well-designed POS system ensures comprehensive reporting, providing valuable insights into your business's financial health and operational efficiency. With Vendrax, you can confidently navigate the complexities of reporting, financial management, and goal setting to achieve long-term success.
           </p>
           <Link to="/">
-              <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mx-auto md:mx-0 mt-10">
+              <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mx-auto md:mx-0 mt-10">
                 Get Started
                 <img
                   className="absolute -right-3"

@@ -110,7 +110,7 @@ const ContactForm = () => {
                         type="text"
                         placeholder="Full name here"
                         {...register("name", { required: true })}
-                        className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#e53e29]"
+                        className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800]"
                       />
                     </div>
                     <div className="w-full">
@@ -119,7 +119,7 @@ const ContactForm = () => {
                         type="email"
                         placeholder="Add email"
                         {...register("email", { required: true })}
-                        className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#e53e29]"
+                        className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800]"
                       />
                     </div>
                   </div>
@@ -131,7 +131,7 @@ const ContactForm = () => {
                         type="number"
                         placeholder="Your number"
                         {...register("number", { required: true })}
-                        className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#e53e29]"
+                        className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800]"
                       />
                     </div>
                     <div className="w-full">
@@ -140,7 +140,7 @@ const ContactForm = () => {
                         type="text"
                         placeholder="Business Name"
                         {...register("business", { required: true })}
-                        className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#e53e29]"
+                        className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800]"
                       />
                     </div>
                   </div>
@@ -151,14 +151,14 @@ const ContactForm = () => {
                       <textarea
                         placeholder="Enter Your Message Here"
                         {...register("sms", { required: true })}
-                        className="w-full bg-white border-2 p-3 rounded-sm focus:outline-none focus:ring-1 focus:ring-[#e53e29] resize-none"
+                        className="w-full bg-white border-2 p-3 rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800] resize-none"
                         rows="4"
                       />
                     </div>
                   </div>
 
                   <div className="mt-8">
-                    <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase">
+                    <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase">
                       Submit Now
                       <img
                         className="absolute -right-3"

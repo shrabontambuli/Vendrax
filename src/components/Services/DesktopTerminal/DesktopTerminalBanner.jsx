@@ -7,6 +7,9 @@ const DesktopTerminalBanner = () => {
       className="h-screen md:h-full lg:h-screen pt-28 md:pt-0"
       style={{
         backgroundImage: "url(/images/acc-banner.webp)",
+        backgroundRepeat:"no-repeat",
+        backgroundPosition:"center",
+        backgroundSize:"cover"
       }}
     >
       <div className="max-w-screen-2xl mx-auto px-4 lg:px-10 pt-32 md:pt-24 lg:pt-64">
@@ -14,6 +17,9 @@ const DesktopTerminalBanner = () => {
           className=" h-[515px] rounded-[30px] px-14 py-6 md:p-28"
           style={{
             backgroundImage: "url(/images/desk-banner.webp)",
+            backgroundRepeat:"no-repeat",
+            backgroundPosition:"center",
+            backgroundSize:"cover"
           }}
         >
           <div className="space-y-10 lg:w-6/12 mt-20 md:mt-0">
@@ -24,7 +30,7 @@ const DesktopTerminalBanner = () => {
             With efficient desktop terminals, your business accepts various payment methods, eliminating fraud.
             </p>
             <Link to="/">
-              <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-10">
+              <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-10">
                 Get Started
                 <img
                   className="absolute -right-3"

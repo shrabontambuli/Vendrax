@@ -18,7 +18,7 @@ const SimplyProcess = () => {
           Our POS system goes beyond just processing transactions; it's a comprehensive solution designed to improve every aspect of your business operations, including inventory management to optimizing customer interactions.
           </p>
           <Link to="/">
-            <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-10">
+            <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-10">
               Get Started
               <img
                 className="absolute -right-3"

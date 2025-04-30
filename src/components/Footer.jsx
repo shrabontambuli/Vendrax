@@ -3,34 +3,32 @@ const Footer = () => {
     <div className="relative"
       style={{
         backgroundImage: "url(/images/bg-foot.webp)",
+        backgroundRepeat:"no-repeat",
+        backgroundPosition:"center",
+        backgroundSize:"cover"
       }}
     >
         <img className="absolute top-4 md:w-72 lg:w-96 md:right-0 lg:right-64 md:-top-4" src="/images/foot-bg1.webp" alt="" />
 
-      <div className="md:max-w-screen-2xl mx-auto pt-20 lg:pt-44">
-        <div className="md:flex items-center gap-10 mb-14 px-4 lg:px-10">
-          <div className="lg:w-[790px] relative mb-16 md:mb-0">
-            <h1 className="text-2xl lg:text-[43px] leading-tight text-white font-bold mb-6">
+      <div className="max-w-7xl mx-auto pt-20 lg:pt-44">
+        <div className=" grid grid-cols-1 md:grid-cols-2 items-center gap-10 mb-14 px-4 lg:px-10">
+          <div className=" relative mb-16 md:mb-0">
+            <h1 className="text-2xl lg:text-4xl leading-tight text-white font-bold mb-6">
               Ready To Clutch The Growth Curve For The Success Of Your{" "}
-              <span className="text-[#e53e29]">Business?</span>
+              <span className="text2">Business?</span>
             </h1>
             <div className="md:flex items-center">
-              <p className="text-xl text-white md:text-slate-500 md:w-9/12 mb-20 md:mb-0">
+              <p className="text-xl text-white md:text-slate-500 w-8/12 mb-20 md:mb-0">
                 Maximize the potential of your business with our growth-driven
                 solutions. Let’s together achieve your goals in an innovative
                 and thriving dynamics.
               </p>
-              <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase">
+              <button className="btn1">
                 Get Started
-                <img
-                  className="absolute -right-5"
-                  src="/images/red-btn.webp"
-                  alt=""
-                />
               </button>
             </div>
             <img
-              className="absolute left-20 bottom-20 md:left-80 md:bottom-28 lg:right-32 lg:bottom-20"
+              className="absolute left-80 bottom-28 hidden lg:flex"
               src="/images/arr1.webp"
               alt=""
             />
@@ -52,7 +50,7 @@ const Footer = () => {
           </div>
         </div>
         <img
-          className="absolute right-0 bottom-72 md:right-20 md:top-80 lg:right-0 lg:top-[350px]"
+          className="absolute right-0 top-[350px] hidden lg:flex"
           src="/images/foot-bg2.webp"
           alt=""
         />

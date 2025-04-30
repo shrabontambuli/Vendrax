@@ -2,10 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    @apply bg-white
+body {
+  @apply bg-white;
 }
 
-.bgC{
-    background: linear-gradient(170deg, #e6002d 0%, #e75838 100%);
+.bgC {
+    @apply bg-white;
+}
+
+.bgs{
+    background-color: #2288003d;
+}
+.bgs2{
+    background-color: #7bb867;
+}
+
+.bg1 {
+  background-color: #228800;
+}
+
+.text1 {
+  color: #fff;
+}
+.text2{
+    color: #228800;
+}
+
+.btn1 {
+  background-color: #228800;
+  padding: 15px 35px 15px 35px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 24px;
+  gap: 4px;
+  color: #fff;
+  transition: 0.4s;
+  font-weight: 600;
+  &:hover {
+    background-color: #252;
+  }
 }

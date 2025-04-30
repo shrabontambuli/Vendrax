@@ -3,7 +3,6 @@ import React from "react";
 const POSSection = () => {
   return (
     <div
-      className=""
       style={{
         backgroundImage: "url(/images/bg-ser.webp)",
         backgroundRepeat: "no-repeat",
@@ -11,12 +10,12 @@ const POSSection = () => {
         backgroundSize: "cover",
       }}
     >
-      <div className="max-w-screen-2xl mx-auto lg:px-10 p-4 relative">
+      <div className="max-w-7xl mx-auto px-4 lg:px-0 relative mt-24">
         <div>
-          <span className="inline-block w-80 py-1 bg-[#553a29] text-[#ee5e2e] rounded-full font-semibold text-lg text-center mt-40 md:mt-24 mb-6 tracking-widest">
+          <span className="inline-block w-80 py-1 bgs text2 rounded-full font-semibold text-lg text-center mt-40 md:mt-24 mb-6 tracking-widest">
             POS SYSTEM SERVICES
           </span>
-          <h2 className="text-2xl md:text-5xl lg:text-[80px] lg:w-10/12 leading-tight font-bold text-white">
+          <h2 className="text-2xl md:text-5xl lg:w-10/12 leading-tight font-bold text-white">
             Get a POS System That Aligns With Your Industry
           </h2>
           <img

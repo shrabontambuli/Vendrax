@@ -23,7 +23,7 @@ const YourRestaurant = () => {
           With various advanced tools integrated with the POS system, you can access detailed reports and analytics to interpret insights into sales trends, customer preferences, and operational efficiency, leading you to make data-driven decisions for business growth.
           </p>
           <Link to="/">
-            <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-10">
+            <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-10">
               Get Started
               <img
                 className="absolute -right-3"

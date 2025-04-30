@@ -5,6 +5,7 @@ import POSSection from "../components/home/POSSection";
 import Consistency from "../components/home/Consistency";
 import PosSolution from "../components/home/PosSolution";
 import EarnRewards from "../components/home/EarnRewards";
+import Banner from "../components/home/Banner";
 
 const Home = () => {
   useEffect(() => {
@@ -12,12 +13,13 @@ const Home = () => {
   }, []);
   return (
     <>
-      <BannerCarousel />
-      <Features/>
-      <POSSection/>
-      <Consistency/>
-      <PosSolution/>
-      <EarnRewards/>
+      <Banner />
+      {/* <BannerCarousel /> */}
+      <Features />
+      <POSSection />
+      <Consistency />
+      <PosSolution />
+      <EarnRewards />
     </>
   );
 };
