@@ -3,7 +3,7 @@ import "./Services.css";
 
 const Infrastructure = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto lg:px-10 p-4 mb-40 mt-96 pt-20 md:pt-0 md:my-20 md:mb-36 lg:my-60">
+    <div className="max-w-screen-2xl mx-auto lg:px-10 p-4 mb-40 mt-96 pt-24 md:pt-0 md:my-20 md:mb-36 lg:my-60">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-5">
         <div>
           <h1 className="text-2xl md:text-4xl lg:text-6xl text-black font-bold">
