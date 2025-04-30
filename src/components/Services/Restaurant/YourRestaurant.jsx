@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const YourRestaurant = () => {
   return (
     <div
-      className="h-screen md:h-full lg:h-screen"
       style={{
         backgroundImage: "url(/images/bg-wehave.webp)",
         backgroundPosition:"center",

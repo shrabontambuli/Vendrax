@@ -3,13 +3,12 @@ import React from "react";
 const EcommerceBanner = () => {
   return (
     <div
-      className="h-screen md:h-full lg:h-screen"
       style={{
         backgroundImage: "url(/images/acc-banner.webp)",
       }}
     >
-      <div className="max-w-screen-2xl mx-auto px-4 lg:px-10 pt-32 md:pt-24 lg:pt-56">
-        <h1 className="text-3xl lg:text-6xl text-white font-medium mb-10 md:mb-20 lg:mb-32 lg:w-full">
+      <div className="max-w-screen-2xl mx-auto px-4 lg:px-10 pt-32 md:pt-24 lg:pt-48">
+        <h1 className="text-3xl lg:text-4xl text-white font-medium mb-10 md:mb-20 lg:w-full">
         Move Beyond A Singular Sales Channel and Explore Limitless Opportunities with Our Personalized And e-Commerce Payment Services
         </h1>
         <div className="md:flex gap-6">

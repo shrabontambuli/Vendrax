@@ -100,7 +100,7 @@ const Consistency = () => {
             alt="icon"
           />
           <img
-            className="absolute hidden md:flex z-10 -bottom-16 -right-5 md:right-0 md:-bottom-28 lg:-bottom-32 lg:-right-32"
+            className="absolute hidden md:flex z-10 -bottom-16 -right-5 md:right-0 md:-bottom-28 lg:-bottom-32 lg:-right-7"
             src="/images/bg1.webp"
             alt="icon"
           />

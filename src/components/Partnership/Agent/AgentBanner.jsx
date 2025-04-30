@@ -49,7 +49,7 @@ const AgentBanner = () => {
         <div>
           <div className="relative lg:w-[1009px]">
             <img src="/images/agent-img1.webp" alt="img" />
-            <div className="absolute right-2 -bottom-24 md:bottom-20 md:right-40 lg:-right-[42%] lg:-bottom-10">
+            <div className="absolute right-2 -bottom-24 md:bottom-20 md:right-40 lg:-right-[33%] lg:-bottom-10">
               <div className="relative h-[500px] w-[390px] mx-auto lg:mx-0 md:w-[400px] md:h-[600px] lg:h-[760px] lg:w-[624px]">
                 <div className="bg-white shadow-2xl right-2 top-10 rounded-3xl lg:space-y-10 h-full w-full absolute z-30 mt-20 md:mt-0">
                   <div className="relative lg:h-[760px]">

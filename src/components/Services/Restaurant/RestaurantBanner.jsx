@@ -5,7 +5,6 @@ const RestaurantBanner = () => {
   return (
     <div>
       <div
-        className="h-screen md:h-full lg:h-screen"
         style={{
           backgroundImage: "url(/images/acc-banner.webp)",
         }}
@@ -30,7 +29,7 @@ const RestaurantBanner = () => {
           </div>
         </div>
       </div>
-      <div className="md:max-w-screen-2xl mx-auto lg:px-10 py-20 lg:pt-72 md:pb-24">
+      <div className="md:max-w-screen-2xl mx-auto lg:px-10 py-20 md:pb-24">
         <div className="md:flex md:flex-row-reverse items-center gap-10 p-4 space-y-20 md:space-y-0">
           <div className="space-y-10 md:w-6/12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">

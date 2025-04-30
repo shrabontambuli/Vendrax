@@ -3,13 +3,13 @@ import React from "react";
 const PoSserviceBanner = () => {
   return (
     <div
-      className="h-screen md:h-full lg:h-screen"
+      className=""
       style={{
         backgroundImage: "url(/images/acc-banner.webp)",
       }}
     >
-      <div className="md:max-w-screen-2xl mx-auto px-4 lg:px-10 pt-32 md:pt-24 lg:pt-56">
-        <h1 className="text-4xl lg:text-6xl text-white font-medium mb-10 md:mb-20 lg:mb-32 lg:w-9/12">
+      <div className="md:max-w-screen-2xl mx-auto px-4 lg:px-10 pt-32 md:pt-24 lg:pt-48">
+        <h1 className="text-4xl lg:text-5xl text-white font-medium mb-10 md:mb-20">
         User-friendly Point-of-Sale Software
         With Vendrax
         </h1>

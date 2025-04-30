@@ -11,9 +11,9 @@ const Minimize = () => {
         backgroundSize: "cover",
       }}
     >
-      <div className="lg:w-8/12 p-8 md:p-10 lg:p-20">
+      <div className="lg:w-10/12 p-8 md:p-10 lg:p-20">
         <div className="space-y-6">
-          <h1 className="text-2xl md:text-6xl text-white font-medium">
+          <h1 className="text-2xl md:text-4xl text-white font-medium">
             Minimize the Errors to Ensure Precision in Data{" "}
             <span className="text-[#ed1d24]">With Vendrax</span>
           </h1>
@@ -22,7 +22,7 @@ const Minimize = () => {
             perfect solutions for your business.
           </p>
         </div>
-        <div className="md:flex items-center md:ps-28 mt-10 md:gap-14">
+        <div className="md:flex items-center mt-10 md:gap-14">
           <div>
             <h3 className="text-xl text-[#00a39e] tracking-[7px] mb-6 uppercase">Feel free to call us at</h3>
             <h2 className="flex items-center gap-4 text-4xl md:text-5xl text-white mb-4 md:mb-0">

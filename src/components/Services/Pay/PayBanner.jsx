@@ -3,7 +3,6 @@ import React from "react";
 const PayBanner = () => {
   return (
     <div
-      className="h-screen md:h-full lg:h-screen"
       style={{
         backgroundImage: "url(/images/acc-banner.webp)",
       }}

@@ -108,7 +108,7 @@ const PartnerProgramForm = () => {
             </div>
           </div>
           <div
-            className="hidden md:flex lg:w-[824px] h-[772px] rounded-3xl mt-36"
+            className="hidden md:flex  h-[772px] rounded-3xl mt-36"
             style={{
               backgroundImage: "url(/images/iso-contimg.webp)",
               backgroundRepeat: "no-repeat",

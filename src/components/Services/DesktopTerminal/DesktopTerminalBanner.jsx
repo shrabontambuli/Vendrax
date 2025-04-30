@@ -9,9 +9,9 @@ const DesktopTerminalBanner = () => {
         backgroundImage: "url(/images/acc-banner.webp)",
       }}
     >
-      <div className="md:max-w-screen-2xl mx-auto px-4 lg:px-10 pt-32 md:pt-24 lg:pt-64">
+      <div className="max-w-screen-2xl mx-auto px-4 lg:px-10 pt-32 md:pt-24 lg:pt-64">
         <div
-          className="lg:w-[1390px] h-[515px] rounded-[30px] px-14 py-6 md:p-28"
+          className=" h-[515px] rounded-[30px] px-14 py-6 md:p-28"
           style={{
             backgroundImage: "url(/images/desk-banner.webp)",
           }}

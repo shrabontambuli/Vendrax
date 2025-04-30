@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const AcceptPayments = () => {
   return (
-    <div className="md:max-w-screen-2xl mx-auto lg:px-10 py-20 md:pt-36 relative">
+    <div className="md:max-w-screen-2xl mx-auto py-20 lg:px-10 relative">
         <img className="absolute left-20 w-80 md:w-96 md:left-60 lg:left-96 bottom-80 md:bottom-[500px]" src="/images/bg5.webp" alt="" />
       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 p-4">
         <div className="space-y-10">

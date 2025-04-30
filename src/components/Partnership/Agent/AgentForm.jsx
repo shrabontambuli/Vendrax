@@ -99,7 +99,7 @@ const AgentForm = () => {
             </div>
           </div>
           <div
-            className="hidden md:flex lg:w-[824px] h-[772px] rounded-3xl mt-32"
+            className="hidden md:flex h-[772px] rounded-3xl mt-32"
             style={{
               backgroundImage: "url(/images/agent-form1.webp)",
               backgroundRepeat: "no-repeat",

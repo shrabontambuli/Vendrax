@@ -56,8 +56,8 @@ const Navbar = () => {
 
       {/* main nav  */}
 
-      <div className="navbar bg-transparent text-white lg:mt-7 py-6 md:py-0">
-        <div className="w-[40%]">
+      <div className="navbar justify-between bg-transparent text-white lg:mt-7 py-6 md:py-0">
+        <div>
           <div className="dropdown">
             <div
               tabIndex={0}
@@ -171,14 +171,14 @@ const Navbar = () => {
             <img src={Logo} alt="logo" />
           </Link>
         </div>
-        <div className="w-[60] gap-8 pe-6">
+        <div className=" ">
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal items-center text-2xl gap-8 font-medium">
+            <ul className="menu menu-horizontal items-center gap-2 text-2xl  font-medium">
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/" onClick={closeAllDetails}>Home</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/about" onClick={closeAllDetails}>About</Link>
               </li>
               <li>
                 <details>
@@ -209,7 +209,7 @@ const Navbar = () => {
                 </details>
               </li>
               <li>
-                <Link to="/features">Features</Link>
+                <Link to="/features" onClick={closeAllDetails}>Features</Link>
               </li>
               <li>
                 <details>
@@ -231,7 +231,7 @@ const Navbar = () => {
                 </details>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact" onClick={closeAllDetails}>Contact</Link>
               </li>
               <li>
                 <Link

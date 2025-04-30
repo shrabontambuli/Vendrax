@@ -4,7 +4,6 @@ import "./Services.css";
 const SellProducts = () => {
   return (
     <div
-      className="lg:h-screen"
       style={{
         backgroundImage: "url(/images/bg-choose.webp)",
       }}

@@ -2,7 +2,7 @@ import React from "react";
 
 const PaymentMethod = () => {
   return (
-    <div className="md:max-w-screen-2xl mx-auto lg:px-10 py-20 md:py-36 lg:pt-64">
+    <div className="md:max-w-screen-2xl mx-auto lg:px-10 py-20 md:py-36">
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
         <div className="space-y-10 p-4">
           <span className="inline-block w-80 py-1 bg-red-100 text-red-600 rounded-full font-semibold text-lg text-center tracking-widest">
@@ -82,7 +82,7 @@ const PaymentMethod = () => {
             alt="icon"
           />
           <img
-            className="absolute z-10 -bottom-16 -right-5 md:right-0 md:-bottom-28 lg:-bottom-32 lg:-right-32"
+            className="absolute z-10 -bottom-16 -right-5 md:right-0 md:-bottom-28 lg:-bottom-32 lg:-right-7"
             src="/images/bg1.webp"
             alt="icon"
           />

@@ -2,9 +2,9 @@ import React from "react";
 
 const MaximizeEarnings = () => {
   return (
-    <div className="mb-44 md:mb-20 lg:mb-0 p-1 pt-[530px] md:pt-[850px] lg:pt-[650px] pb-16 lg:pb-40">
+    <div className="mb-44 md:mb-20 lg:mb-0 p-1 pt-[730px] md:pt-[850px] pb-16 lg:pb-40 max-w-screen-2xl mx-auto">
       <div>
-        <div className="relative lg:w-[1139px]">
+        <div className="relative lg:w-[948px]">
           <img src="/images/ref-img11.webp" alt="img" />
           <div className="absolute right-2 -bottom-24 md:bottom-20 md:right-40 lg:-right-[42%] lg:-bottom-10">
             <div className="relative h-[700px] w-[390px] mx-auto lg:mx-0 md:w-[420px] md:h-[600px] lg:h-[760px] lg:w-[624px]">

@@ -49,9 +49,9 @@ export default function BannerCarousel() {
   return (
     <div>
       <div className="relative w-full min-h-screen flex items-center">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8 px-6 py-12">
+        <div className="max-w-screen-2xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8 px-6 py-12">
           {/* Left Content */}
-          <div className="flex flex-col justify-center text-white absolute z-10 lg:left-52 left-0 p-3 md:mt-20 lg:mt-0 lg:top-72 lg:max-w-3xl">
+          <div className="flex flex-col justify-center text-white absolute z-10 lg:left-52 left-0 p-3 md:mt-20 lg:mt-0 lg:top-[50%] top-2/4 transform -translate-y-1/2 lg:max-w-3xl lg:pt-28">
             <h1 className="text-[32px] md:text-3xl lg:text-6xl font-bold mb-8 md:mb-4 lg:mb-8 leading-tight">
               {banners[currentIndex].title}
             </h1>
@@ -107,7 +107,7 @@ export default function BannerCarousel() {
           ))}
         </div>
       </div>
-      <div className="bg-[#d4f3f2] pt-14 md:h-[500px]">
+      <div className="bg-[#d4f3f2] pt-14 lg:pt-28 md:h-[500px]">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center gap-8 max-w-screen-2xl mx-auto p-2 lg:p-0">
           <div>
             <img

@@ -3,7 +3,6 @@ import React from "react";
 const ContactBanner = () => {
   return (
     <div
-      className="h-screen md:h-full lg:h-screen"
       style={{
         backgroundImage: "url(/images/acc-banner.webp)",
       }}

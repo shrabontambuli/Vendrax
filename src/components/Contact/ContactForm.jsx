@@ -157,7 +157,7 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
-      <img className="absolute hidden lg:flex top-10 lg:-right-10" src="/images/cont-bg2.webp" alt="icon" />
+      <img className="absolute hidden lg:flex top-10 lg:-right-0" src="/images/cont-bg2.webp" alt="icon" />
       <img className="absolute hidden lg:flex top-10 lg:-left-10" src="/images/cont-bg1.webp" alt="icon" />
     </div>
   );
