@@ -6,6 +6,9 @@ const POSSection = () => {
       className=""
       style={{
         backgroundImage: "url(/images/bg-ser.webp)",
+        backgroundRepeat:"no-repeat",
+        backgroundPosition: "center",
+        backgroundSize:"cover"
       }}
     >
       <div className="md:max-w-screen-2xl mx-auto lg:px-10 p-4 relative">
@@ -23,9 +26,9 @@ const POSSection = () => {
           />
         </div>
 
-        <div className="md:flex items-center mt-28">
-          <div className="w-[50%]"></div>
-          <div className="grid grid-cols-2 items-center gap-20 pb-36">
+        <div className="md:grid grid-cols-2 items-center mt-28">
+          <div className=" hiden md:flex"></div>
+          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-20 pb-36">
             <div className="lg:w-96">
               <img className="mx-auto mb-4" src="/images/ser-ic2.webp" alt="icon" />
               <h1 className="text-white text-2xl font-medium text-center">Ecommerce</h1>
