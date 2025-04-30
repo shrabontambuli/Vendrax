@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import BannerCarousel from "../components/home/BannerCarousel";
+// import BannerCarousel from "../components/home/BannerCarousel";
 import Features from "../components/home/Features";
 import POSSection from "../components/home/POSSection";
 import Consistency from "../components/home/Consistency";
