@@ -1,6 +1,17 @@
 import React from "react";
+import { useForm } from "react-hook-form";
 
 const PartnerProgramForm = () => {
+  const {
+        register,
+        handleSubmit,
+        reset,
+        formState: { errors },
+      } = useForm();
+      const onSubmit = (data) => {
+        console.log(data)
+        reset();
+      };
   return (
     <div className="bg-[#e9eaea] lg:py-28 pb-36 md:pb-48 md:pt-20 relative">
         <img className="absolute hidden lg:flex right-0" src="/images/othser-bg2.webp" alt="" />
@@ -12,12 +23,13 @@ const PartnerProgramForm = () => {
               <h1 className="text-2xl lg:text-5xl text-center text-black font-medium mb-8">
                 Join Our ISO Partner Program Today!
               </h1>
-              <form className="flex flex-col gap-5 mt-10">
+              <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-5 mt-10">
                 <div className="lg:flex items-center gap-8">
                   <div className="w-full">
                     <input
                       type="text"
                       placeholder="Full Name*"
+                      {...register("name", { required: true })}
                       className="border-2 p-3 w-full bg-[#f3fafa] rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                     />
                   </div>
@@ -25,6 +37,7 @@ const PartnerProgramForm = () => {
                     <input
                       type="text"
                       placeholder="Business Name*"
+                      {...register("business", { required: true })}
                       className="border-2 p-3 w-full bg-[#f3fafa] rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                     />
                   </div>
@@ -33,8 +46,9 @@ const PartnerProgramForm = () => {
                 <div className="lg:flex items-center gap-8">
                   <div className="w-full">
                     <input
-                      type="text"
+                      type="number"
                       placeholder="Contact Number*"
+                      {...register("number", { required: true })}
                       className="border-2 p-3 w-full bg-[#f3fafa] rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                     />
                   </div>
@@ -42,6 +56,7 @@ const PartnerProgramForm = () => {
                     <input
                       type="text"
                       placeholder="Website"
+                      {...register("website", { required: true })}
                       className="border-2 p-3 w-full bg-[#f3fafa] rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                     />
                   </div>
@@ -51,16 +66,18 @@ const PartnerProgramForm = () => {
                     <input
                       type="email"
                       placeholder="Business Email*"
+                      {...register("email", { required: true })}
                       className="border-2 p-3 w-full bg-[#f3fafa] rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                     />
                   </div>
                   <div className="w-full mt-6 lg:mt-0">
                     <select
                       defaultValue="Select State*"
+                      {...register("value", { required: true })}
                       className="select border-2 p-3 w-full bg-[#f3fafa] rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                     >
                       <option disabled={true}>Select State*</option>
-                      <option>Crimson</option>
+                      <option value="Crimson">Crimson</option>
                       <option>Amber</option>
                       <option>Velvet</option>
                     </select>
@@ -70,16 +87,18 @@ const PartnerProgramForm = () => {
                   <input
                     type="text"
                     placeholder="Address*"
+                    {...register("address", { required: true })}
                     className="border-2 p-3 w-full bg-[#f3fafa] rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                   />
                 </div>
                 <div className="w-full">
                   <select
                     defaultValue="Your preferred time to be contacted"
+                    {...register("value2", { required: true })}
                     className="select border-2 p-3 w-full bg-[#f3fafa] rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                   >
                     <option disabled={true}>Your preferred time to be contacted</option>
-                    <option>Crimson</option>
+                    <option value="Crimson">Crimson</option>
                     <option>Amber</option>
                     <option>Velvet</option>
                   </select>
@@ -88,6 +107,7 @@ const PartnerProgramForm = () => {
                   <div className="w-full">
                     <textarea
                       placeholder="Tell us a bit about yourself"
+                      {...register("sms", { required: true })}
                       className="w-full bg-[#f3fafa] border-2 p-3 rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#03837f] resize-none"
                       rows="4"
                     />

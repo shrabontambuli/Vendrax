@@ -1,7 +1,18 @@
 import React from "react";
+import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 
 const ContactForm = () => {
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data) => {
+    console.log(data);
+    reset();
+  };
   return (
     <div className="max-w-screen-2xl mx-auto rounded-2xl bg-[#f6fcfc] shadow-xl lg:px-20 py-20 lg:mt-60 mb-28 relative p-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
@@ -91,21 +102,23 @@ const ContactForm = () => {
           <div>
             <div className="mt-24">
               <div className="shadow-xl p-8 md:p-16 bg-white rounded-3xl">
-                <form className="flex flex-col gap-5">
+                <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-5">
                   <div className="md:flex items-center gap-8">
                     <div className="w-full">
                       <label className="label">Full Name*</label>
                       <input
                         type="text"
                         placeholder="Full name here"
+                        {...register("name", { required: true })}
                         className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#e53e29]"
                       />
                     </div>
                     <div className="w-full">
                       <label className="label">Email Address*</label>
                       <input
-                        type="text"
+                        type="email"
                         placeholder="Add email"
+                        {...register("email", { required: true })}
                         className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#e53e29]"
                       />
                     </div>
@@ -115,8 +128,9 @@ const ContactForm = () => {
                     <div className="w-full">
                       <label className="label">Phone*</label>
                       <input
-                        type="text"
+                        type="number"
                         placeholder="Your number"
+                        {...register("number", { required: true })}
                         className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#e53e29]"
                       />
                     </div>
@@ -125,6 +139,7 @@ const ContactForm = () => {
                       <input
                         type="text"
                         placeholder="Business Name"
+                        {...register("business", { required: true })}
                         className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#e53e29]"
                       />
                     </div>
@@ -132,9 +147,10 @@ const ContactForm = () => {
 
                   <div>
                     <div className="w-full">
-                    <label className="label">Comments/Questions*</label>
+                      <label className="label">Comments/Questions*</label>
                       <textarea
                         placeholder="Enter Your Message Here"
+                        {...register("sms", { required: true })}
                         className="w-full bg-white border-2 p-3 rounded-sm focus:outline-none focus:ring-1 focus:ring-[#e53e29] resize-none"
                         rows="4"
                       />
@@ -157,8 +173,16 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
-      <img className="absolute hidden lg:flex top-10 lg:-right-0" src="/images/cont-bg2.webp" alt="icon" />
-      <img className="absolute hidden lg:flex top-10 lg:-left-10" src="/images/cont-bg1.webp" alt="icon" />
+      <img
+        className="absolute hidden lg:flex top-10 lg:-right-0"
+        src="/images/cont-bg2.webp"
+        alt="icon"
+      />
+      <img
+        className="absolute hidden lg:flex top-10 lg:-left-10"
+        src="/images/cont-bg1.webp"
+        alt="icon"
+      />
     </div>
   );
 };

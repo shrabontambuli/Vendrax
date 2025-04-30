@@ -1,6 +1,17 @@
 import React from "react";
+import { useForm } from "react-hook-form";
 
 const AgentForm = () => {
+  const {
+      register,
+      handleSubmit,
+      reset,
+      formState: { errors },
+    } = useForm();
+    const onSubmit = (data) => {
+      console.log(data)
+      reset();
+    };
   return (
     <div className="bg-[#e9eaea] lg:py-28 pb-36 md:pb-48 pt-20 relative">
       <img
@@ -17,19 +28,21 @@ const AgentForm = () => {
               Joint Vendrax as an
               Authorized Agent
               </h1>
-              <form className="flex flex-col gap-5 mt-10">
+              <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-5 mt-10">
                 <div className="lg:flex items-center gap-8">
                   <div className="w-full">
                     <input
                       type="text"
                       placeholder="Full Name*"
+                      {...register("name", { required: true })}
                       className="border-2 p-3 w-full bg-[#f3fafa] rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                     />
                   </div>
                   <div className="w-full mt-6 lg:mt-0">
                     <input
-                      type="text"
+                      type="number"
                       placeholder="Contact Number*"
+                      {...register("number", { required: true })}
                       className="border-2 p-3 w-full bg-[#f3fafa] rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                     />
                   </div>
@@ -40,16 +53,18 @@ const AgentForm = () => {
                     <input
                       type="email"
                       placeholder="Email Address*"
+                      {...register("email", { required: true })}
                       className="border-2 p-3 w-full bg-[#f3fafa] rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                     />
                   </div>
                   <div className="w-full mt-6 lg:mt-0">
                   <select
                       defaultValue="Select State*"
+                      {...register("value", { required: true })}
                       className="select border-2 p-3 w-full bg-[#f3fafa] rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                     >
                       <option disabled={true}>Select State*</option>
-                      <option>Crimson</option>
+                      <option value="Crimson">Crimson</option>
                       <option>Amber</option>
                       <option>Velvet</option>
                     </select>
@@ -60,16 +75,18 @@ const AgentForm = () => {
                     <input
                       type="number"
                       placeholder="Zip Code*"
+                      {...register("number", { required: true })}
                       className="border-2 p-3 w-full bg-[#f3fafa] rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                     />
                   </div>
                   <div className="w-full mt-6 lg:mt-0">
                     <select
                       defaultValue="Select State*"
+                      {...register("value2", { required: true })}
                       className="select border-2 p-3 w-full bg-[#f3fafa] rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                     >
                       <option disabled={true}>Your preferred time to be contacted</option>
-                      <option>Crimson</option>
+                      <option value="Crimson">Crimson</option>
                       <option>Amber</option>
                       <option>Velvet</option>
                     </select>
@@ -79,6 +96,7 @@ const AgentForm = () => {
                   <div className="w-full">
                     <textarea
                       placeholder="Tell us a bit about yourself"
+                      {...register("sms", { required: true })}
                       className="w-full bg-[#f3fafa] border-2 p-3 rounded-2xl focus:outline-none focus:ring-1 focus:ring-[#03837f] resize-none"
                       rows="4"
                     />

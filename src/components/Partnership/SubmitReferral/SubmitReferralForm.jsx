@@ -1,6 +1,18 @@
 import React from "react";
+import { useForm } from "react-hook-form";
 
 const SubmitReferralForm = () => {
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data) => {
+    console.log(data)
+    reset();
+  };
+
   return (
     <div className="h-full lg:pb-64">
       <div className="pb-96 md:pb-[860px] lg:pb-[600px]">
@@ -37,12 +49,13 @@ const SubmitReferralForm = () => {
                     Referral Information
                   </h4>
                 </div>
-                <form className="flex flex-col gap-5 mt-6">
+                <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-5 mt-6">
                   <div className="flex items-center gap-8">
                     <div className="w-full">
                       <input
                         type="text"
                         placeholder="Owner / Principal"
+                        {...register("owner", { required: true })}
                         className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                       />
                     </div>
@@ -50,6 +63,7 @@ const SubmitReferralForm = () => {
                       <input
                         type="text"
                         placeholder="Business Name"
+                        {...register("business", { required: true })}
                         className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                       />
                     </div>
@@ -58,8 +72,9 @@ const SubmitReferralForm = () => {
                   <div className="flex items-center gap-8">
                     <div className="w-full">
                       <input
-                        type="text"
+                        type="number"
                         placeholder="Contact Number*"
+                        {...register("number", { required: true })}
                         className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                       />
                     </div>
@@ -67,6 +82,7 @@ const SubmitReferralForm = () => {
                       <input
                         type="email"
                         placeholder="Email Address*"
+                        {...register("email", { required: true })}
                         className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                       />
                     </div>
@@ -76,13 +92,15 @@ const SubmitReferralForm = () => {
                       <input
                         type="text"
                         placeholder="Address"
+                        {...register("address", { required: true })}
                         className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                       />
                     </div>
                     <div className="w-full">
                       <input
-                        type="email"
+                        type="number"
                         placeholder="Enter your Referral Code"
+                        {...register("number", { required: true })}
                         className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                       />
                     </div>
@@ -92,6 +110,7 @@ const SubmitReferralForm = () => {
                     <div className="w-full">
                       <textarea
                         placeholder="Instructions"
+                        {...register("sms", { required: true })}
                         className="w-full bg-white border-2 p-3 rounded-sm focus:outline-none focus:ring-1 focus:ring-[#80bdff] resize-none"
                         rows="4"
                       />
@@ -99,7 +118,9 @@ const SubmitReferralForm = () => {
                   </div>
 
                   <div className="mt-8">
-                    <button className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mx-auto">
+                    <button
+                      className="flex items-center justify-center bg-[#e53e29] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mx-auto"
+                    >
                       Submit Now
                       <img
                         className="absolute -right-3"
