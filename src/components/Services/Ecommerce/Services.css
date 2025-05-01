@@ -1,5 +1,5 @@
 .card-hover:hover{
-    background: #132a2f;
+    background-color: #228800;
     transition: .4s ease-in-out;
     .text-h{
         color: #ffff;

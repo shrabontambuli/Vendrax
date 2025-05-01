@@ -11,11 +11,11 @@ const SellProducts = () => {
         backgroundSize:"cover"
       }}
     >
-      <div className="max-w-screen-2xl mx-auto py-10 px-4 md:py-20">
+      <div className="max-w-7xl mx-auto py-10 px-4 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center">
           <div>
             <div className="space-y-6 lg:w-10/12">
-              <h1 className="text-2xl lg:text-6xl text-white font-bold">
+              <h1 className="text-2xl lg:text-6xl text2 font-bold">
                 Why You Should Choose Vendrax?
               </h1>
               <p className="text-gray-400 text-xl">
