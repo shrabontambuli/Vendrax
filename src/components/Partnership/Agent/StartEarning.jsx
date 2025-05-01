@@ -43,11 +43,6 @@ const StartEarning = () => {
                 src="/images/iso-bg2.webp"
                 alt="icon"
               />
-              <img
-                className="hidden lg:flex absolute top-[83px] -right-[37px] z-20"
-                src="/images/01.png"
-                alt="icon"
-              />
             </div>
             <div className="relative mt-52">
               <div className="absolute z-10 bg-white shadow-2xl rounded-xl p-10 flex gap-14">
@@ -65,11 +60,6 @@ const StartEarning = () => {
               <img
                 className="hidden lg:flex absolute -top-4 -left-4"
                 src="/images/iso-bg2.webp"
-                alt="icon"
-              />
-              <img
-                className="hidden lg:flex absolute top-[87px] -right-[28px] z-20"
-                src="/images/02.png"
                 alt="icon"
               />
             </div>
@@ -90,11 +80,6 @@ const StartEarning = () => {
               <img
                 className="hidden lg:flex absolute -top-4 -left-4"
                 src="/images/iso-bg2.webp"
-                alt="icon"
-              />
-              <img
-                className="hidden lg:flex absolute top-[95px] -right-[37px] z-20"
-                src="/images/03.png"
                 alt="icon"
               />
             </div>

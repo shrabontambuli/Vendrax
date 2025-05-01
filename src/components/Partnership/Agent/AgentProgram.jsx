@@ -4,11 +4,10 @@ import { Link } from "react-router-dom";
 const AgentProgram = () => {
   return (
     <div className="max-w-7xl mx-auto">
-      <img className="w-full" src="/images/agent.png" alt="" />
       <div className="mt-24">
         <div
           style={{
-            backgroundImage: "url(/images/bg-isoimg3.webp)",
+            backgroundImage: "url(https://plus.unsplash.com/premium_photo-1664474655825-da0783c8ae61?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDI1fHxidXNpbmVzcyUyMGRlYWwlMjBibGFjayUyMGJsdXIlMjBpbWd8ZW58MHx8MHx8fDA%3D)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
           }}

@@ -24,7 +24,7 @@ const PaymentMethod = () => {
           <div className="bg1 p-5 md:p-20 rounded-3xl space-y-8 h-full w-full absolute z-30 md:space-y-20 lg:space-y-10">
             <div className="flex items-center gap-6">
               <img
-                className="w-20 h-20"
+                className="w-20 h-20 img2"
                 src="/images/pay-ic1.webp"
                 alt="icon"
               />
@@ -40,7 +40,7 @@ const PaymentMethod = () => {
             </div>
             <div className="flex items-center gap-6">
               <img
-                className="w-20 h-20"
+                className="w-20 h-20 img2"
                 src="/images/pay-ic2.webp"
                 alt="icon"
               />
@@ -57,7 +57,7 @@ const PaymentMethod = () => {
             </div>
             <div className="flex items-center gap-6">
               <img
-                className="w-20 h-20"
+                className="w-20 h-20 img2"
                 src="/images/pay-ic3.webp"
                 alt="icon"
               />
@@ -75,12 +75,7 @@ const PaymentMethod = () => {
               </div>
             </div>
           </div>
-          <div className="absolute hidden lg:flex -bottom-5 -right-5 h-[460px] w-[560px] bg-[#ffbf41] z-20 rounded-3xl"></div>
-          <img
-            className="absolute hidden lg:flex -top-7 -left-7"
-            src="/images/bg2.webp"
-            alt="icon"
-          />
+          <div className="absolute hidden lg:flex -bottom-5 -right-5 h-[460px] w-[560px] bgs z-20 rounded-3xl"></div>
           <img
             className="absolute hidden lg:flex z-10 -bottom-32 -right-0"
             src="/images/bg1.webp"

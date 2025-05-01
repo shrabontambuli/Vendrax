@@ -89,16 +89,6 @@ const Consistency = () => {
             </div>
           </div>
           <div className="absolute -bottom-5 right-0 md:-bottom-5 md:-right-0 lg:-right-5 h-[460px] w-[300px] md:h-[460px] md:w-[560px] bgs z-20 rounded-3xl hidden lg:flex"></div>
-          <img
-            className="absolute -top-7 -left-7"
-            src="/images/bg2.webp"
-            alt="icon"
-          />
-          <img
-            className="absolute hidden md:flex z-10 -bottom-16 -right-5 md:right-0 md:-bottom-28 lg:-bottom-32 lg:-right-7"
-            src="/images/bg1.webp"
-            alt="icon"
-          />
         </div>
       </div>
     </div>

@@ -38,19 +38,19 @@ const AgentBanner = () => {
       <div className="max-w-7xl my-24 mx-auto px-2 lg:px-0">
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
-            <div>
+            <div className="w-full h-full">
               <img
-                className="object-cover"
-                src="/images/agent-img1.webp"
+                className="object-cover w-full h-full rounded-2xl"
+                src="https://plus.unsplash.com/premium_photo-1663051313244-6b945eabec81?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzI5fHxwYXltZW50JTIwYmxhY2slMjBibHVyJTIwaW1nfGVufDB8fDB8fHww"
                 alt="img"
               />
             </div>
             <div className="bg-white shadow-2xl rounded-3xl h-full w-full mt-20 md:mt-0">
-              <div className="relative h-[360px] md:h-[486px] lg:h-[520px]">
+              <div>
                 <div className="p-5 md:p-6 lg:p-16">
                   <h1 className="text-black font-medium text-2xl lg:text-5xl">
                     About Our
-                    <span className="text-[#ed1d24]">
+                    <span className="text2">
                       {" "}
                       Revenue Share Program
                     </span>
@@ -63,11 +63,6 @@ const AgentBanner = () => {
                     processing from your portfolio.
                   </p>
                 </div>
-                <img
-                  className="absolute lg:bottom-0"
-                  src="/images/download.webp"
-                  alt="icon"
-                />
               </div>
             </div>
           </div>

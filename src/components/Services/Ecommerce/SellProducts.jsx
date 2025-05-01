@@ -29,7 +29,7 @@ const SellProducts = () => {
               <div className="bg2 lg:w-80 lg:h-48 flex justify-center items-center rounded-3xl">
                 <div>
                   <img
-                    className="mx-auto"
+                    className="mx-auto img2"
                     src="/images/cho-ic1.webp"
                     alt="icon"
                   />
@@ -41,7 +41,7 @@ const SellProducts = () => {
               <div className="bg2 lg:w-80 lg:h-48 flex justify-center items-center rounded-3xl">
                 <div>
                   <img
-                    className="mx-auto"
+                    className="mx-auto img2"
                     src="/images/cho-ic2.webp"
                     alt="icon"
                   />
@@ -53,7 +53,7 @@ const SellProducts = () => {
               <div className="bg2 lg:w-80 lg:h-48 flex justify-center items-center rounded-3xl">
                 <div>
                   <img
-                    className="mx-auto"
+                    className="mx-auto img2"
                     src="/images/cho-ic3.webp"
                     alt="icon"
                   />
@@ -65,7 +65,7 @@ const SellProducts = () => {
               <div className="bg2 lg:w-80 lg:h-48 flex justify-center items-center rounded-3xl">
                 <div>
                   <img
-                    className="mx-auto"
+                    className="mx-auto img2"
                     src="/images/cho-ic4.webp"
                     alt="icon"
                   />

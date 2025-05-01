@@ -43,3 +43,7 @@ body {
     background-color: #252;
   }
 }
+
+.img2{
+  filter: brightness(0) invert(1);
+}

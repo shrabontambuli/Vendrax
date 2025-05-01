@@ -3,16 +3,16 @@ import React from "react";
 const ResellerProgram = () => {
   return (
     <div className="my-24 max-w-7xl mx-auto px-2 lg:px-0">
-      <img className="w-full object-cover" src="/images/bg-new.png" alt="img" />
       <div className="mt-24">
         <div
           style={{
-            backgroundImage: "url(/images/bg-isoimg3.webp)",
+            backgroundImage: "url(https://plus.unsplash.com/premium_photo-1664474655825-da0783c8ae61?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDI1fHxidXNpbmVzcyUyMGRlYWwlMjBibGFjayUyMGJsdXIlMjBpbWd8ZW58MHx8MHx8fDA%3D)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
+            backgroundPosition:"center"
           }}
         >
-          <div className=" p-5 md:p-6 lg:p-16 rounded-lg h-full w-full mt-10">
+          <div className=" p-5 md:p-6 lg:p-16 rounded-lg h-full w-full z-30 py-10">
             <div className="text-center space-y-10 md:space-y-6">
               <span className="inline-block w-44 py-1 bgs text2 rounded-full font-semibold text-lg text-center tracking-widest">
                 Collaborate

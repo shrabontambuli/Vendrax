@@ -1,5 +1,8 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { BsTwitterX } from "react-icons/bs";
+import { FaInstagram, FaLinkedinIn, FaPinterestP } from "react-icons/fa";
+import { RiFacebookFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
 const ContactForm = () => {
@@ -50,21 +53,21 @@ const ContactForm = () => {
                 <h2 className="text-2xl text2 font-medium tracking-[10px]">
                   Our Social Media:
                 </h2>
-                <div className="flex justify-center space-x-12 md:space-x-16 mt-10">
+                <div className="flex justify-center space-x-4 md:space-x-16 mt-10">
                   <Link to="#">
-                    <img src="/images/face2.webp" alt="icon" />
+                    <RiFacebookFill className="text-white" size={24} />
                   </Link>
                   <Link to="#">
-                    <img src="/images/twit2.webp" alt="icon" />
+                    <BsTwitterX className="text-white" size={24} />
                   </Link>
                   <Link to="#">
-                    <img src="/images/insta2.webp" alt="icon" />
+                    <FaInstagram className="text-white" size={24} />
                   </Link>
                   <Link to="#">
-                    <img src="/images/link2.webp" alt="icon" />
+                    <FaLinkedinIn className="text-white" size={24} />
                   </Link>
                   <Link to="#">
-                    <img src="/images/pint2.webp" alt="icon" />
+                    <FaPinterestP className="text-white" size={24} />
                   </Link>
                 </div>
               </div>
@@ -88,7 +91,10 @@ const ContactForm = () => {
           <div>
             <div className="mt-24">
               <div className="shadow-xl p-8 md:p-16 bg-white rounded-3xl">
-                <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-5">
+                <form
+                  onSubmit={handleSubmit(onSubmit)}
+                  className="flex flex-col gap-5"
+                >
                   <div className="md:flex items-center gap-8">
                     <div className="w-full">
                       <label className="label">Full Name*</label>

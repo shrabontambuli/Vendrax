@@ -5,7 +5,7 @@ const PosSolution = () => {
     <div className="max-w-7xl mx-auto px-1 lg:px-0 my-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
         <div className="space-y-10">
-          <span className="inline-block w-44 py-1 bgs text2 rounded-full font-semibold text-lg text-center tracking-widest">
+          <span className="inline-block w-48 py-1 bgs text2 rounded-full font-semibold text-lg text-center tracking-widest">
           Explore Vendrax
           </span>
           <h2 className="text-2xl lg:text-5xl font-bold text2">
@@ -27,8 +27,8 @@ const PosSolution = () => {
             </div>
           </div>
         </div>
-        <div className="">
-          <img src="/images/ven-img.webp" alt="img" />
+        <div className="w-full h-full">
+          <img className="w-full h-full rounded-2xl object-cover" src="https://plus.unsplash.com/premium_photo-1682088399036-8c08ecf5c6b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fEJ1c2luZXNzZXMlMjBhbmFseWNpcyUyMGJsdXIlMjBpbWd8ZW58MHx8MHx8fDA%3D" alt="img" />
         </div>
       </div>
     </div>

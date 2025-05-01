@@ -2,9 +2,9 @@ import React from "react";
 
 const EarnRewards = () => {
   return (
-    <div className="relative"
+    <div
       style={{
-        backgroundImage: "url(/images/orctabg.jpg)",
+        backgroundImage: "url(https://images.unsplash.com/photo-1653410065609-1a6ffa4e49ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzEyfHxidXNpbmVzcyUyMFBhcnRuZXIlMjBiYWNrZ3JvdW5kJTIwYmx1ciUyMGltZ3xlbnwwfHwwfHx8MA%3D%3D)",
         backgroundRepeat:"no-repeat",
         backgroundPosition:"center",
         backgroundSize:"cover"
@@ -26,7 +26,6 @@ const EarnRewards = () => {
           Get Started
         </button>
       </div>
-      <img className="absolute bottom-0 md:-bottom-8 md:left-0 lg:-bottom-20 lg:-left-10 w-4/12" src="/images/cta2-device.png" alt="icon" />
     </div>
   );
 };

@@ -24,11 +24,6 @@ const Footer = () => {
               </p>
               <button className="btn1">Get Started</button>
             </div>
-            <img
-              className="absolute left-80 bottom-28 hidden lg:flex"
-              src="/images/arr1.webp"
-              alt=""
-            />
           </div>
           <div className="lg:flex gap-10">
             <div className="">
@@ -46,11 +41,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <img
-          className="absolute right-0 top-[350px] hidden lg:flex"
-          src="/images/foot-bg2.webp"
-          alt=""
-        />
         <div className="flex items-center md:max-w-screen-xl px-4 md:px-0 lg:ms-10 mb-2">
           <div className="w-36 bg-white h-[10px]"></div>
           <div className="w-full lg:me-32 bg-white h-[1px]"></div>

@@ -47,7 +47,7 @@ const SubmitReferralForm = () => {
                     onSubmit={handleSubmit(onSubmit)}
                     className="flex flex-col gap-5 mt-6"
                   >
-                    <div className="flex items-center gap-8">
+                    <div className="md:flex items-center gap-8">
                       <div className="w-full">
                         <input
                           type="text"
@@ -56,7 +56,7 @@ const SubmitReferralForm = () => {
                           className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                         />
                       </div>
-                      <div className="w-full">
+                      <div className="w-full mt-4 md:mt-0">
                         <input
                           type="text"
                           placeholder="Business Name"
@@ -66,7 +66,7 @@ const SubmitReferralForm = () => {
                       </div>
                     </div>
 
-                    <div className="flex items-center gap-8">
+                    <div className="md:flex items-center gap-8">
                       <div className="w-full">
                         <input
                           type="number"
@@ -75,7 +75,7 @@ const SubmitReferralForm = () => {
                           className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                         />
                       </div>
-                      <div className="w-full">
+                      <div className="w-full mt-4 md:mt-0">
                         <input
                           type="email"
                           placeholder="Email Address*"
@@ -84,7 +84,7 @@ const SubmitReferralForm = () => {
                         />
                       </div>
                     </div>
-                    <div className="flex items-center gap-8">
+                    <div className=" md:flex items-center gap-8">
                       <div className="w-full">
                         <input
                           type="text"
@@ -93,7 +93,7 @@ const SubmitReferralForm = () => {
                           className="border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#80bdff]"
                         />
                       </div>
-                      <div className="w-full">
+                      <div className="w-full mt-4 md:mt-0">
                         <input
                           type="number"
                           placeholder="Enter your Referral Code"

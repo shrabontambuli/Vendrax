@@ -1,4 +1,5 @@
 import React from "react";
+import { MdWifiCalling3 } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const Minimize = () => {
@@ -7,7 +8,7 @@ const Minimize = () => {
       <div
         className="my-24 h-[500px] rounded-3xl"
         style={{
-          backgroundImage: "url(/images/bg-cta.webp)",
+          backgroundImage: "url(https://plus.unsplash.com/premium_photo-1682309852192-39d4f8d7ef95?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjV8fHBheW1lbnQlMjBibGFjayUyMGJsdXIlMjBpbWd8ZW58MHx8MHx8fDA%3D)",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",
@@ -29,8 +30,8 @@ const Minimize = () => {
               <h3 className="text-xl text2 tracking-[7px] mb-6 uppercase">
                 Feel free to call us at
               </h3>
-              <h2 className="flex items-center gap-4 text-4xl md:text-5xl text-white mb-4 md:mb-0">
-                <img src="/images/phone3.webp" alt="icon" />
+              <h2 className="flex items-center gap-6 text-4xl md:text-5xl text-white mb-4 md:mb-0">
+              <MdWifiCalling3 className="text-white" />
                 833-604-8051
               </h2>
             </div>
