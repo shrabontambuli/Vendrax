@@ -2,13 +2,14 @@ import React from "react";
 
 const TailoringPos = () => {
   return (
-    <div className="mb-44 md:mb-20 lg:mb-0 p-1 max-w-screen-2xl mx-auto">
+    <div className="max-w-7xl mx-auto lg:mt-36 my-24">
       <div>
-        <div className="relative lg:w-[1139px]">
-          <img src="/images/about-helpimg.webp" alt="img" />
-          <div className="absolute right-2 -bottom-24 md:bottom-20 md:right-40 lg:-right-[18%] lg:-bottom-10">
-            <div className="relative h-[400px] w-[390px] mx-auto lg:mx-0 md:w-[300px] md:h-[600px] lg:h-[760px] lg:w-[624px]">
-              <div className="bg-[#2a2e30] p-5 md:p-6 lg:p-16 rounded-lg space-y-10 md:space-y-6 lg:space-y-10 h-full w-full text-center absolute left-3 md:left-0 z-30 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-end gap-5 px-2 lg:px-0">
+          <div>
+            <img className="h-full" src="/images/about-helpimg.webp" alt="img" />
+          </div>
+          <div className="relative">
+              <div className="bg-[#2a2e30] rounded-lg space-y-10 text-center px-2 py-5 lg:absolute z-30 bottom-0">
                 <h1 className="text-white font-medium text- md:text-xl lg:text-6xl">
                   <span className="text-[#00cbc5]">Tailoring</span> POS Systems
                   For
@@ -27,10 +28,9 @@ const TailoringPos = () => {
                   experience.
                 </p>
               </div>
-              <div className="absolute -bottom-16 -left-5 md:-bottom-16 md:-left-5 lg:-right-5 h-[400px] w-[300px] md:h-[460px] md:w-[300px] lg:h-[460px] lg:w-[560px] bg-[#ee642e] z-20 rounded-[100px]"></div>
+              <div className="absolute hidden lg:flex -bottom-2 -right-2 h-[460px] w-[560px] bg-[#ee642e] z-20 rounded-[100px]"></div>
             </div>
           </div>
-        </div>
       </div>
     </div>
   );

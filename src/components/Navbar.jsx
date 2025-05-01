@@ -59,21 +59,21 @@ const Navbar = () => {
 
       {/* main nav  */}
 
-      <div className="flex justify-between items-center text2 py-6 md:py-8 max-w-screen-xl mx-auto">
+      <div className="flex justify-between items-center text2 py-6 md:py-8 max-w-screen-xl mx-auto relative">
         <div>
-          <div className="dropdown">
+          <div className="dropdown lg:hidden absolute right-2">
             <div
               tabIndex={0}
               // onClick={() => setIsOpen(!isOpen)}
               onClick={() => setIsOpen((o) => !o)}
               role="button"
-              className="btn btn-ghost lg:hidden"
+              className="btn btn-ghost lg:hidden absolute right-2"
             >
-              {isOpen ? <X size={28} /> : <Menu size={28} />}
+              {isOpen ? <X size={28}  /> : <Menu size={28} />}
             </div>
             <ul
               tabIndex={0}
-              className={`menu menu-sm dropdown-content bgC text2 z-10 mt-3 w-96 p-6 shadow space-y-10 transition-all ${
+              className={`menu menu-sm left-0 bgC text2 z-10 mt-10 w-96  h-screen md:h-full rounded-lg p-6 pt-20 shadow space-y-10 transition-all ${
                 isOpen ? "block" : "hidden"
               }`}
             >
@@ -83,8 +83,8 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     `${
                       isActive
-                        ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
-                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
+                        ? "bg1 text1 text-xl border-b-2 py-2"
+                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
                     }`
                   }
                 >
@@ -97,8 +97,8 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     `${
                       isActive
-                        ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
-                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
+                        ? "bg1 text1 text-xl border-b-2 py-2"
+                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
                     }`
                   }
                 >
@@ -218,8 +218,8 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     `${
                       isActive
-                        ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
-                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
+                        ? "bg1 text1 text-xl border-b-2 py-2"
+                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
                     }`
                   }
                 >
@@ -293,13 +293,13 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
-                  className={({ isActive }) =>
-                    `${
-                      isActive
-                        ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
-                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
-                    }`
-                  }
+                 className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? "bg1 text1 text-xl border-b-2 py-2"
+                      : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
+                  }`
+                }
                   to="/contact"
                 >
                   Contact
@@ -355,13 +355,13 @@ const Navbar = () => {
               <li>
                 <details>
                   <summary>Services</summary>
-                  <ul className="bg-white text-black border-b-2 rounded-sm w-40">
+                  <ul className="bg-white text-black border-b-2 space-y-1 rounded-sm w-40">
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
                       <NavLink
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white"
+                              ? "bg1 text-white rounded-none"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
@@ -376,7 +376,7 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white"
+                              ? "bg1 text-white rounded-none"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
@@ -391,7 +391,7 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white"
+                              ? "bg1 text-white rounded-none"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
@@ -406,7 +406,7 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white"
+                              ? "bg1 text-white rounded-none"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
@@ -421,7 +421,7 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white"
+                              ? "bg1 text-white rounded-none"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
@@ -436,7 +436,7 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white"
+                              ? "bg1 text-white rounded-none"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
@@ -451,7 +451,7 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white"
+                              ? "bg1 text-white rounded-none"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
@@ -482,13 +482,13 @@ const Navbar = () => {
               <li>
                 <details>
                   <summary>Partnership</summary>
-                  <ul className="bg-white text-black border-b-2 rounded-sm w-52">
-                    <li className="hover:bg-[#228800] hover:text-white  text-sm">
+                  <ul className="bg-white text-black border-b-2  rounded-sm space-y-1 w-52">
+                    <li className="hover:bg-[#228800] hover:text-white text-sm">
                       <NavLink
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white"
+                              ? "bg1 text-white rounded-none"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
@@ -503,7 +503,7 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white"
+                              ? "bg1 text-white rounded-none"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
@@ -518,7 +518,7 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white"
+                              ? "bg1 text-white rounded-none"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
@@ -533,7 +533,7 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white"
+                              ? "bg1 text-white rounded-none"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
