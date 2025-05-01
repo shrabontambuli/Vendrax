@@ -26,7 +26,6 @@ const ReferralBanner = () => {
             <h1 className="text-2xl lg:text-5xl text-white font-medium mb-10">
               Welcome to Vendrax Referral Program
             </h1>
-            <img src="/images/earn.png" alt="img" />
             <div className="mt-16 lg:mt-40">
               <div className="shadow-xl max-w-screen-xl mx-auto p-8 md:p-20 bg-white rounded-3xl relative">
                 <h1 className="text-2xl lg:text-5xl text-center text-black font-medium mb-8">
