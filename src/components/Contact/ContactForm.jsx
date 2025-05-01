@@ -14,15 +14,15 @@ const ContactForm = () => {
     reset();
   };
   return (
-    <div className="max-w-screen-2xl mx-auto rounded-2xl bg-[#f6fcfc] shadow-xl lg:px-20 py-20 lg:mt-60 mb-28 relative p-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
+    <div className="max-w-7xl mx-auto rounded-2xl bgs shadow-xl lg:px-20 mt-24 py-20 mb-28 relative p-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
         <div>
           <div>
-            <h1 className="text-5xl text-black font-bold lg:w-10/12">
+            <h1 className="text-5xl text2 font-bold lg:w-10/12">
               We Would Love To Assist You!
             </h1>
             <img src="/images/head-bg3.webp" alt="icon" />
-            <p className="mt-14 text-xl lg:w-10/12">
+            <p className="mt-14 text2 text-xl lg:w-10/12">
               Contact us today to learn more about how our POS solutions can
               revolutionize your business and elevate customer experience.
             </p>
@@ -31,14 +31,7 @@ const ContactForm = () => {
             <div>
               <div className="flex items-center gap-4 mb-20">
                 <div>
-                  <img
-                    className="w-14 h-14"
-                    src="/images/phone4.webp"
-                    alt="icon"
-                  />
-                </div>
-                <div>
-                  <p>Call Us</p>
+                  <p className="text2 text-2xl mb-2">Call Us:</p>
                   <h3 className="text-3xl text-black font-medium">
                     833-604-8051
                   </h3>
@@ -46,14 +39,7 @@ const ContactForm = () => {
               </div>
               <div className="flex items-center gap-4">
                 <div>
-                  <img
-                    className="w-14 h-14"
-                    src="/images/map3.webp"
-                    alt="icon"
-                  />
-                </div>
-                <div>
-                  <p>Address</p>
+                  <p className="text2 text-2xl mb-2">Address:</p>
                   <h3 className="text-xl text-black font-medium w-80">
                     15500 Voss Rd Suite 200 1171 Sugar Land, TX 77498-4601
                     United States
@@ -61,10 +47,10 @@ const ContactForm = () => {
                 </div>
               </div>
               <div className="mt-28">
-                <h2 className="text-2xl text-black font-medium tracking-[10px]">
+                <h2 className="text-2xl text2 font-medium tracking-[10px]">
                   Our Social Media:
                 </h2>
-                <div className="flex space-x-14 md:space-x-20 mt-10">
+                <div className="flex justify-center space-x-12 md:space-x-16 mt-10">
                   <Link to="#">
                     <img src="/images/face2.webp" alt="icon" />
                   </Link>
@@ -94,7 +80,7 @@ const ContactForm = () => {
         </div>
         <div>
           <div>
-            <h1 className="text-5xl text-black font-bold">
+            <h1 className="text-5xl text2 font-bold">
               We Would Love To Assist You!
             </h1>
             <img src="/images/head-bg3.webp" alt="icon" />
@@ -158,13 +144,8 @@ const ContactForm = () => {
                   </div>
 
                   <div className="mt-8">
-                    <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase">
+                    <button className="flex items-center justify-center mx-auto btn1">
                       Submit Now
-                      <img
-                        className="absolute -right-3"
-                        src="/images/red-btn.webp"
-                        alt=""
-                      />
                     </button>
                   </div>
                 </form>
