@@ -3,7 +3,7 @@ import { FaFacebookF, FaPinterestP, FaTwitter } from "react-icons/fa";
 import { PiMapPinAreaFill } from "react-icons/pi";
 import { RiInstagramFill } from "react-icons/ri";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import Logo from "/public/images/logo2.webp";
+import Logo from "/public/images/logo3.png";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -81,7 +81,11 @@ const Navbar = () => {
                 <NavLink
                   to="/"
                   className={({ isActive }) =>
-                    `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0" : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"}`
+                    `${
+                      isActive
+                        ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
+                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
+                    }`
                   }
                 >
                   Home
@@ -91,7 +95,11 @@ const Navbar = () => {
                 <NavLink
                   to="/about"
                   className={({ isActive }) =>
-                    `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0" : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"}`
+                    `${
+                      isActive
+                        ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
+                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
+                    }`
                   }
                 >
                   About
@@ -105,52 +113,101 @@ const Navbar = () => {
                   <ul className=" lg:bg-white text-black lg:border-b-2 rounded-sm w-40">
                     <li>
                       <NavLink
-                      className={({ isActive }) =>
-                        `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
-                      }
-                      to="/ecommerce">Ecommerce</NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                       className={({ isActive }) =>
-                        `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
-                      }
-                      to="/pos-service">POS service</NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                       className={({ isActive }) =>
-                        `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
-                      }
-                      to="/restaurant">Restaurant</NavLink>
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                          }`
+                        }
+                        to="/ecommerce"
+                      >
+                        Ecommerce
+                      </NavLink>
                     </li>
                     <li>
                       <NavLink
                         className={({ isActive }) =>
-                          `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                          `${
+                            isActive
+                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                          }`
                         }
-                      to="/desktop-terminal">Desktop Terminal</NavLink>
+                        to="/pos-service"
+                      >
+                        POS service
+                      </NavLink>
                     </li>
                     <li>
                       <NavLink
                         className={({ isActive }) =>
-                          `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                          `${
+                            isActive
+                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                          }`
                         }
-                      to="/Pay">Pay at the table</NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                       className={({ isActive }) =>
-                        `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
-                      }
-                      to="/wireless">Wireless Terminal</NavLink>
+                        to="/restaurant"
+                      >
+                        Restaurant
+                      </NavLink>
                     </li>
                     <li>
                       <NavLink
                         className={({ isActive }) =>
-                          `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                          `${
+                            isActive
+                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                          }`
                         }
-                      to="/mobile-payment">Mobile Payment</NavLink>
+                        to="/desktop-terminal"
+                      >
+                        Desktop Terminal
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                          }`
+                        }
+                        to="/Pay"
+                      >
+                        Pay at the table
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                          }`
+                        }
+                        to="/wireless"
+                      >
+                        Wireless Terminal
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                          }`
+                        }
+                        to="/mobile-payment"
+                      >
+                        Mobile Payment
+                      </NavLink>
                     </li>
                   </ul>
                 </details>
@@ -159,7 +216,11 @@ const Navbar = () => {
                 <NavLink
                   to="/features"
                   className={({ isActive }) =>
-                    `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0" : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"}`
+                    `${
+                      isActive
+                        ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
+                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
+                    }`
                   }
                 >
                   Features
@@ -174,22 +235,40 @@ const Navbar = () => {
                     <li>
                       <NavLink
                         className={({ isActive }) =>
-                          `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                          `${
+                            isActive
+                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                          }`
                         }
-                      to="/referral">Referral Program</NavLink>
+                        to="/referral"
+                      >
+                        Referral Program
+                      </NavLink>
                     </li>
                     <li>
                       <NavLink
                         className={({ isActive }) =>
-                          `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                          `${
+                            isActive
+                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                          }`
                         }
-                      to="/reseller">ISO Reseller Program</NavLink>
+                        to="/reseller"
+                      >
+                        ISO Reseller Program
+                      </NavLink>
                     </li>
                     <li>
                       <NavLink
-                          className={({ isActive }) =>
-                            `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
-                          }
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                          }`
+                        }
                         to="/agent"
                       >
                         Agent Revenue Share
@@ -197,8 +276,12 @@ const Navbar = () => {
                     </li>
                     <li>
                       <NavLink
-                         className={({ isActive }) =>
-                          `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                          }`
                         }
                         to="/submit-referral"
                       >
@@ -210,8 +293,12 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
-                   className={({ isActive }) =>
-                    `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0" : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"}`
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
+                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"
+                    }`
                   }
                   to="/contact"
                 >
@@ -226,7 +313,10 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to="/" className="btn btn-ghost text-xl">
-            <img src={Logo} alt="logo" />
+            <div className="flex items-center gap-2">
+              <img src={Logo} alt="logo" />
+              <h1 className="text-4xl">Vendrax</h1>
+            </div>
           </Link>
         </div>
         <div className=" ">
