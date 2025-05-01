@@ -1,17 +1,17 @@
 import React from "react";
-import "./Features.css"
+import "./Features.css";
 import { Link } from "react-router-dom";
 
 const VendraxOffers = () => {
   return (
-    <div className="bg-[#eff9f9] h-[2900px] md:h-full pb-28">
-      <div className="max-w-screen-2xl mx-auto lg:px-10">
-        <div className="pt-20 grid grid-cols-1 md:grid-cols-2 items-center">
-          <div className="space-y-10 p-4">
-            <span className="inline-block w-44 py-1 bg-red-100 text-red-600 rounded-full font-semibold text-lg text-center tracking-widest">
+    <div className="bgs my-24">
+      <div className=" py-20 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-5 px-2 lg:px-0">
+          <div className="space-y-10">
+            <span className="inline-block w-40 py-1 bgs text2 rounded-full font-semibold text-lg text-center tracking-widest">
               What Key
             </span>
-            <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-gray-900">
+            <h2 className="text-2xl lg:text-6xl font-bold text2">
               Features Vendrax Offers?
             </h2>
           </div>
@@ -22,149 +22,137 @@ const VendraxOffers = () => {
               sales, track
             </p>
             <div className="lg:flex items-center">
-              <p className="text-gray-600 text-xl">
+              <p className="text-gray-600 text-xl lg:w-8/12 lg:mt-4">
                 inventory in real time, and gain valuable insights through
                 accuracy in reporting and analytics.
               </p>
               <Link to="/">
-                <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mx-auto md:mx-0 mt-10">
+                <button className="flex items-center justify-center btn1 md:mx-auto mt-6">
                   Get Started
-                  <img
-                    className="absolute -right-3"
-                    src="/images/red-btn.webp"
-                    alt=""
-                  />
                 </button>
               </Link>
             </div>
           </div>
         </div>
         <div className="relative">
-          <img className="absolute right-5 lg:-right-10 -top-20" src="/images/bg6.webp" alt="icon" />
+          <img
+            className="absolute hidden lg:flex right-0 -top-20"
+            src="/images/bg6.webp"
+            alt="icon"
+          />
         </div>
-        <div className="mb-44 md:mb-20 lg:mb-0 p-1">
-          <div>
-            <div className="relative">
-              <div className="flex justify-end w-full mt-56">
-                <img className="h-screen md:h-[1193px] md:mx-auto lg:mx-0" src="/images/feat-ser.webp" alt="img" />
-              </div>
-              <div className="absolute right-2 -bottom-24 md:bottom-20 md:right-40 lg:right-[42%] lg:-top-48 px-2">
-                <div className="relative h-[400px] w-[390px] mx-auto lg:mx-0 md:w-[768px] md:h-[600px] lg:h-[1152px] lg:w-[765px]">
-                  <div className="bg-white shadow-xl rounded-lg space-y-10 md:space-y-6 lg:space-y-10 h-full w-full text-center absolute z-30 mt-10 bottom-[800px] md:bottom-[500px] md:left-28 lg:left-0 lg:bottom-0">
-                    <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center items-center">
-                      <div className="card2 bg-white hover:text-white transition-all w-96 h-96 py-10 px-16 space-y-3">
-                        <img
-                          className="mx-auto"
-                          src="/images/pfeat-ic1.webp"
-                          alt="icon"
-                        />
-                        <h4 className="text-2xl text-black font-medium">
-                          Offline Mode
-                        </h4>
-                        <div className="w-20 bg-[#07837f] br h-[2px] mx-auto"></div>
-                        <p className="text-black text-c">
-                          This ensures uninterrupted processing of sales even in
-                          an environment with unreliable internet connectivity,
-                          allowing your business to continue serving customers.
-                        </p>
-                      </div>
-                      <div className="bg-[#f8fdfd] card2 hover:text-white transition-all w-96 h-96 py-10 px-12 space-y-3">
-                        <img
-                          className="mx-auto"
-                          src="/images/pfeat-ic4.webp"
-                          alt="icon"
-                        />
-                        <h4 className="text-2xl text-black font-medium">
-                          Integrated Payments
-                        </h4>
-                        <div className="w-20 bg-[#07837f] br h-[2px] mx-auto"></div>
-                        <p className="text-black text-c">
-                          Our POS system integrates a smooth payment feature
-                          that supports various payment methods, including
-                          credit/debit cards, mobile wallets, and contactless
-                          payments.
-                        </p>
-                      </div>
-                      <div className="bg-[#f8fdfd] card2 hover:text-white transition-all w-96 h-96 py-10 px-12 space-y-3">
-                        <img
-                          className="mx-auto"
-                          src="/images/pfeat-ic2.webp"
-                          alt="icon"
-                        />
-                        <h4 className="text-2xl text-black font-medium">
-                          Multi-Store
-                        </h4>
-                        <div className="w-20 bg-[#07837f] br h-[2px] mx-auto"></div>
-                        <p className="text-black text-c">
-                          For businesses with multiple locations, a multi-store
-                          feature is invaluable, giving access to centralized
-                          management of sales, inventory, and reporting across
-                          all stores or branches.
-                        </p>
-                      </div>
-                      <div className="card2 bg-white hover:text-white transition-all w-96 h-96 py-10 px-12 space-y-3">
-                        <img
-                          className="mx-auto"
-                          src="/images/pfeat-ic3.webp"
-                          alt="icon"
-                        />
-                        <h4 className="text-2xl text-black font-medium">
-                          Safe and Secure
-                        </h4>
-                        <div className="w-20 bg-[#07837f] br h-[2px] mx-auto"></div>
-                        <p className="text-black text-c">
-                          Our system incorporates encrypted payment processing,
-                          secure user authentication, and data encryption to
-                          protect sensitive customer information and prevent
-                          fraud.
-                        </p>
-                      </div>
-                      <div className="card2 bg-white hover:text-white transition-all w-96 h-96 py-10 px-12 space-y-3">
-                        <img
-                          className="mx-auto"
-                          src="/images/pfeat-ic5.webp"
-                          alt="icon"
-                        />
-                        <h4 className="text-2xl text-black font-medium">
-                          Inventory Management
-                        </h4>
-                        <div className="w-20 bg-[#07837f] br h-[2px] mx-auto"></div>
-                        <p className="text-black text-c">
-                          Our systems track inventory levels in real-time,
-                          automatically updating stock counts with each sale or
-                          purchase. This way your business would maintain
-                          optimal inventory levels, avoid stockouts or
-                          overstocks, and improve overall inventory accuracy and
-                          efficiency.
-                        </p>
-                      </div>
-                      <div className="bg-[#f8fdfd] card2 hover:text-white transition-all w-96 h-96 py-10 px-12 space-y-3">
-                        <img
-                          className="mx-auto"
-                          src="/images/pfeat-ic6.webp"
-                          alt="icon"
-                        />
-                        <h4 className="text-2xl text-black font-medium">
-                          Real-Time Monitoring
-                        </h4>
-                        <div className="w-20 bg-[#07837f] br h-[2px] mx-auto"></div>
-                        <p className="text-black text-c">
-                          This further improves the security of your business by
-                          continuously monitoring the transactions and sending
-                          alerts for suspicious activities, ultimately allowing
-                          your business to respond swiftly to potential security
-                          threats.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+        <div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 px-2 lg:px-0 mt-20">
+            <div>
+              <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center items-center gap-5">
+                <div className="card2 bg-white w-96 h-96 lg:w-80 lg:h-96 space-y-3 px-5 py-14">
                   <img
-                    className="absolute w-80 md:w-9/12 -bottom-16 -left-5 md:-bottom-52 md:-left-11 lg:-right-5 z-20 rounded-[100px]"
-                    src="/images/bg4.webp"
-                    alt=""
+                    className="mx-auto"
+                    src="/images/pfeat-ic1.webp"
+                    alt="icon"
                   />
+                  <h4 className="text-xl text-center text-black font-medium">
+                    Offline Mode
+                  </h4>
+                  <div className="w-20 bg1 br h-[2px] mx-auto"></div>
+                  <p className="text-c text-center text-gray-600">
+                    This ensures uninterrupted processing of sales even in an
+                    environment with unreliable internet connectivity, allowing
+                    your business to continue serving customers.
+                  </p>
+                </div>
+                <div className="card2 bg-white w-96 h-96 lg:w-80 lg:h-96 space-y-3 px-5 py-14">
+                  <img
+                    className="mx-auto"
+                    src="/images/pfeat-ic4.webp"
+                    alt="icon"
+                  />
+                  <h4 className="text-xl text-center text-black font-medium">
+                    Integrated Payments
+                  </h4>
+                  <div className="w-20 bg1 br h-[2px] mx-auto"></div>
+                  <p className="text-c text-center text-gray-600">
+                    Our POS system integrates a smooth payment feature that
+                    supports various payment methods, including credit/debit
+                    cards, mobile wallets, and contactless payments.
+                  </p>
+                </div>
+                <div className="card2 bg-white w-96 h-96 lg:w-80 lg:h-96 space-y-3 px-5 py-14">
+                  <img
+                    className="mx-auto"
+                    src="/images/pfeat-ic2.webp"
+                    alt="icon"
+                  />
+                  <h4 className="text-xl text-center text-black font-medium">
+                    Multi-Store
+                  </h4>
+                  <div className="w-20 bg1 br h-[2px] mx-auto"></div>
+                  <p className="text-c text-center text-gray-600">
+                    For businesses with multiple locations, a multi-store
+                    feature is invaluable, giving access to centralized
+                    management of sales, inventory, and reporting across all
+                    stores or branches.
+                  </p>
+                </div>
+                <div className="card2 bg-white w-96 h-96 lg:w-80 lg:h-96 space-y-3 px-5 py-14">
+                  <img
+                    className="mx-auto"
+                    src="/images/pfeat-ic3.webp"
+                    alt="icon"
+                  />
+                  <h4 className="text-xl text-center text-black font-medium">
+                    Safe and Secure
+                  </h4>
+                  <div className="w-20 bg1 br h-[2px] mx-auto"></div>
+                  <p className="text-c text-center text-gray-600">
+                    Our system incorporates encrypted payment processing, secure
+                    user authentication, and data encryption to protect
+                    sensitive customer information and prevent fraud.
+                  </p>
+                </div>
+                <div className="card2 bg-white w-96 h-96 lg:w-80 lg:h-96 space-y-3 px-5 py-10">
+                  <img
+                    className="mx-auto"
+                    src="/images/pfeat-ic5.webp"
+                    alt="icon"
+                  />
+                  <h4 className="text-xl text-center text-black font-medium">
+                    Inventory Management
+                  </h4>
+                  <div className="w-20 bg1 br h-[2px] mx-auto"></div>
+                  <p className="text-c text-center text-gray-600">
+                    Our systems track inventory levels in real-time,
+                    automatically updating stock counts with each sale or
+                    purchase. This way your business would maintain optimal
+                    inventory levels, avoid stockouts or overstocks, and improve
+                    overall inventory accuracy and efficiency.
+                  </p>
+                </div>
+                <div className="card2 bg-white w-96 h-96 lg:w-80 lg:h-96 space-y-3 px-5 py-10">
+                  <img
+                    className="mx-auto"
+                    src="/images/pfeat-ic6.webp"
+                    alt="icon"
+                  />
+                  <h4 className="text-xl text-center text-black font-medium">
+                    Real-Time Monitoring
+                  </h4>
+                  <div className="w-20 bg1 br h-[2px] mx-auto"></div>
+                  <p className="text-c text-center text-gray-600">
+                    This further improves the security of your business by
+                    continuously monitoring the transactions and sending alerts
+                    for suspicious activities, ultimately allowing your business
+                    to respond swiftly to potential security threats.
+                  </p>
                 </div>
               </div>
+            </div>
+            <div className="h-full w-full">
+              <img
+                className="h-full w-full object-cover rounded-2xl"
+                src="/images/feat-ser.webp"
+                alt="img"
+              />
             </div>
           </div>
         </div>

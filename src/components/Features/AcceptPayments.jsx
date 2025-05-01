@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 const AcceptPayments = () => {
   return (
-    <div className="md:max-w-screen-2xl mx-auto py-20 lg:px-10 relative">
-        <img className="absolute left-10 w-80 md:w-96 md:left-60 lg:left-96 bottom-80 md:bottom-[500px]" src="/images/bg5.webp" alt="" />
+    <div className="max-w-7xl mx-auto px-2 lg:px-0 relative">
+        <img className="absolute w-80 lg:left-96 bottom-80 md:bottom-[350px]" src="/images/bg5.webp" alt="" />
       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 p-4">
         <div className="space-y-10">
-          <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-gray-900">
+          <h2 className="text-2xl lg:text-5xl font-bold text2">
             Accept <br /> More Payments
           </h2>
-          <p className="text-gray-600 text-xl lg:text-2xl">
+          <p className="text-gray-600 text-xl">
             Our POS system accepts a wide range of payment methods, positively
             impacting your business, and increasing customer satisfaction and
             business revenue. According to a recent study by Statista, 63% of
@@ -21,13 +21,8 @@ const AcceptPayments = () => {
             share of the market.
           </p>
           <Link to="/">
-            <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-10">
+            <button className="flex items-center justify-center btn1 mt-10">
               Get Started
-              <img
-                className="absolute -right-3"
-                src="/images/red-btn.webp"
-                alt=""
-              />
             </button>
           </Link>
         </div>
