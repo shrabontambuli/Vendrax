@@ -1,5 +1,5 @@
 .card2:hover {
-  background: #2aacae;
+  background: #228800;
   transition: 0.4s;
   img {
     filter: brightness(0) invert(1);
