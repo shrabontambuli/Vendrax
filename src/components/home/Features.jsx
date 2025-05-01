@@ -8,7 +8,7 @@ const Features = () => {
         <span className="inline-block w-44 py-1 bgs text2 rounded-full font-semibold text-lg text-center tracking-widest">
           What We Offer
         </span>
-        <h2 className="text-3xl lg:text-5xl font-bold text2">
+        <h2 className="text-2xl lg:text-5xl font-bold text2">
           Get All The Features You Need In Your POS
         </h2>
         <p className="text-gray-600 text-xl">

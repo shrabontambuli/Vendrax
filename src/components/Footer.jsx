@@ -11,14 +11,14 @@ const Footer = () => {
         <img className="absolute top-4 md:w-72 lg:w-96 md:right-0 lg:right-64 md:-top-4" src="/images/foot-bg1.webp" alt="" />
 
       <div className="max-w-7xl mx-auto pt-20 lg:pt-44">
-        <div className=" grid grid-cols-1 md:grid-cols-2 items-center gap-10 mb-14 px-4 lg:px-10">
+        <div className=" grid grid-cols-1 lg:grid-cols-2 items-center gap-10 mb-14 px-4 lg:px-10">
           <div className=" relative mb-16 md:mb-0">
-            <h1 className="text-2xl lg:text-4xl leading-tight text-white font-bold mb-6">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl leading-tight text-white font-bold mb-6">
               Ready To Clutch The Growth Curve For The Success Of Your{" "}
               <span className="text2">Business?</span>
             </h1>
             <div className="md:flex items-center">
-              <p className="text-xl text-white md:text-slate-500 w-8/12 mb-20 md:mb-0">
+              <p className="text-xl text-white md:w-8/12 mb-20 md:mb-0">
                 Maximize the potential of your business with our growth-driven
                 solutions. Let’s together achieve your goals in an innovative
                 and thriving dynamics.
@@ -35,14 +35,14 @@ const Footer = () => {
           </div>
           <div className="lg:flex gap-10">
             <div className="">
-              <img className="mb-2" src="/images/phone2.webp" alt="icon" />
-              <p>Call Us</p>
-              <h4 className="text-[#54c0c4] text-3xl">833-604-8051</h4>
+              <img className="mb-3" src="/images/phone2.webp" alt="icon" />
+              <p className="text-white mb-3">Call Us</p>
+              <h4 className="text2 text-3xl">833-604-8051</h4>
             </div>
             <div className="mt-6 md:mt-0">
-              <img className="mb-2" src="/images/map2.webp" alt="icon" />
-              <p>Address</p>
-              <h4 className="text-[#54c0c4] text-2xl w-80">
+              <img className="mb-3" src="/images/map2.webp" alt="icon" />
+              <p className="text-white mb-3">Address</p>
+              <h4 className="text2 text-2xl w-80">
                 15500 Voss Rd Suite 200 1171 Sugar Land, TX 77498-4601 United
                 States
               </h4>
@@ -55,8 +55,8 @@ const Footer = () => {
           alt=""
         />
         <div className="flex items-center md:max-w-screen-xl px-4 md:px-0 lg:ms-10 mb-2">
-          <div className="w-36 bg-[#00A7A2] h-[10px]"></div>
-          <div className="w-full lg:me-32 bg-[#00A7A2] h-[1px]"></div>
+          <div className="w-36 bg1 h-[10px]"></div>
+          <div className="w-full lg:me-32 bg1 h-[1px]"></div>
         </div>
         <footer className="footer sm:footer-horizontal text-lg text-white p-10">
           <nav>

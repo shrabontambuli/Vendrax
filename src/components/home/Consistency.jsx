@@ -9,7 +9,7 @@ const Consistency = () => {
           <span className="inline-block w-44 py-1 bgs text2 rounded-full font-semibold text-lg text-center tracking-widest">
             Who We Are?
           </span>
-          <h2 className="text-3xl lg:text-5xl font-bold text2">
+          <h2 className="text-2xl lg:text-5xl font-bold text2">
             Gadhering To the Consistency, Excellence, And Innovation
           </h2>
           <p className="text-gray-600 text-xl">
@@ -25,7 +25,7 @@ const Consistency = () => {
             </button>
           </Link>
         </div>
-        <div className="relative h-[620px] w-full mx-auto lg:mx-0 md:w-[844px] lg:h-[708px] lg:w-[624px]">
+        <div className="relative h-[550px] w-full mx-auto lg:mx-0 md:w-[844px] lg:h-[708px] lg:w-[624px]">
           <div className="bg1 p-5 md:p-16 rounded-3xl space-y-8 h-full w-full absolute z-30">
             <div className="flex items-center gap-6">
               <img
@@ -33,7 +33,7 @@ const Consistency = () => {
                 src="/images/need-ic1.webp"
                 alt="icon"
               />
-              <h3 className="text-2xl text-white font-medium">
+              <h3 className="text-xl md:text-2xl text-white font-medium">
                 High-Speed, Secure & Multi Store Scalable
               </h3>
             </div>
@@ -43,7 +43,7 @@ const Consistency = () => {
                 src="/images/need-ic2.webp"
                 alt="icon"
               />
-              <h3 className="text-2xl text-white font-medium">
+              <h3 className="text-xl md:text-2xl text-white font-medium">
                 Leverage Latest Technology Such As AI, PWA
               </h3>
             </div>
@@ -53,7 +53,7 @@ const Consistency = () => {
                 src="/images/need-ic3.webp"
                 alt="icon"
               />
-              <h3 className="text-2xl text-white font-medium">
+              <h3 className="text-xl md:text-2xl text-white font-medium">
                 Leading Industry Integration
               </h3>
             </div>
@@ -63,7 +63,7 @@ const Consistency = () => {
                 src="/images/need-ic4.webp"
                 alt="icon"
               />
-              <h3 className="text-2xl text-white font-medium">
+              <h3 className="text-xl md:text-2xl text-white font-medium">
                 Real-Time Monitoring and Alerts
               </h3>
             </div>
@@ -73,7 +73,7 @@ const Consistency = () => {
                 src="/images/need-ic5.webp"
                 alt="icon"
               />
-              <h3 className="text-2xl text-white font-medium">
+              <h3 className="text-xl md:text-2xl text-white font-medium">
                 Secure Transaction Processing
               </h3>
             </div>
@@ -83,7 +83,7 @@ const Consistency = () => {
                 src="/images/need-ic6.webp"
                 alt="icon"
               />
-              <h3 className="text-2xl text-white font-medium">
+              <h3 className="text-xl md:text-2xl text-white font-medium">
                 An All-In-One Solution for Instore POS
               </h3>
             </div>

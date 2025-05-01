@@ -46,14 +46,14 @@ const HeroSection = () => {
   }, []);
   return (
     <div>
-    <div className="relative w-full max-w-7xl mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-4 md:px-1 lg:px-0 pt-24 lg:pt-60">
+    <div className="relative w-full max-w-7xl mx-auto lg:h-screen">
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-4 px-1 lg:px-0 pt-28 lg:pt-60">
         {/* Text Section */}
-        <div className="flex flex-col justify-center text-center md:text-left p-4">
+        <div className="flex flex-col justify-center text-left h-full lg:h-96">
           <h1 className="text-2xl text2 lg:text-4xl font-bold mb-6">
             {banners[currentIndex].title}
           </h1>
-          <p className="text-lg text-gray-700 mb-10 w-full md:w-10/12">
+          <p className="text-lg text-gray-700 mb-10 w-full h-52 flex items-center md:w-10/12">
             {banners[currentIndex].description}
           </p>
 
@@ -73,7 +73,7 @@ const HeroSection = () => {
         </div>
 
         {/* Image Section */}
-        <div className="w-full h-full">
+        <div className="w-full h-full md:h-96">
           <img
             className="w-full h-full rounded-2xl"
             src={banners[currentIndex].imageUrl}

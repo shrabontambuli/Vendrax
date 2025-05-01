@@ -11,7 +11,7 @@ const EarnRewards = () => {
       }}
     >
       <div className="max-w-7xl mx-auto px-1 lg:px-0 text-center py-20 space-y-10">
-        <h1 className="text-3xl lg:text-6xl text-white font-medium">
+        <h1 className="text-2xl lg:text-6xl text-white font-medium">
         Partner with Vendrax: <br />
           <span className="font-bold">Earn Rewards and Revenue</span>
         </h1>

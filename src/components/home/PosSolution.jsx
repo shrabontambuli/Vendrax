@@ -4,11 +4,11 @@ const PosSolution = () => {
   return (
     <div className="max-w-7xl mx-auto px-1 lg:px-0 my-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
-        <div className="space-y-10 p-4">
+        <div className="space-y-10">
           <span className="inline-block w-44 py-1 bgs text2 rounded-full font-semibold text-lg text-center tracking-widest">
           Explore Vendrax
           </span>
-          <h2 className="text-3xl lg:text-5xl font-bold text2">
+          <h2 className="text-2xl lg:text-5xl font-bold text2">
           Achieve The Desired Objective With Our Custom POS Solution
           </h2>
           <p className="text-gray-600 text-xl">
