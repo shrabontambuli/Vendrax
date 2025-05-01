@@ -52,8 +52,8 @@ const Footer = () => {
           alt=""
         />
         <div className="flex items-center md:max-w-screen-xl px-4 md:px-0 lg:ms-10 mb-2">
-          <div className="w-36 bg1 h-[10px]"></div>
-          <div className="w-full lg:me-32 bg1 h-[1px]"></div>
+          <div className="w-36 bg-white h-[10px]"></div>
+          <div className="w-full lg:me-32 bg-white h-[1px]"></div>
         </div>
         <footer className="footer sm:footer-horizontal text-lg text-white p-10">
           <nav>
