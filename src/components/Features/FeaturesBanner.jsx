@@ -3,8 +3,8 @@ import React from "react";
 const FeaturesBanner = () => {
   return (
     <div>
-      <div className="max-w-7xl mx-auto px-2 lg:px-0 pt-32 lg:pt-56">
-        <h1 className="text-2xl lg:text-5xl text2 font-medium mb-10 lg:mb-20 lg:w-9/12">
+      <div className="max-w-7xl mx-auto px-2 lg:px-0 pt-32 lg:pt-48">
+        <h1 className="text-2xl lg:text-5xl text2 font-medium mb-10 lg:mb-20">
           Multitude Features of a Cloud-based POS System
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center items-end gap-5">

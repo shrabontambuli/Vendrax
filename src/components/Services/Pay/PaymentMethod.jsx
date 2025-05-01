@@ -2,13 +2,13 @@ import React from "react";
 
 const PaymentMethod = () => {
   return (
-    <div className="md:max-w-screen-2xl mx-auto lg:px-10 py-20 md:py-36">
-      <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
+    <div className="max-w-7xl mx-auto px-2 lg:px-0 my-24">
+      <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-10">
         <div className="space-y-10 p-4">
-          <span className="inline-block w-80 py-1 bg-red-100 text-red-600 rounded-full font-semibold text-lg text-center tracking-widest">
+          <span className="inline-block w-80 py-1 bgs text2 rounded-full font-semibold text-lg text-center tracking-widest">
             Why Our Easy And Secure
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-gray-900">
+          <h2 className="text-2xl lg:text-5xl font-bold text2">
             Payment Method Is a Win/Win for Restaurants and Guests
           </h2>
           <p className="text-gray-600 text-xl">
@@ -20,8 +20,8 @@ const PaymentMethod = () => {
             satisfied customers.
           </p>
         </div>
-        <div className="relative h-[750px] w-[390px] mx-auto lg:mx-0 md:w-[844px] lg:h-[708px] lg:w-[624px]">
-          <div className="bg-[#122e38] p-5 md:p-20 rounded-3xl space-y-8 h-full w-full absolute z-30 md:space-y-20 lg:space-y-10">
+        <div className="relative h-[750px] w-[370px] mx-auto lg:mx-0 md:w-[826px] lg:h-[708px] lg:w-[624px]">
+          <div className="bg1 p-5 md:p-20 rounded-3xl space-y-8 h-full w-full absolute z-30 md:space-y-20 lg:space-y-10">
             <div className="flex items-center gap-6">
               <img
                 className="w-20 h-20"
@@ -29,7 +29,7 @@ const PaymentMethod = () => {
                 alt="icon"
               />
               <div>
-                <h3 className="text-2xl text-[#17dcd6] font-medium mb-4">
+                <h3 className="text-2xl text-white font-medium mb-4">
                   Accepts All Payment Methods
                 </h3>
                 <p className="text-gray-300">
@@ -45,7 +45,7 @@ const PaymentMethod = () => {
                 alt="icon"
               />
               <div>
-                <h3 className="text-2xl text-[#17dcd6] font-medium mb-4">
+                <h3 className="text-2xl text-white font-medium mb-4">
                   Easily Integrates With Your POS
                 </h3>
                 <p className="text-gray-300">
@@ -62,7 +62,7 @@ const PaymentMethod = () => {
                 alt="icon"
               />
               <div>
-                <h3 className="text-2xl text-[#17dcd6] font-medium mb-4">
+                <h3 className="text-2xl text-white font-medium mb-4">
                   Never Compromises Your Security
                 </h3>
                 <p className="text-gray-300">
@@ -75,14 +75,14 @@ const PaymentMethod = () => {
               </div>
             </div>
           </div>
-          <div className="absolute -bottom-5 right-0 md:-bottom-5 md:-right-5 lg:-right-5 h-[460px] w-[300px] md:h-[460px] md:w-[560px] bg-[#ffbf41] z-20 rounded-3xl"></div>
+          <div className="absolute hidden lg:flex -bottom-5 -right-5 h-[460px] w-[560px] bg-[#ffbf41] z-20 rounded-3xl"></div>
           <img
-            className="absolute -top-7 -left-7"
+            className="absolute hidden lg:flex -top-7 -left-7"
             src="/images/bg2.webp"
             alt="icon"
           />
           <img
-            className="absolute z-10 -bottom-16 right-0 md:right-0 md:-bottom-28 lg:-bottom-32 lg:-right-7"
+            className="absolute hidden lg:flex z-10 -bottom-32 -right-0"
             src="/images/bg1.webp"
             alt="icon"
           />
@@ -90,7 +90,7 @@ const PaymentMethod = () => {
       </div>
 
       <div
-        className=" mt-40 md:mt-60 h-[500px] mx-auto rounded-3xl"
+        className=" mt-40 h-[500px] mx-auto rounded-3xl"
         style={{
           backgroundImage: "url(/images/paytab-img.webp)",
           backgroundRepeat: "no-repeat",
