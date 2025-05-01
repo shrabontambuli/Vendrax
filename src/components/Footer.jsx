@@ -1,24 +1,18 @@
 const Footer = () => {
   return (
-    <div className=""
-      style={{
-        backgroundImage: "url(/images/bg-foot.webp)",
-        backgroundRepeat:"no-repeat",
-        backgroundPosition:"center",
-        backgroundSize:"cover"
-      }}
+    <div className="bgs"
     >
 
       <div className="max-w-7xl mx-auto pt-20 lg:pt-44 relative">
         <img className="absolute top-4 md:w-72 lg:w-96 md:right-0 lg:right-64 md:-top-4" src="/images/foot-bg1.webp" alt="" />
         <div className=" grid grid-cols-1 lg:grid-cols-2 items-center gap-10 mb-14 px-4 lg:px-10">
           <div className=" relative mb-16 md:mb-0">
-            <h1 className="text-2xl md:text-3xl lg:text-4xl leading-tight text-white font-bold mb-6">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl leading-tight text2 font-bold mb-6">
               Ready To Clutch The Growth Curve For The Success Of Your{" "}
               <span className="text2">Business?</span>
             </h1>
             <div className="md:flex items-center">
-              <p className="text-xl text-white md:w-8/12 mb-20 md:mb-0">
+              <p className="text-xl text2 md:w-8/12 mb-20 md:mb-0">
                 Maximize the potential of your business with our growth-driven
                 solutions. Let’s together achieve your goals in an innovative
                 and thriving dynamics.
@@ -36,12 +30,12 @@ const Footer = () => {
           <div className="lg:flex gap-10">
             <div className="">
               <img className="mb-3" src="/images/phone2.webp" alt="icon" />
-              <p className="text-white mb-3">Call Us</p>
+              <p className="text2 mb-3">Call Us</p>
               <h4 className="text2 text-3xl">833-604-8051</h4>
             </div>
             <div className="mt-6 md:mt-0">
               <img className="mb-3" src="/images/map2.webp" alt="icon" />
-              <p className="text-white mb-3">Address</p>
+              <p className="text2 mb-3">Address</p>
               <h4 className="text2 text-2xl w-80">
                 15500 Voss Rd Suite 200 1171 Sugar Land, TX 77498-4601 United
                 States
@@ -58,7 +52,7 @@ const Footer = () => {
           <div className="w-36 bg1 h-[10px]"></div>
           <div className="w-full lg:me-32 bg1 h-[1px]"></div>
         </div>
-        <footer className="footer sm:footer-horizontal text-lg text-white p-10">
+        <footer className="footer sm:footer-horizontal text-lg text2 p-10">
           <nav>
             <h6 className="font-medium text-3xl mb-2">Quick Links</h6>
             <a href="/" className="hover:text-[#ee5028] transition-all">
@@ -134,10 +128,13 @@ const Footer = () => {
         </footer>
         <footer className="footer sm:footer-horizontal text-neutral-content items-center p-4 mt-5">
           <aside className="grid-flow-col items-center">
-            <img src="/images/logo.webp" alt="logo" />
+           <div className="flex items-center gap-3">
+           <img src="/images/logo3.png" alt="logo" />
+           <h1 className="text-4xl font-medium text2">Vendrax</h1>
+           </div>
           </aside>
           <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-            <p className="text-base text-white">
+            <p className="text-base text2">
               Copyright © {new Date().getFullYear()} Vendrax. All right reserved
             </p>
           </nav>
