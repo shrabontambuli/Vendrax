@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Analytics = () => {
   return (
     <div className="max-w-7xl mx-auto px-2 lg:px-0 my-24">
-      <div className="md:flex md:flex-row-reverse items-center gap-8 lg:px-20">
+      <div className="md:flex md:flex-row-reverse items-center gap-8">
         <div className="md:w-10/12">
           <span className="inline-block w-48 py-1 bgs text2 rounded-full font-semibold text-lg text-center tracking-widest">
             Vendrax Solution
@@ -29,13 +29,13 @@ const Analytics = () => {
         </div>
         <div>
           <img
-            className="w-[850px] h-[554px] md:h-[400px] lg:h-[570px] mt-10 md:mt-0"
+            className="object-cover mt-10 md:mt-0"
             src="/images/res-img2.webp"
             alt="img"
           />
         </div>
       </div>
-      <div className="md:flex items-center gap-8 lg:px-20 mt-20">
+      <div className="md:flex items-center gap-8 mt-20">
         <div className="md:w-10/12">
           <span className="inline-block w-48 py-1 bgs text2 rounded-full font-semibold text-lg text-center tracking-widest">
             Vendrax Solution
@@ -59,7 +59,7 @@ const Analytics = () => {
         </div>
         <div>
           <img
-            className="w-[850px] h-[554px] md:h-[400px] lg:h-[554px] mt-10 md:mt-0"
+            className="object-cover mt-10 md:mt-0"
             src="/images/res-img3.webp"
             alt="img"
           />

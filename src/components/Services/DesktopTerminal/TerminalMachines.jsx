@@ -28,7 +28,7 @@ const TerminalMachines = () => {
             alt="icon"
           />
         </div>
-        <div className="bg-[#edf3fe] lg:bg-white border-4 border-[#010c2f] rounded-3xl md:p-4 mt-20">
+        <div className="bg-[#edf3fe] lg:bg-white border-4 border-[#010c2f] rounded-3xl p-4 mt-20">
           <div className="md:flex gap-10">
             <div>
               <div className="lg:px-20 py-4">
@@ -143,7 +143,7 @@ const TerminalMachines = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#edf3fe] lg:bg-white border-4 border-[#010c2f] rounded-3xl md:p-4 mt-20">
+        <div className="bg-[#edf3fe] lg:bg-white border-4 border-[#010c2f] rounded-3xl p-4 mt-20">
           <div className="md:flex gap-10">
             <div>
               <div className="lg:px-20 py-4">
@@ -258,7 +258,7 @@ const TerminalMachines = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#edf3fe] lg:bg-white border-4 border-[#010c2f] rounded-3xl md:p-4 mt-20">
+        <div className="bg-[#edf3fe] lg:bg-white border-4 border-[#010c2f] rounded-3xl p-4 mt-20">
           <div className="md:flex gap-10">
             <div>
               <div className="lg:px-20 py-4">

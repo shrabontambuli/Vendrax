@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 
 const TerminalWirelessMachines = () => {
   return (
-    <div className="md:h-full">
-      <div className="max-w-screen-2xl mx-auto lg:px-10">
-        <div className="pt-20 lg:pt-48 md:flex items-center gap-4 relative">
+    <div>
+      <div className="max-w-7xl mx-auto px-2 lg:px-0 my-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-4 relative">
           <div className="space-y-10 p-4 w-11/12">
-            <span className="inline-block w-44 py-1 bg-red-100 text-red-600 rounded-full font-semibold text-lg text-center tracking-widest">
+            <span className="inline-block w-44 py-1 bgs text2 rounded-full font-semibold text-lg text-center tracking-widest">
               Our Services
             </span>
-            <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-gray-900">
+            <h2 className="text-2xl lg:text-5xl font-bold text2">
               Point-Of-Sale Terminal Machines
             </h2>
           </div>
-          <div className="p-2">
+          <div>
             <p className="text-gray-600 text-xl lg:w-10/12">
               Our wireless POS terminals allow businesses, particularly small
               businesses to boost sales, manage inventory, and track customer
@@ -23,20 +23,20 @@ const TerminalWirelessMachines = () => {
             </p>
           </div>
           <img
-            className="absolute hidden lg:flex -right-10 top-40"
+            className="absolute hidden lg:flex -right-0 top-40"
             src="/images/bg7.webp"
             alt="icon"
           />
         </div>
 
-        <div className="bg-[#edf3fe] lg:bg-white border-4 border-[#010c2f] rounded-3xl md:p-4 mt-20">
+        <div className="bgs lg:bg-white border-4 border-[#010c2f] rounded-3xl px-2 md:p-4 pb-4 mt-20">
           <div className="md:flex gap-10">
             <div>
               <div className="lg:px-20 py-4">
-                <h4 className="text-[#00a7a2] text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
+                <h4 className="text2 text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
                   Features
                 </h4>
-                <div className="w-16 h-1 bg-[#105964] my-4"></div>
+                <div className="w-16 h-1 bg1 my-4"></div>
               </div>
               <div
                 className="lg:w-[856px] lg:h-[860px] rounded-2xl p-4 lg:px-16"
@@ -127,19 +127,14 @@ const TerminalWirelessMachines = () => {
                   </div>
                   <div className="lg:flex items-center gap-4">
                     <Link to="/">
-                      <button className="flex items-center justify-center gap-3 bg-[#00c6c0] text-white font-semibold px-6 py-[14px] rounded-full hover:bg-[#228800] transition-all w-80 text-lg uppercase">
+                      <button className="flex items-center justify-center gap-5 btn1">
                         <img src="/images/brochure.webp" alt="" />
                         DOWNLOAD BROCHURE
                       </button>
                     </Link>
                     <Link to="/">
-                      <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-8 lg:mt-0">
+                      <button className="flex items-center justify-center btn1 mt-8 lg:mt-0">
                         Get Started
-                        <img
-                          className="absolute -right-3"
-                          src="/images/red-btn.webp"
-                          alt=""
-                        />
                       </button>
                     </Link>
                   </div>
@@ -148,18 +143,18 @@ const TerminalWirelessMachines = () => {
             </div>
             <div className="lg:p-0 pb-4">
               <div className="py-4">
-                <h4 className="text-[#00a7a2] text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
+                <h4 className="text2 text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
                   Clover Flex
                 </h4>
-                <div className="w-16 h-1 bg-[#105964] my-4"></div>
+                <div className="w-16 h-1 bg1 my-4"></div>
               </div>
               <div>
-                <img src="/images/wire-img1.webp" alt="img" />
+                <img className="object-cover w-80" src="/images/wire-img1.webp" alt="img" />
                 <div className="py-4 mt-4">
-                  <h4 className="text-[#00a7a2] text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
+                  <h4 className="text2 text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
                     Payments
                   </h4>
-                  <div className="w-16 h-1 bg-[#105964] my-4"></div>
+                  <div className="w-16 h-1 bg1 my-4"></div>
                 </div>
                 <div className="mt-4 space-y-2">
                   <p className="flex items-center gap-4 text-black text-xl">
@@ -191,14 +186,14 @@ const TerminalWirelessMachines = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#edf3fe] lg:bg-white border-4 border-[#010c2f] rounded-3xl md:p-4 mt-20">
+        <div className="bgs lg:bg-white border-4 border-[#010c2f] rounded-3xl px-2 md:p-4 pb-4 mt-20">
           <div className="md:flex gap-10">
             <div>
               <div className="lg:px-20 py-4">
-                <h4 className="text-[#00a7a2] text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
+                <h4 className="text2 text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
                   Features
                 </h4>
-                <div className="w-16 h-1 bg-[#105964] my-4"></div>
+                <div className="w-16 h-1 bg1 my-4"></div>
               </div>
               <div
                 className="lg:w-[856px] lg:h-[860px] rounded-2xl p-4 lg:px-16"
@@ -294,19 +289,14 @@ const TerminalWirelessMachines = () => {
                   </div>
                   <div className="lg:flex items-center gap-4">
                     <Link to="/">
-                      <button className="flex items-center justify-center gap-3 bg-[#00c6c0] text-white font-semibold px-6 py-[14px] rounded-full hover:bg-[#228800] transition-all w-80 text-lg uppercase">
+                      <button className="flex items-center justify-center gap-5 btn1">
                         <img src="/images/brochure.webp" alt="" />
                         DOWNLOAD BROCHURE
                       </button>
                     </Link>
                     <Link to="/">
-                      <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-8 lg:mt-0">
+                      <button className="flex items-center justify-center btn1 mt-8 lg:mt-0">
                         Get Started
-                        <img
-                          className="absolute -right-3"
-                          src="/images/red-btn.webp"
-                          alt=""
-                        />
                       </button>
                     </Link>
                   </div>
@@ -315,18 +305,18 @@ const TerminalWirelessMachines = () => {
             </div>
             <div className="lg:p-0 pb-4">
               <div className="py-4">
-                <h4 className="text-[#00a7a2] text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
+                <h4 className="text2 text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
                   Clover Mini
                 </h4>
-                <div className="w-16 h-1 bg-[#105964] my-4"></div>
+                <div className="w-16 h-1 bg1 my-4"></div>
               </div>
               <div>
-                <img src="/images/wire-img2.webp" alt="img" />
+                <img className="object-cover w-80" src="/images/wire-img2.webp" alt="img" />
                 <div className="py-4 mt-4">
-                  <h4 className="text-[#00a7a2] text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
+                  <h4 className="text2 text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
                     Payments
                   </h4>
-                  <div className="w-16 h-1 bg-[#105964] my-4"></div>
+                  <div className="w-16 h-1 bg1 my-4"></div>
                 </div>
                 <div className="mt-4 space-y-2">
                   <p className="flex items-center gap-4 text-black text-xl">
@@ -366,15 +356,14 @@ const TerminalWirelessMachines = () => {
             </div>
           </div>
         </div>
-
-        <div className="bg-[#edf3fe] lg:bg-white border-4 border-[#010c2f] rounded-3xl md:p-4 mt-20">
+        <div className="bgs lg:bg-white border-4 border-[#010c2f] rounded-3xl px-2v md:p-4 pb-4 mt-20">
           <div className="md:flex gap-10">
             <div>
               <div className="lg:px-20 py-4">
-                <h4 className="text-[#00a7a2] text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
+                <h4 className="text2 text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
                   Features
                 </h4>
-                <div className="w-16 h-1 bg-[#105964] my-4"></div>
+                <div className="w-16 h-1 bg1 my-4"></div>
               </div>
               <div className="lg:w-[856px] lg:h-[710px] rounded-2xl p-4 lg:p-16 bg-[#fef4f4]">
                 <div>
@@ -400,19 +389,14 @@ const TerminalWirelessMachines = () => {
                   </div>
                   <div className="lg:flex items-center gap-4">
                     <Link to="/">
-                      <button className="flex items-center justify-center gap-3 bg-[#00c6c0] text-white font-semibold px-6 py-[14px] rounded-full hover:bg-[#228800] transition-all w-80 text-lg uppercase">
+                      <button className="flex items-center justify-center gap-5 btn1">
                         <img src="/images/brochure.webp" alt="" />
                         DOWNLOAD BROCHURE
                       </button>
                     </Link>
                     <Link to="/">
-                      <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-8 lg:mt-0">
+                      <button className="flex items-center justify-center btn1 mt-8 lg:mt-0">
                         Get Started
-                        <img
-                          className="absolute -right-3"
-                          src="/images/red-btn.webp"
-                          alt=""
-                        />
                       </button>
                     </Link>
                   </div>
@@ -421,26 +405,26 @@ const TerminalWirelessMachines = () => {
             </div>
             <div className="lg:p-0">
               <div className="py-4">
-                <h4 className="text-[#00a7a2] text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
+                <h4 className="text2 text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
                   Poynt Smart Terminal 3G
                 </h4>
-                <div className="w-16 h-1 bg-[#105964] my-4"></div>
+                <div className="w-16 h-1 bg1 my-4"></div>
               </div>
               <div>
-                <img src="/images/wire-img3.webp" alt="img" />
-                <img src="/images/wire-bg3.webp" alt="img" />
+                <img className="object-cover w-80" src="/images/wire-img3.webp" alt="img" />
+                <img className="object-cover w-80 mx-auto" src="/images/wire-bg3.webp" alt="img" />
               </div>
             </div>
           </div>
         </div>
-        <div className="bg-[#edf3fe] lg:bg-white border-4 border-[#010c2f] rounded-3xl md:p-4 mt-20">
+        <div className="bgs lg:bg-white border-4 border-[#010c2f] rounded-3xl px-2 md:p-4 pb-4 mt-20">
           <div className="md:flex gap-10">
             <div>
               <div className="lg:px-20 py-4">
-                <h4 className="text-[#00a7a2] text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
+                <h4 className="text2 text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
                   Features
                 </h4>
-                <div className="w-16 h-1 bg-[#105964] my-4"></div>
+                <div className="w-16 h-1 bg1 my-4"></div>
               </div>
               <div
                 className="lg:w-[856px] lg:h-[710px] rounded-2xl p-4 lg:p-16"
@@ -507,19 +491,14 @@ const TerminalWirelessMachines = () => {
                   </div>
                   <div className="lg:flex items-center gap-4">
                     <Link to="/">
-                      <button className="flex items-center justify-center gap-3 bg-[#00c6c0] text-white font-semibold px-6 py-[14px] rounded-full hover:bg-[#228800] transition-all w-80 text-lg uppercase">
+                      <button className="flex items-center justify-center gap-5 btn1">
                         <img src="/images/brochure.webp" alt="" />
                         DOWNLOAD BROCHURE
                       </button>
                     </Link>
                     <Link to="/">
-                      <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-8 lg:mt-0">
+                      <button className="flex items-center justify-center btn1 mt-8 lg:mt-0">
                         Get Started
-                        <img
-                          className="absolute -right-3"
-                          src="/images/red-btn.webp"
-                          alt=""
-                        />
                       </button>
                     </Link>
                   </div>
@@ -528,18 +507,18 @@ const TerminalWirelessMachines = () => {
             </div>
             <div className="lg:p-0">
               <div className="py-4">
-                <h4 className="text-[#00a7a2] text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
+                <h4 className="text2 text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
                 Dejavoo Z9
                 </h4>
-                <div className="w-16 h-1 bg-[#105964] my-4"></div>
+                <div className="w-16 h-1 bg1 my-4"></div>
               </div>
               <div>
-                <img src="/images/desk-img1.webp" alt="img" />
+                <img className="object-cover w-80" src="/images/desk-img1.webp" alt="img" />
                 <div className="py-4 mt-4">
-                  <h4 className="text-[#00a7a2] text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
+                  <h4 className="text2 text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
                     Payments
                   </h4>
-                  <div className="w-16 h-1 bg-[#105964] my-4"></div>
+                  <div className="w-16 h-1 bg1 my-4"></div>
                 </div>
                 <div className="mt-4 space-y-2">
                   <p className="flex items-center gap-4 text-black text-xl">
@@ -567,14 +546,14 @@ const TerminalWirelessMachines = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#edf3fe] lg:bg-white border-4 border-[#010c2f] rounded-3xl md:p-4 mt-20">
+        <div className="bgs lg:bg-white border-4 border-[#010c2f] rounded-3xl px-2 md:p-4 pb-4 mt-20">
           <div className="md:flex gap-10">
             <div>
               <div className="lg:px-20 py-4">
-                <h4 className="text-[#00a7a2] text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
+                <h4 className="text2 text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
                   Features
                 </h4>
-                <div className="w-16 h-1 bg-[#105964] my-4"></div>
+                <div className="w-16 h-1 bg1 my-4"></div>
               </div>
               <div
                 className="lg:w-[856px] lg:h-[710px] rounded-2xl p-4 lg:p-16"
@@ -615,19 +594,14 @@ const TerminalWirelessMachines = () => {
                   </div>
                   <div className="lg:flex items-center gap-4">
                     <Link to="/">
-                      <button className="flex items-center justify-center gap-3 bg-[#00c6c0] text-white font-semibold px-6 py-[14px] rounded-full hover:bg-[#228800] transition-all w-80 text-lg uppercase">
+                      <button className="flex items-center justify-center gap-5 btn1">
                         <img src="/images/brochure.webp" alt="" />
                         DOWNLOAD BROCHURE
                       </button>
                     </Link>
                     <Link to="/">
-                      <button className="flex items-center justify-center bg-[#228800] text-white font-semibold px-6 py-4 rounded-full hover:bg-[#00c6c0] transition-all w-64 text-lg relative uppercase mt-8 lg:mt-0">
+                      <button className="flex items-center justify-center btn1 mt-8 lg:mt-0">
                         Get Started
-                        <img
-                          className="absolute -right-3"
-                          src="/images/red-btn.webp"
-                          alt=""
-                        />
                       </button>
                     </Link>
                   </div>
@@ -636,18 +610,18 @@ const TerminalWirelessMachines = () => {
             </div>
             <div className="lg:p-0">
               <div className="py-4">
-                <h4 className="text-[#00a7a2] text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
+                <h4 className="text2 text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
                 Move 5000
                 </h4>
-                <div className="w-16 h-1 bg-[#105964] my-4"></div>
+                <div className="w-16 h-1 bg1 my-4"></div>
               </div>
               <div>
-                <img src="/images/wire-img5.webp" alt="img" />
+                <img className="object-cover w-80" src="/images/wire-img5.webp" alt="img" />
                 <div className="py-4 mt-4">
-                  <h4 className="text-[#00a7a2] text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
+                  <h4 className="text2 text-xl lg:text-4xl font-bold mt-6 md:mt-0 w-96">
                     Payments
                   </h4>
-                  <div className="w-16 h-1 bg-[#105964] my-4"></div>
+                  <div className="w-16 h-1 bg1 my-4"></div>
                 </div>
                 <div className="mt-4 space-y-2">
                   <p className="flex items-center gap-4 text-black text-xl">
