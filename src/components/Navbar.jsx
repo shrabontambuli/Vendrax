@@ -2,7 +2,7 @@ import { BiLogoLinkedin, BiSolidPhoneCall } from "react-icons/bi";
 import { FaFacebookF, FaPinterestP, FaTwitter } from "react-icons/fa";
 import { PiMapPinAreaFill } from "react-icons/pi";
 import { RiInstagramFill } from "react-icons/ri";
-import { Link, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import Logo from "/public/images/logo2.webp";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
@@ -59,7 +59,7 @@ const Navbar = () => {
 
       {/* main nav  */}
 
-      <div className="flex justify-between items-center text2 py-6 md:py-8 px-4 lg:px-0 max-w-screen-xl mx-auto">
+      <div className="flex justify-between items-center text2 py-6 md:py-8 max-w-screen-xl mx-auto">
         <div>
           <div className="dropdown">
             <div
@@ -73,25 +73,29 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className={`menu menu-sm dropdown-content bgC text-black z-10 mt-3 w-96 p-6 shadow space-y-10 transition-all ${
+              className={`menu menu-sm dropdown-content bgC text2 z-10 mt-3 w-96 p-6 shadow space-y-10 transition-all ${
                 isOpen ? "block" : "hidden"
               }`}
             >
               <li>
-                <Link
+                <NavLink
                   to="/"
-                  className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0"
+                  className={({ isActive }) =>
+                    `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0" : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"}`
+                  }
                 >
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link
+                <NavLink
                   to="/about"
-                  className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0"
+                  className={({ isActive }) =>
+                    `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0" : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"}`
+                  }
                 >
                   About
-                </Link>
+                </NavLink>
               </li>
               <li>
                 <details>
@@ -99,37 +103,67 @@ const Navbar = () => {
                     Services
                   </summary>
                   <ul className=" lg:bg-white text-black lg:border-b-2 rounded-sm w-40">
-                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/ecommerce">Ecommerce</Link>
+                    <li>
+                      <NavLink
+                      className={({ isActive }) =>
+                        `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                      }
+                      to="/ecommerce">Ecommerce</NavLink>
                     </li>
-                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/pos-service">POS service</Link>
+                    <li>
+                      <NavLink
+                       className={({ isActive }) =>
+                        `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                      }
+                      to="/pos-service">POS service</NavLink>
                     </li>
-                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/restaurant">Restaurant</Link>
+                    <li>
+                      <NavLink
+                       className={({ isActive }) =>
+                        `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                      }
+                      to="/restaurant">Restaurant</NavLink>
                     </li>
-                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/desktop-terminal">Desktop Terminal</Link>
+                    <li>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                        }
+                      to="/desktop-terminal">Desktop Terminal</NavLink>
                     </li>
-                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/Pay">Pay at the table</Link>
+                    <li>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                        }
+                      to="/Pay">Pay at the table</NavLink>
                     </li>
-                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/wireless">Wireless Terminal</Link>
+                    <li>
+                      <NavLink
+                       className={({ isActive }) =>
+                        `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                      }
+                      to="/wireless">Wireless Terminal</NavLink>
                     </li>
-                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/mobile-payment">Mobile Payment</Link>
+                    <li>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                        }
+                      to="/mobile-payment">Mobile Payment</NavLink>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <Link
+                <NavLink
                   to="/features"
-                  className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0"
+                  className={({ isActive }) =>
+                    `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0" : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"}`
+                  }
                 >
                   Features
-                </Link>
+                </NavLink>
               </li>
               <li>
                 <details>
@@ -137,28 +171,52 @@ const Navbar = () => {
                     Partnership
                   </summary>
                   <ul className="lg:bg-white text-black lg:border-b-2 rounded-sm w-52">
-                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/referral">Referral Program</Link>
+                    <li>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                        }
+                      to="/referral">Referral Program</NavLink>
                     </li>
-                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/reseller">ISO Reseller Program</Link>
+                    <li>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                        }
+                      to="/reseller">ISO Reseller Program</NavLink>
                     </li>
-                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/agent">Agent Revenue Share</Link>
+                    <li>
+                      <NavLink
+                          className={({ isActive }) =>
+                            `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                          }
+                        to="/agent"
+                      >
+                        Agent Revenue Share
+                      </NavLink>
                     </li>
-                    <li className="hover:bg-[#228800] hover:text-white  text-xl border-b-2 md:border-b-2 pt-4 pb-2 md:pb-0">
-                      <Link to="/submit-referral">Submit Referral</Link>
+                    <li>
+                      <NavLink
+                         className={({ isActive }) =>
+                          `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2" : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"}`
+                        }
+                        to="/submit-referral"
+                      >
+                        Submit Referral
+                      </NavLink>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <Link
+                <NavLink
+                   className={({ isActive }) =>
+                    `${isActive ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 md:pb-0" : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2 md:pb-0"}`
+                  }
                   to="/contact"
-                  className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0"
                 >
                   Contact
-                </Link>
+                </NavLink>
               </li>
               <li>
                 <Link to="/" className="btn1 uppercase w-48">
@@ -175,93 +233,243 @@ const Navbar = () => {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal items-center gap-2 text-xl  font-medium">
               <li>
-                <Link to="/" onClick={closeAllDetails}>
+                <NavLink
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? "bg-none text2 border-b-2 border-[#228800]"
+                        : ""
+                    }`
+                  }
+                  to="/"
+                  onClick={closeAllDetails}
+                >
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link to="/about" onClick={closeAllDetails}>
+                <NavLink
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? "bg-none text2 border-b-2 border-[#228800]"
+                        : ""
+                    }`
+                  }
+                  to="/about"
+                  onClick={closeAllDetails}
+                >
                   About
-                </Link>
+                </NavLink>
               </li>
               <li>
                 <details>
                   <summary>Services</summary>
                   <ul className="bg-white text-black border-b-2 rounded-sm w-40">
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
-                      <Link to="/ecommerce" onClick={closeAllDetails}>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text-white"
+                              : "hover:bg-[#228800] hover:text-white"
+                          }`
+                        }
+                        to="/ecommerce"
+                        onClick={closeAllDetails}
+                      >
                         Ecommerce
-                      </Link>
+                      </NavLink>
                     </li>
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
-                      <Link to="/pos-service" onClick={closeAllDetails}>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text-white"
+                              : "hover:bg-[#228800] hover:text-white"
+                          }`
+                        }
+                        to="/pos-service"
+                        onClick={closeAllDetails}
+                      >
                         POS service
-                      </Link>
+                      </NavLink>
                     </li>
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
-                      <Link to="/restaurant" onClick={closeAllDetails}>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text-white"
+                              : "hover:bg-[#228800] hover:text-white"
+                          }`
+                        }
+                        to="/restaurant"
+                        onClick={closeAllDetails}
+                      >
                         Restaurant
-                      </Link>
+                      </NavLink>
                     </li>
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
-                      <Link to="/desktop-terminal" onClick={closeAllDetails}>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text-white"
+                              : "hover:bg-[#228800] hover:text-white"
+                          }`
+                        }
+                        to="/desktop-terminal"
+                        onClick={closeAllDetails}
+                      >
                         Desktop Terminal
-                      </Link>
+                      </NavLink>
                     </li>
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
-                      <Link to="/pay" onClick={closeAllDetails}>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text-white"
+                              : "hover:bg-[#228800] hover:text-white"
+                          }`
+                        }
+                        to="/pay"
+                        onClick={closeAllDetails}
+                      >
                         Pay at the table
-                      </Link>
+                      </NavLink>
                     </li>
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
-                      <Link to="/wireless" onClick={closeAllDetails}>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text-white"
+                              : "hover:bg-[#228800] hover:text-white"
+                          }`
+                        }
+                        to="/wireless"
+                        onClick={closeAllDetails}
+                      >
                         Wireless Terminal
-                      </Link>
+                      </NavLink>
                     </li>
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
-                      <Link to="/mobile-payment" onClick={closeAllDetails}>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text-white"
+                              : "hover:bg-[#228800] hover:text-white"
+                          }`
+                        }
+                        to="/mobile-payment"
+                        onClick={closeAllDetails}
+                      >
                         Mobile Payment
-                      </Link>
+                      </NavLink>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <Link to="/features" onClick={closeAllDetails}>
+                <NavLink
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? "bg-none text2 border-b-2 border-[#228800]"
+                        : ""
+                    }`
+                  }
+                  to="/features"
+                  onClick={closeAllDetails}
+                >
                   Features
-                </Link>
+                </NavLink>
               </li>
               <li>
                 <details>
                   <summary>Partnership</summary>
                   <ul className="bg-white text-black border-b-2 rounded-sm w-52">
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
-                      <Link to="/referral" onClick={closeAllDetails}>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text-white"
+                              : "hover:bg-[#228800] hover:text-white"
+                          }`
+                        }
+                        to="/referral"
+                        onClick={closeAllDetails}
+                      >
                         Referral Program
-                      </Link>
+                      </NavLink>
                     </li>
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
-                      <Link to="/reseller" onClick={closeAllDetails}>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text-white"
+                              : "hover:bg-[#228800] hover:text-white"
+                          }`
+                        }
+                        to="/reseller"
+                        onClick={closeAllDetails}
+                      >
                         ISO Reseller Program
-                      </Link>
+                      </NavLink>
                     </li>
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
-                      <Link to="/agent" onClick={closeAllDetails}>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text-white"
+                              : "hover:bg-[#228800] hover:text-white"
+                          }`
+                        }
+                        to="/agent"
+                        onClick={closeAllDetails}
+                      >
                         Agent Revenue Share
-                      </Link>
+                      </NavLink>
                     </li>
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
-                      <Link to="/submit-referral" onClick={closeAllDetails}>
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text-white"
+                              : "hover:bg-[#228800] hover:text-white"
+                          }`
+                        }
+                        to="/submit-referral"
+                        onClick={closeAllDetails}
+                      >
                         Submit Referral
-                      </Link>
+                      </NavLink>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <Link to="/contact" onClick={closeAllDetails}>
+                <NavLink
+                  to="/contact"
+                  onClick={closeAllDetails}
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? "bg-none text2 border-b-2 border-[#228800]"
+                        : ""
+                    }`
+                  }
+                >
                   Contact
-                </Link>
+                </NavLink>
               </li>
               <li>
                 <Link to="/" className="btn1 uppercase">

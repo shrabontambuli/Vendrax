@@ -47,7 +47,7 @@ const HeroSection = () => {
   return (
     <div className="">
     <div className="relative w-full max-w-7xl mx-auto">
-      <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-4 px-1 lg:px-0 pt-28 lg:pt-60">
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-4 px-2 lg:px-0 pt-28 lg:pt-60">
         {/* Text Section */}
         <div className="flex flex-col justify-center text-left h-full lg:h-96">
           <h1 className="text-2xl text2 lg:text-4xl font-bold mb-6">
