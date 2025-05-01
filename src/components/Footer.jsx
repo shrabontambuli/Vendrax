@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="relative"
+    <div className=""
       style={{
         backgroundImage: "url(/images/bg-foot.webp)",
         backgroundRepeat:"no-repeat",
@@ -8,9 +8,9 @@ const Footer = () => {
         backgroundSize:"cover"
       }}
     >
-        <img className="absolute top-4 md:w-72 lg:w-96 md:right-0 lg:right-64 md:-top-4" src="/images/foot-bg1.webp" alt="" />
 
-      <div className="max-w-7xl mx-auto pt-20 lg:pt-44">
+      <div className="max-w-7xl mx-auto pt-20 lg:pt-44 relative">
+        <img className="absolute top-4 md:w-72 lg:w-96 md:right-0 lg:right-64 md:-top-4" src="/images/foot-bg1.webp" alt="" />
         <div className=" grid grid-cols-1 lg:grid-cols-2 items-center gap-10 mb-14 px-4 lg:px-10">
           <div className=" relative mb-16 md:mb-0">
             <h1 className="text-2xl md:text-3xl lg:text-4xl leading-tight text-white font-bold mb-6">
