@@ -49,28 +49,6 @@ const ContactForm = () => {
                   </h3>
                 </div>
               </div>
-              <div className="mt-28">
-                <h2 className="text-2xl text2 font-medium tracking-[10px]">
-                  Our Social Media:
-                </h2>
-                <div className="flex justify-center space-x-4 md:space-x-16 mt-10">
-                  <Link to="#">
-                    <RiFacebookFill className="text-white" size={24} />
-                  </Link>
-                  <Link to="#">
-                    <BsTwitterX className="text-white" size={24} />
-                  </Link>
-                  <Link to="#">
-                    <FaInstagram className="text-white" size={24} />
-                  </Link>
-                  <Link to="#">
-                    <FaLinkedinIn className="text-white" size={24} />
-                  </Link>
-                  <Link to="#">
-                    <FaPinterestP className="text-white" size={24} />
-                  </Link>
-                </div>
-              </div>
             </div>
             <div>
               <img

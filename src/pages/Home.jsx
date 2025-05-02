@@ -13,11 +13,11 @@ const Home = () => {
   return (
     <>
       <HeroSection />
-      <Features />
-      <POSSection />
+      {/* <Features /> */}
+      {/* <POSSection /> */}
       <Consistency />
-      <PosSolution />
-      <EarnRewards />
+      {/* <PosSolution /> */}
+      {/* <EarnRewards /> */}
     </>
   );
 };

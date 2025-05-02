@@ -135,12 +135,12 @@ const Footer = () => {
           <aside className="grid-flow-col items-center">
             <div className="flex items-center gap-3">
               <img src="/images/logo3.png" alt="logo" />
-              <h1 className="text-4xl font-medium text-white">Vendrax</h1>
+              <h1 className="text-4xl font-medium text-white">Fundrax</h1>
             </div>
           </aside>
           <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
             <p className="text-base text-white">
-              Copyright © {new Date().getFullYear()} Vendrax. All right reserved
+              Copyright © {new Date().getFullYear()} Fundrax. All right reserved
             </p>
           </nav>
         </footer>

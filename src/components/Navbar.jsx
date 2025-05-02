@@ -33,23 +33,6 @@ const Navbar = () => {
               States
             </p>
           </div>
-          <div className="flex items-center gap-6">
-            <Link to="#">
-              <FaFacebookF size={20} />
-            </Link>
-            <Link to="#">
-              <FaTwitter size={20} />
-            </Link>
-            <Link to="#">
-              <RiInstagramFill size={20} />
-            </Link>
-            <Link to="#">
-              <BiLogoLinkedin size={20} />
-            </Link>
-            <Link to="#">
-              <FaPinterestP size={20} />
-            </Link>
-          </div>
           <div className="w-[50%] flex justify-end items-center gap-2">
             <BiSolidPhoneCall size={24} />
             <p>833-604-8051</p>
@@ -315,7 +298,7 @@ const Navbar = () => {
           <Link to="/" className="btn btn-ghost text-xl">
             <div className="flex items-center gap-2">
               <img src={Logo} alt="logo" />
-              <h1 className="text-4xl">Vendrax</h1>
+              <h1 className="text-4xl">Fundrax</h1>
             </div>
           </Link>
         </div>
