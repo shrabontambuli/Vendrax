@@ -102,7 +102,7 @@ const HeroSection = () => {
       <div className="bg1 mt-24 py-20">
         <div className="max-w-7xl mx-auto">
           <div>
-            <h2 className="text-2xl text-center mx-auto md:text-5xl lg:w-10/12 leading-tight font-bold text-white mb-20">
+            <h2 className="text-3xl text-center mx-auto md:text-5xl lg:w-10/12 leading-tight font-bold text-white mb-16">
               Why Choose Fundrax?
             </h2>
           </div>
@@ -116,19 +116,19 @@ const HeroSection = () => {
             </div>
             <div className="text-center md:text-start space-y-7">
               <div>
-                <h1 className="text-2xl lg:text-4xl text-white font-medium mb-6">
+                <h1 className="text-3xl lg:text-4xl text-white font-medium mb-6">
                 •	Comprehensive Solutions:
                 </h1>
                 <span className="text-xl lg:text-2xl text-white">From hardware to software, we provide end-to-end POS solutions.</span>
               </div>
               <div>
-                <h1 className="text-2xl lg:text-4xl text-white font-medium mb-6">
+                <h1 className="text-3xl lg:text-4xl text-white font-medium mb-6">
                 •	Expert Support: 
                 </h1>
                 <span className="text-xl lg:text-2xl text-white">Our team offers dedicated support to ensure seamless integration and operation.</span>
               </div>
               <div>
-                <h1 className="text-2xl lg:text-4xl text-white font-medium mb-6">
+                <h1 className="text-3xl lg:text-4xl text-white font-medium mb-6">
                 •	Customized Packages: 
                 </h1>
                 <span className="text-xl lg:text-2xl text-white">Tailored solutions to meet the unique needs of your business</span>
