@@ -25,7 +25,7 @@ const Consistency = () => {
           <div className="lg:bg1 md:p-2 lg:rounded-3xl h-full w-full lg:absolute z-30">
             <div className="w-full h-full">
               <img
-                className="w-full h-full md:rounded-3xl"
+                className="w-full h-full md:rounded-3xl object-cover"
                 src="https://media.istockphoto.com/id/1048192018/photo/latin-engineer-working-on-laptop-and-drill.jpg?s=612x612&w=0&k=20&c=Rz7ZGsikctEEIqX58Nw-PnehmNVr-TgqtVzqDfxjM5U="
                 alt="icon"
               />
