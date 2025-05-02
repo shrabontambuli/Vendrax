@@ -25,7 +25,7 @@ const Navbar = () => {
       {/* top nav  */}
 
       <div className="bgs2">
-        <div className="hidden lg:flex items-center text-black py-1 px-3 max-w-screen-xl mx-auto">
+        <div className="hidden lg:flex items-center text-black py-1 px-3 max-w-7xl mx-auto">
           <div className="w-[50%] flex justify-start items-center gap-2">
             <PiMapPinAreaFill size={25} />
             <p className="font-medium text-sm">
@@ -59,7 +59,7 @@ const Navbar = () => {
 
       {/* main nav  */}
 
-      <div className="flex justify-between items-center text2 py-6 md:py-8 max-w-screen-xl mx-auto relative">
+      <div className="flex justify-between items-center text2 py-6 md:py-8 max-w-7xl mx-auto relative">
         <div>
           <div className="dropdown lg:hidden absolute right-2">
             <div
