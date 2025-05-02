@@ -21,12 +21,12 @@ const Consistency = () => {
             <button className="btn1 mt-14">Get Started</button>
           </Link>
         </div>
-        <div className="relative h-[400px] w-full mx-auto lg:mx-0 lg:h-[400px] lg:w-[624px]">
+        <div className="relative h-[500px] w-full mx-auto lg:mx-0 lg:h-[700px] lg:w-[624px]">
           <div className="lg:bg1 md:p-2 lg:rounded-3xl h-full w-full lg:absolute z-30">
-            <div className="w-full h-96">
+            <div className="w-full h-full">
               <img
-                className="w-full h-full object-cover lg:rounded-3xl"
-                src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041853.jpg?ga=GA1.1.2098199704.1726909822&semt=ais_hybrid&w=740"
+                className="w-full h-full md:rounded-3xl"
+                src="https://media.istockphoto.com/id/1048192018/photo/latin-engineer-working-on-laptop-and-drill.jpg?s=612x612&w=0&k=20&c=Rz7ZGsikctEEIqX58Nw-PnehmNVr-TgqtVzqDfxjM5U="
                 alt="icon"
               />
             </div>

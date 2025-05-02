@@ -10,10 +10,10 @@ const About = () => {
   }, []);
   return (
     <>
-      <AboutBanner />
+      {/* <AboutBanner /> */}
       <PosSystems/>
       <TailoringPos/>
-      <YourCustomers/>
+      {/* <YourCustomers/> */}
     </>
   );
 };
