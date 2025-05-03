@@ -59,7 +59,7 @@ const ContactForm = () => {
               </div>
               <div>
                 <img
-                  className="hidden lg::flex h-[735px] -mb-40"
+                  className="hidden md:flex h-[735px] lg:-mb-40"
                   src="/images/cont-img1.webp"
                   alt="img"
                 />
