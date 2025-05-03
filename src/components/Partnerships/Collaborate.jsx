@@ -18,10 +18,10 @@ const Collaborate = () => {
             <button className="btn1 w-60">Get Started</button>
           </Link>
         </div>
-        <div className="w-full h-full lg:w-96 lg:h-96 mx-auto mt-10 md:mt-0">
+        <div className="w-full h-full mx-auto mt-10 md:mt-0">
           <img
             className="w-full h-full rounded-2xl"
-            src="https://media.istockphoto.com/id/825442476/photo/integrated-marketing.jpg?s=612x612&w=0&k=20&c=xIaKJAbKb6d6G1-dzts8OfO4MLoZYZDh93zpE8JwjWI="
+            src="https://media.istockphoto.com/id/1392016982/photo/mixed-group-of-business-people-sitting-around-a-table-and-talking.jpg?s=612x612&w=0&k=20&c=d7mWQhdzKrowHYTWXXcCrNn02uyfLYQYB78M75G8lKg="
             alt=""
             style={{ objectFit: "cover" }}
           />

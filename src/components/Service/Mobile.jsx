@@ -44,10 +44,10 @@ const Mobile = () => {
         </button>
       </Link>
         </div>
-        <div className="w-full h-full mt-10 md:mt-0">
+        <div className="w-full h-[600px] mt-10 md:mt-0">
           <img
-            className="w-full h-full rounded-2xl"
-            src="https://media.istockphoto.com/id/1327713639/vector/mobile-banking-concept-banner-with-a-hand-holding-smartphone-and-credit-card.jpg?s=612x612&w=0&k=20&c=7TP1_FwG0FopV-mXEFZjTE2-G64uxat37Y8LY_sfk8c="
+            className="w-full h-full object-cover rounded-2xl"
+            src="https://media.istockphoto.com/id/1946645580/photo/contactless-payment-by-phone.jpg?s=612x612&w=0&k=20&c=o8zKG-VpVJ3qIokqCQ59gW08PhG5nsxSlCiV2i6yR58="
             alt="img"
           />
         </div>

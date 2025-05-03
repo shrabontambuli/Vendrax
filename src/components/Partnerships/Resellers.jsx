@@ -22,7 +22,7 @@ const Resellers = () => {
             <div>
               <img
                 className="w-full h-full object-cover rounded-2xl"
-                src="https://media.istockphoto.com/id/1291058230/vector/franchise-business-concept-franchise-owner-and-new-franchisee-shake-hands-after-successful.jpg?s=612x612&w=0&k=20&c=uL4sbUpnIxJZBZupkuyqBSq_UEQ6n9uBzC7XTJUJ3I0="
+                src="https://media.istockphoto.com/id/2196141508/photo/senior-woman-selling-clothes-and-accessories-online.jpg?s=612x612&w=0&k=20&c=TZ84ob7uzEetjxRcUD0rJx2qBdUmbeb_QnLgnNRtI3Q="
                 alt=""
               />
             </div>

@@ -8,10 +8,10 @@ const Tailored = () => {
         Tailored POS Solutions for Diverse Business Needs
       </h2>
       <div className="md:flex md:flex-row-reverse items-center px-2 lg:px-0 gap-10 mt-20 lg:mt-24">
-        <div className="w-full h-full mt-10 md:mt-0">
+        <div className="w-full h-[600px] mt-10 md:mt-0">
           <img
-            className="w-full h-full rounded-2xl"
-            src="https://media.istockphoto.com/id/512398526/photo/hand-click-businessman-icon-over-blue-background-connection-concept.jpg?s=612x612&w=0&k=20&c=fMHI_9b3amJKBKKoX9TMF4edlbw3hVFirwbqA7z-Vz8="
+            className="w-full h-full object-cover rounded-2xl"
+            src="https://media.istockphoto.com/id/1666863080/photo/starting-small-business-entrepreneur-of-independent-asian-woman-showing-her-face-worried.jpg?s=612x612&w=0&k=20&c=opWulmb6AVB3SqbEo7HHQCfDFv5Ga-C4FmACt2JyA94="
             alt="img"
           />
         </div>
@@ -49,7 +49,7 @@ const Tailored = () => {
               </span>
             </div>
             <Link to="/contact">
-              <button className="flex items-center justify-center btn1 mt-16">
+              <button className="flex items-center justify-center btn1 mt-10">
                 Get Started
               </button>
             </Link>
