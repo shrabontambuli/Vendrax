@@ -81,7 +81,7 @@ const ContactForm = () => {
                     className="flex flex-col gap-5"
                   >
                     <div className="md:flex items-center gap-8">
-                      <div className="w-full">
+                      <div className="w-full h-28">
                         <label className="label">Full Name*</label>
                         <input
                           type="text"
@@ -99,7 +99,7 @@ const ContactForm = () => {
                         />
                          {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name.message}</p>}
                       </div>
-                      <div className="w-full">
+                      <div className="w-full h-28">
                         <label className="label">Email Address*</label>
                         <input
                           type="email"
@@ -120,7 +120,7 @@ const ContactForm = () => {
                     </div>
 
                     <div className="md:flex items-center gap-8">
-                      <div className="w-full">
+                      <div className="w-full h-28">
                         <label className="label">Phone*</label>
                         <input
                           type="number"
@@ -138,7 +138,7 @@ const ContactForm = () => {
                         />
                         {errors.number && <p className="text-red-500 text-sm mt-1">{errors.number.message}</p>}
                       </div>
-                      <div className="w-full">
+                      <div className="w-full h-28">
                         <label className="label">Subject*</label>
                         <input
                           type="text"
@@ -153,7 +153,7 @@ const ContactForm = () => {
                     </div>
 
                     <div>
-                      <div className="w-full">
+                      <div className="w-full h-36">
                         <label className="label">Comments/Questions*</label>
                         <textarea
                           placeholder="Enter Your Message Here"

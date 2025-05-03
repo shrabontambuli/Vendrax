@@ -7,39 +7,39 @@ const Mobile = () => {
       <h2 className="text-3xl lg:text-5xl font-bold text2 text-center">
         Mobile Payment Solutions
       </h2>
-      <div className="md:flex md:flex-row-reverse items-center px-2 lg:px-0 gap-10 mt-20 lg:mt-24">
+      <div className="md:flex flex-row-reverse items-center px-2 lg:px-0 gap-10 mt-20 lg:mt-24">
         <div className="md:w-11/12">
-          <p className="text-4xl font-medium text2 mt-6">
+          <p className="text-2xl lg:text-4xl font-bold md:font-medium text2 mt-6">
             Stay agile with our mobile POS offerings:
           </p>
           <div className="space-y-6 mt-10 md:mt-20">
             <div>
-              <h1 className="text-2xl lg:text-3xl text2 font-medium mb-4">
+              <h1 className="text-xl lg:text-3xl text2 font-medium mb-4">
                 • Smartphone & Tablet Integration:
               </h1>
-              <span className="text-lg lg:text-xl text-gray-600">
+              <span className="text-base lg:text-xl text-gray-600">
                 Accept payments on-the-go.
               </span>
             </div>
             <div>
-              <h1 className="text-2xl lg:text-3xl text2 font-medium mb-4">
+              <h1 className="text-xl lg:text-3xl text2 font-medium mb-4">
                 • Contactless Payments:
               </h1>
-              <span className="text-lg lg:text-xl text-gray-600">
+              <span className="text-base lg:text-xl text-gray-600">
                 Support for NFC and mobile wallets.
               </span>
             </div>
             <div>
-              <h1 className="text-2xl lg:text-3xl text2 font-medium mb-4">
+              <h1 className="text-xl lg:text-3xl text2 font-medium mb-4">
                 • Real-Time Reporting:
               </h1>
-              <span className="text-lg lg:text-xl text-gray-600">
+              <span className="text-base lg:text-xl text-gray-600">
                 Access sales data anytime, anywhere.
               </span>
             </div>
           </div>
           <Link to="/contact">
-        <button className="flex items-center justify-center btn1 mt-20">
+        <button className="flex items-center justify-center btn1 mt-16">
           Get Started
         </button>
       </Link>
@@ -47,7 +47,7 @@ const Mobile = () => {
         <div className="w-full h-full mt-10 md:mt-0">
           <img
             className="w-full h-full rounded-2xl"
-            src="https://media.istockphoto.com/id/1127811957/vector/electronic-wallet-on-smartphone-vector-icon-flat-design-mobile-phone-screen-with-digital.jpg?s=612x612&w=0&k=20&c=hkcAWGCMFaqg-xikNHjpJBFxFqeIplOv1gsSPKN_Re0="
+            src="https://media.istockphoto.com/id/1327713639/vector/mobile-banking-concept-banner-with-a-hand-holding-smartphone-and-credit-card.jpg?s=612x612&w=0&k=20&c=7TP1_FwG0FopV-mXEFZjTE2-G64uxat37Y8LY_sfk8c="
             alt="img"
           />
         </div>

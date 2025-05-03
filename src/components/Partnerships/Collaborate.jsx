@@ -4,15 +4,13 @@ import { Link } from "react-router-dom";
 const Collaborate = () => {
   return (
     <div className="max-w-7xl mx-auto px-2 lg:px-0 pt-32 lg:pt-48 mb-24">
-      <h2 className="text-3xl lg:text-5xl font-bold text2 text-center">
+      <h2 className="text-3xl lg:text-4xl font-bold text2 text-center">
         Collaborate and Grow with Fundrax
       </h2>
       <div className="md:flex md:flex-row-reverse items-center px-2 lg:px-0 gap-10 mt-20 lg:mt-24">
         <div className="flex flex-col justify-center text-left h-full lg:h-96">
-          <h1 className="text-4xl text2 font-bold">
-            Referral Program
-          </h1>
-          <p className="text-2xl text-gray-700 mb-10 w-full h-52 flex items-center md:w-10/12">
+          <h1 className="text-2xl lg:text-4xl text2 font-bold">Referral Program</h1>
+          <p className="text-xl lg:text-2xl text-gray-700 mb-10 w-full h-52 flex items-center md:w-10/12">
             Recommend Fundrax to your network and earn rewards for each
             successful referral.
           </p>
@@ -20,15 +18,13 @@ const Collaborate = () => {
             <button className="btn1 w-60">Get Started</button>
           </Link>
         </div>
-        <div className="w-full h-full mt-10 md:mt-0">
-          <div className="w-full h-full">
-            <img
-              className="w-full h-full rounded-2xl"
-              src="https://media.istockphoto.com/id/1412918191/vector/share-icon-people-sharing-data-photos-links-posts-and-news-in-social-networks-social.jpg?s=612x612&w=0&k=20&c=HFMbGnV2cEKi6OPcwP2Z2qvBIg2m-mL-uE4HKnRs8tk="
-              alt=""
-              style={{ objectFit: "cover" }}
-            />
-          </div>
+        <div className="w-full h-full lg:w-96 lg:h-96 mx-auto mt-10 md:mt-0">
+          <img
+            className="w-full h-full rounded-2xl"
+            src="https://media.istockphoto.com/id/825442476/photo/integrated-marketing.jpg?s=612x612&w=0&k=20&c=xIaKJAbKb6d6G1-dzts8OfO4MLoZYZDh93zpE8JwjWI="
+            alt=""
+            style={{ objectFit: "cover" }}
+          />
         </div>
       </div>
     </div>

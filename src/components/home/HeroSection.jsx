@@ -101,45 +101,52 @@ const HeroSection = () => {
         </div>
       </div>
       {/* down */}
-      <div className="bg1 mt-24 py-20">
+      <div className="bg1 mt-24 py-20"
+       style={{
+        backgroundImage: "url(https://img.freepik.com/free-photo/glasses-lie-laptop-reflecting-light-from-screen-dark_169016-52267.jpg?t=st=1746139319~exp=1746142919~hmac=8c70a0c2a8a876069345fabb497b526588dcdf21bb9f3ac288df37c303d73b9d&w=1380)",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
+      >
         <div className="max-w-7xl mx-auto">
           <div>
-            <h2 className="text-3xl text-center mx-auto md:text-5xl lg:w-10/12 leading-tight font-bold text-white mb-16">
+            <h2 className="text-3xl text-center mx-auto md:text-5xl lg:w-10/12 leading-tight font-bold text-white mb-10 lg:mb-20">
               Why Choose Fundrax?
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center gap-10 max-w-7xl mx-auto px-2 lg:px-0">
-            <div>
+            {/* <div>
               <img
                 className="w-full h-full object-cover rounded-2xl"
                 src="https://img.freepik.com/free-photo/vacancy-career-recruitment-available-job-work-concept_53876-120677.jpg?ga=GA1.1.2098199704.1726909822&semt=ais_hybrid&w=740"
                 alt=""
               />
-            </div>
-            <div className="text-center md:text-start space-y-7">
+            </div> */}
+          <div className="max-w-7xl mx-auto px-2 lg:px-0">
+            <div className="text-center md:text-start space-y-6">
               <div>
-                <h1 className="text-3xl lg:text-4xl text-white font-medium mb-6">
+                <h1 className="text-2xl lg:text-4xl text-white font-medium mb-6">
                   • Comprehensive Solutions:
                 </h1>
-                <span className="text-xl lg:text-2xl text-white">
+                <span className="text-lg lg:text-2xl text-white">
                   From hardware to software, we provide end-to-end POS
                   solutions.
                 </span>
               </div>
               <div>
-                <h1 className="text-3xl lg:text-4xl text-white font-medium mb-6">
+                <h1 className="text-2xl lg:text-4xl text-white font-medium mb-6">
                   • Expert Support:
                 </h1>
-                <span className="text-xl lg:text-2xl text-white">
+                <span className="text-lg lg:text-2xl text-white">
                   Our team offers dedicated support to ensure seamless
                   integration and operation.
                 </span>
               </div>
               <div>
-                <h1 className="text-3xl lg:text-4xl text-white font-medium mb-6">
+                <h1 className="text-2xl lg:text-4xl text-white font-medium mb-6">
                   • Customized Packages:
                 </h1>
-                <span className="text-xl lg:text-2xl text-white">
+                <span className="text-lg lg:text-2xl text-white">
                   Tailored solutions to meet the unique needs of your business
                 </span>
               </div>

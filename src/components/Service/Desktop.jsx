@@ -11,12 +11,12 @@ const Desktop = () => {
         <div className="w-full h-full mt-10 md:mt-0">
           <img
             className="w-full h-full rounded-2xl"
-            src="https://media.istockphoto.com/id/871609632/photo/its-easy-when-you-work-as-a-team.jpg?s=612x612&w=0&k=20&c=guuJO8pyWzCQZXqjhDr88izaFiIE2Sg9xrVHfFA8Nfk="
+            src="https://media.istockphoto.com/id/894929304/photo/workplace-in-modern-blue-interior.jpg?s=612x612&w=0&k=20&c=rEtHuv5LvTVBQKEGzjLTd-f5uht4VVFK7Cnu6DP7Y7o="
             alt="img"
           />
         </div>
         <div className="md:w-11/12">
-          <p className="text-4xl font-medium text2 mt-6">
+          <p className="text-2xl md:text-4xl font-medium text2 mt-6">
           Robust and reliable terminals featuring:
           </p>
           <div className="space-y-6 mt-10 md:mt-20">
@@ -46,7 +46,7 @@ const Desktop = () => {
             </div>
           </div>
           <Link to="/contact">
-            <button className="flex items-center justify-center btn1 mt-20">
+            <button className="flex items-center justify-center btn1 mt-16">
               Get Started
             </button>
           </Link>
