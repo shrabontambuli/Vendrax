@@ -316,7 +316,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
-                <Link to="/" className="btn1 uppercase w-48">
+                <Link to="/contact" className="btn1 uppercase w-48">
                   Get started
                 </Link>
               </li>
@@ -602,7 +602,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
-                <Link to="/" className="btn1 uppercase">
+                <Link to="/contact" className="btn1 uppercase">
                   Get started
                 </Link>
               </li>
