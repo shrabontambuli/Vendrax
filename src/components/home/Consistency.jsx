@@ -17,7 +17,7 @@ const Consistency = () => {
               • Service-Based Businesses
             </p>
           </div>
-          <Link to="/">
+          <Link to="/contact">
             <button className="btn1 mt-14">Get Started</button>
           </Link>
         </div>

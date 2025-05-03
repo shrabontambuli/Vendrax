@@ -11,11 +11,11 @@ const Features = () => {
       }, []);
     return (
         <>
-            <FeaturesBanner/>
-            <VendraxOffers/>
-            <AcceptPayments/>
+            {/* <FeaturesBanner/> */}
+            {/* <VendraxOffers/> */}
+            {/* <AcceptPayments/> */}
             <Smartphone/>
-            <Minimize/>
+            {/* <Minimize/> */}
         </>
     );
 };

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   const banners = [
@@ -70,8 +71,9 @@ const HeroSection = () => {
                 </div>
               ))}
             </div> */}
-
-            <button className="btn1 w-60">{banners[currentIndex].btn}</button>
+            <Link to="/contact">
+              <button className="btn1 w-60">{banners[currentIndex].btn}</button>
+            </Link>
           </div>
 
           {/* Image Section */}
@@ -117,21 +119,29 @@ const HeroSection = () => {
             <div className="text-center md:text-start space-y-7">
               <div>
                 <h1 className="text-3xl lg:text-4xl text-white font-medium mb-6">
-                •	Comprehensive Solutions:
+                  • Comprehensive Solutions:
                 </h1>
-                <span className="text-xl lg:text-2xl text-white">From hardware to software, we provide end-to-end POS solutions.</span>
+                <span className="text-xl lg:text-2xl text-white">
+                  From hardware to software, we provide end-to-end POS
+                  solutions.
+                </span>
               </div>
               <div>
                 <h1 className="text-3xl lg:text-4xl text-white font-medium mb-6">
-                •	Expert Support: 
+                  • Expert Support:
                 </h1>
-                <span className="text-xl lg:text-2xl text-white">Our team offers dedicated support to ensure seamless integration and operation.</span>
+                <span className="text-xl lg:text-2xl text-white">
+                  Our team offers dedicated support to ensure seamless
+                  integration and operation.
+                </span>
               </div>
               <div>
                 <h1 className="text-3xl lg:text-4xl text-white font-medium mb-6">
-                •	Customized Packages: 
+                  • Customized Packages:
                 </h1>
-                <span className="text-xl lg:text-2xl text-white">Tailored solutions to meet the unique needs of your business</span>
+                <span className="text-xl lg:text-2xl text-white">
+                  Tailored solutions to meet the unique needs of your business
+                </span>
               </div>
             </div>
           </div>

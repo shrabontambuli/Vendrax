@@ -8,7 +8,7 @@ const Contact = () => {
   }, []);
   return (
     <>
-      <ContactBanner />
+      {/* <ContactBanner /> */}
       <ContactForm/>
     </>
   );

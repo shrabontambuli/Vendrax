@@ -15,6 +15,8 @@ import DesktopTerminal from "../pages/DesktopTerminal";
 import Pay from "../pages/Pay";
 import Wireless from "../pages/Wireless";
 import MobilePayment from "../pages/MobilePayment";
+import Service from "../pages/Service";
+import Partnership from "../pages/Partnership";
 
 export const router = createBrowserRouter([
   {
@@ -38,49 +40,57 @@ export const router = createBrowserRouter([
         element: <Contact/>,
       },
       {
-        path: "/referral",
-        element: <Referral/>,
+        path: "/services",
+        element: <Service/>
       },
       {
-        path: "/reseller",
-        element: <Reseller/>,
+        path: "/partnership",
+        element: <Partnership/>
       },
-      {
-        path: "/submit-referral",
-        element: <SubmitReferral/>,
-      },
-      {
-        path: "/agent",
-        element: <Agent/>,
-      },
-      {
-        path: "/ecommerce",
-        element: <Ecommerce/>,
-      },
-      {
-        path: "/pos-service",
-        element: <PoSservice/>,
-      },
-      {
-        path: "/restaurant",
-        element: <Restaurant/>,
-      },
-      {
-        path: "/desktop-terminal",
-        element: <DesktopTerminal/>,
-      },
-      {
-        path: "/pay",
-        element: <Pay/>,
-      },
-      {
-        path: "/wireless",
-        element: <Wireless/>,
-      },
-      {
-        path: "/mobile-payment",
-        element: <MobilePayment/>,
-      },
+      // {
+      //   path: "/referral",
+      //   element: <Referral/>,
+      // },
+      // {
+      //   path: "/reseller",
+      //   element: <Reseller/>,
+      // },
+      // {
+      //   path: "/submit-referral",
+      //   element: <SubmitReferral/>,
+      // },
+      // {
+      //   path: "/agent",
+      //   element: <Agent/>,
+      // },
+      // {
+      //   path: "/ecommerce",
+      //   element: <Ecommerce/>,
+      // },
+      // {
+      //   path: "/pos-service",
+      //   element: <PoSservice/>,
+      // },
+      // {
+      //   path: "/restaurant",
+      //   element: <Restaurant/>,
+      // },
+      // {
+      //   path: "/desktop-terminal",
+      //   element: <DesktopTerminal/>,
+      // },
+      // {
+      //   path: "/pay",
+      //   element: <Pay/>,
+      // },
+      // {
+      //   path: "/wireless",
+      //   element: <Wireless/>,
+      // },
+      // {
+      //   path: "/mobile-payment",
+      //   element: <MobilePayment/>,
+      // },
     ],
   },
 

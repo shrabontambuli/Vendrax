@@ -14,11 +14,11 @@ const TailoringPos = () => {
           </div>
           <div className="relative">
             <div className="bg-[#2a2e30] rounded-lg space-y-10 text-center px-2 py-10 lg:absolute z-30 bottom-0 md:py-20 lg:py-48">
-              <h1 className="text-white font-medium text-4xl lg:text-5xl">
+              <h1 className="text2 font-medium text-4xl lg:text-5xl">
                 Our Core Values:
               </h1>
               <div>
-                <h1 className="text-2xl lg:text-3xl text-white font-medium mb-6">
+                <h1 className="text-2xl lg:text-3xl text2 font-medium mb-6">
                   • Innovation:
                 </h1>
                 <span className="text-lg lg:text-2xl text-white">
@@ -27,7 +27,7 @@ const TailoringPos = () => {
                 </span>
               </div>
               <div>
-                <h1 className="text-2xl lg:text-3xl text-white font-medium mb-6">
+                <h1 className="text-2xl lg:text-3xl text2 font-medium mb-6">
                   • Reliability:
                 </h1>
                 <span className="text-lg lg:text-2xl text-white">
@@ -35,7 +35,7 @@ const TailoringPos = () => {
                 </span>
               </div>
               <div>
-                <h1 className="text-2xl lg:text-3xl text-white font-medium mb-6">
+                <h1 className="text-2xl lg:text-3xl text2 white font-medium mb-6">
                   • Customer-Centricity
                 </h1>
                 <span className="text-lg lg:text-2xl text-white">

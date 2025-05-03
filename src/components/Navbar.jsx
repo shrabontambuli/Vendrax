@@ -29,13 +29,12 @@ const Navbar = () => {
           <div className="w-[50%] flex justify-start items-center gap-2">
             <PiMapPinAreaFill size={25} />
             <p className="font-medium text-sm">
-              15500 Voss Rd Suite 200 1171 Sugar Land, TX 77498-4601 United
-              States
+              15500 **************************
             </p>
           </div>
           <div className="w-[50%] flex justify-end items-center gap-2">
             <BiSolidPhoneCall size={24} />
-            <p>833-604-8051</p>
+            <p>833-*****************</p>
           </div>
         </div>
       </div>
@@ -89,6 +88,20 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
+                <NavLink
+                  to="/services"
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? "bg1 text1 text-xl border-b-2 py-2"
+                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
+                    }`
+                  }
+                >
+                Services
+                </NavLink>
+              </li>
+              {/* <li>
                 <details>
                   <summary className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">
                     Services
@@ -194,7 +207,7 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </details>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   to="/features"
@@ -210,6 +223,20 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
+                <NavLink
+                  to="/partnership"
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? "bg1 text1 text-xl border-b-2 py-2"
+                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
+                    }`
+                  }
+                >
+                  Partnership
+                </NavLink>
+              </li>
+              {/* <li>
                 <details>
                   <summary className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">
                     Partnership
@@ -273,7 +300,7 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </details>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                  className={({ isActive }) =>
@@ -336,6 +363,21 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
+                <NavLink
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? "bg-none text2 border-b-2 border-[#228800]"
+                        : ""
+                    }`
+                  }
+                  to="/services"
+                  onClick={closeAllDetails}
+                >
+                  Services
+                </NavLink>
+              </li>
+              {/* <li>
                 <details>
                   <summary>Services</summary>
                   <ul className="bg-white text-black border-b-2 space-y-1 rounded-sm w-40">
@@ -446,7 +488,7 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </details>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   className={({ isActive }) =>
@@ -463,6 +505,21 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
+                <NavLink
+                  className={({ isActive }) =>
+                    `${
+                      isActive
+                        ? "bg-none text2 border-b-2 border-[#228800]"
+                        : ""
+                    }`
+                  }
+                  to="/partnership"
+                  onClick={closeAllDetails}
+                >
+                Partnership
+                </NavLink>
+              </li>
+              {/* <li>
                 <details>
                   <summary>Partnership</summary>
                   <ul className="bg-white text-black border-b-2  rounded-sm space-y-1 w-52">
@@ -528,7 +585,7 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </details>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   to="/contact"

@@ -12,14 +12,14 @@ const PosSystems = () => {
           <p className="text-gray-600 text-xl">
           Fundrax is committed to revolutionizing the way businesses handle transactions. Our mission is to provide reliable, efficient, and innovative POS solutions that cater to the dynamic needs of modern enterprises.
           </p>
-          <Link to="/">
+          <Link to="/contact">
               <button className="btn1 mt-12">
                 Get Started
               </button>
             </Link>
         </div>
         <div className="w-full h-full">
-          <img className="w-full h-full object-cover md:rounded-2xl md:mx-auto lg:mx-0" src="https://media.istockphoto.com/id/1336299094/photo/business-team-discussing-a-marketing-strategy-in-a-meeting-at-the-office.jpg?s=612x612&w=0&k=20&c=gDDUxXDnlqTGeaRsxj7yQ21pF-P9j2ULHfY6eV0Yr5s=" alt="img" />
+          <img className="w-full h-full object-cover rounded-2xl md:mx-auto lg:mx-0" src="https://media.istockphoto.com/id/1336299094/photo/business-team-discussing-a-marketing-strategy-in-a-meeting-at-the-office.jpg?s=612x612&w=0&k=20&c=gDDUxXDnlqTGeaRsxj7yQ21pF-P9j2ULHfY6eV0Yr5s=" alt="img" />
         </div>
       </div>
     </div>
