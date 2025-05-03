@@ -6,14 +6,14 @@ const Footer = () => {
   return (
     <div className="bg-[#5da869]">
       <div className="max-w-7xl mx-auto pt-20">
-        <div className=" grid grid-cols-1 lg:grid-cols-2 items-center gap-10 mb-14 px-4 lg:px-10">
+        <div className=" grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-14 px-4 lg:px-10">
           <div>
             <h1 className="text-xl md:text-3xl leading-tight text-white font-bold mb-6">
               Ready To Clutch The Growth Curve For The Success Of Your{" "}
               <span className="text2">Business?</span>
             </h1>
             <div className="md:flex items-center">
-              <p className="text-lg text-white mb-20 md:mb-0">
+              <p className="text-lg text-white md:mb-0">
                 Maximize the potential of your business with our growth-driven
                 solutions. Let’s together achieve your goals in an innovative
                 and thriving dynamics.
@@ -21,30 +21,30 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <div className="flex justify-center">
-              <div>
-                <p className="text-white mb-3">Call Us</p>
-                <div className="flex items-center gap-4">
-                  <BiPhoneCall className="text-white" size={28} />
-                  <h4 className="text-white text-2xl">833-*********</h4>
+            <div className="md:flex items-center gap-20">
+              <div className="flex md:justify-center">
+                <div>
+                  <p className="text-white mb-3">Call Us</p>
+                  <div className="flex items-center gap-4">
+                    <BiPhoneCall className="text-white" size={28} />
+                    <h4 className="text-white text-2xl">833-*********</h4>
+                  </div>
+                </div>
+              </div>
+              <div className="flex md:justify-center mt-6">
+                <div>
+                  <p className="text-white mb-3">Address</p>
+                  <div className="flex items-center gap-4">
+                    <IoLocationOutline className="text-white" size={28} />
+                    <h4 className="text-white text-2xl">*************</h4>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="flex justify-center mt-6">
-              <div>
-                <p className="text-white mb-3">Address</p>
-                <div className="flex items-center gap-4">
-                  <IoLocationOutline className="text-white" size={28} />
-                  <h4 className="text-white text-2xl">
-                    *************
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div className="w-48 mx-auto mt-6">
-            <Link to="/contact">
-              <button className="btn1">Get Started</button>
-            </Link>
+            <div className="w-48 mt-6">
+              <Link to="/contact">
+                <button className="btn1">Get Started</button>
+              </Link>
             </div>
           </div>
         </div>
