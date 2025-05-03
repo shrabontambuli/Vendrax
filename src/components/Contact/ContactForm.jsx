@@ -111,7 +111,7 @@ const ContactForm = () => {
                               message: 'Invalid email address',
                             },
                           })}
-                          className={`border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800] ${
+                          className={`border p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800] ${
                             errors.email ? 'border-red-500' : ''
                           }`}
                         />
@@ -132,7 +132,7 @@ const ContactForm = () => {
                               message: 'Invalid phone number',
                             },
                           })}
-                          className={`border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800] ${
+                          className={`border p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800] ${
                             errors.number ? 'border-red-500' : ''
                           }`}
                         />
@@ -144,7 +144,7 @@ const ContactForm = () => {
                           type="text"
                           placeholder="Business Name"
                           {...register('business', { required: 'Subject is required' })}
-                        className={`border-2 p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800] ${
+                        className={`border p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800] ${
                           errors.business ? 'border-red-500' : ''
                         }`}
                         />
@@ -161,7 +161,7 @@ const ContactForm = () => {
                             required: 'Message is required',
                             minLength: { value: 10, message: 'At least 10 characters' },
                           })}
-                          className={`w-full bg-white border-2 p-3 rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800] resize-none ${
+                          className={`w-full bg-white border p-3 rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800] resize-none ${
                             errors.sms ? 'border-red-500' : ''
                           }`}
                           rows="4"
