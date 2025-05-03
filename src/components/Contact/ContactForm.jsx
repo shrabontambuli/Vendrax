@@ -19,20 +19,20 @@ const ContactForm = () => {
   return (
     <div className="pt-32 lg:pt-48">
       <div className="max-w-7xl mx-auto rounded-2xl bgs shadow-xl lg:px-20 py-10 mb-28 relative p-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="w-11/12 ">
             <div className="text-center">
               <h1 className="text-3xl lg:text-5xl text2 font-bold lg:w-10/12">
                 Let's Connect
               </h1>
-              <p className="mt-14 text2 text-xl lg:w-10/12">
+              <p className="mt-6 text2 text-xl md:w-10/12 mx-auto">
                 We're here to assist you in finding the perfect POS solution for
                 your business.
               </p>
             </div>
             <div className="flex justify-center items-center mt-10">
               <div>
-                <div className="flex items-center gap-4 mb-20">
+                <div className="flex items-center gap-4 mb-10">
                   <div>
                     <p className="text2 text-2xl mb-2">• Phone:</p>
                     <h3 className="text-2xl lg:text-3xl text2 font-medium">
@@ -40,7 +40,7 @@ const ContactForm = () => {
                     </h3>
                   </div>
                 </div>
-                <div className="flex items-center gap-4 mb-20">
+                <div className="flex items-center gap-4 mb-10">
                   <div>
                     <p className="text2 text-2xl mb-2">• Email:</p>
                     <h3 className="text-2xl lg:text-3xl text2 font-medium">
@@ -59,7 +59,7 @@ const ContactForm = () => {
               </div>
               <div>
                 <img
-                  className="hidden md:flex h-[735px] -mb-40"
+                  className="hidden lg::flex h-[735px] -mb-40"
                   src="/images/cont-img1.webp"
                   alt="img"
                 />
