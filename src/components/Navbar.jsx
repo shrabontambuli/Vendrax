@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="absolute z-20 w-[100%]">
+    <div className="fixed z-30 w-[100%]">
       {/* top nav  */}
 
       <div className="bgs2">
@@ -41,67 +41,68 @@ const Navbar = () => {
 
       {/* main nav  */}
 
-      <div className="flex justify-between items-center text2 py-6 md:py-8 max-w-7xl mx-auto relative">
-        <div>
-          <div className="dropdown lg:hidden absolute right-2">
-            <div
-              tabIndex={0}
-              // onClick={() => setIsOpen(!isOpen)}
-              onClick={() => setIsOpen((o) => !o)}
-              role="button"
-              className="btn btn-ghost lg:hidden absolute right-2"
-            >
-              {isOpen ? <X size={28}  /> : <Menu size={28} />}
-            </div>
-            <ul
-              tabIndex={0}
-              className={`menu menu-sm left-0 bgC text2 z-10 mt-10 w-96  h-screen md:h-full rounded-lg p-6 pt-20 shadow space-y-10 transition-all ${
-                isOpen ? "block" : "hidden"
-              }`}
-            >
-              <li>
-                <NavLink
-                  to="/"
-                  className={({ isActive }) =>
-                    `${
-                      isActive
-                        ? "bg1 text1 text-xl border-b-2 py-2"
-                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
-                    }`
-                  }
-                >
-                  Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/about"
-                  className={({ isActive }) =>
-                    `${
-                      isActive
-                        ? "bg1 text1 text-xl border-b-2 py-2"
-                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
-                    }`
-                  }
-                >
-                  About
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/services"
-                  className={({ isActive }) =>
-                    `${
-                      isActive
-                        ? "bg1 text1 text-xl border-b-2 py-2"
-                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
-                    }`
-                  }
-                >
-                Services
-                </NavLink>
-              </li>
-              {/* <li>
+      <div className="bgs3">
+        <div className="flex justify-between items-center text2 py-2 max-w-7xl mx-auto relative">
+          <div>
+            <div className="dropdown lg:hidden absolute right-2">
+              <div
+                tabIndex={0}
+                // onClick={() => setIsOpen(!isOpen)}
+                onClick={() => setIsOpen((o) => !o)}
+                role="button"
+                className="btn btn-ghost lg:hidden absolute right-2"
+              >
+                {isOpen ? <X size={28} /> : <Menu size={28} />}
+              </div>
+              <ul
+                tabIndex={0}
+                className={`menu menu-sm left-0 bgC text2 z-10 mt-10 w-96  h-screen md:h-full rounded-lg p-6 pt-20 shadow space-y-10 transition-all ${
+                  isOpen ? "block" : "hidden"
+                }`}
+              >
+                <li>
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? "bg1 text1 text-xl border-b-2 py-2"
+                          : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
+                      }`
+                    }
+                  >
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/about"
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? "bg1 text1 text-xl border-b-2 py-2"
+                          : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
+                      }`
+                    }
+                  >
+                    About
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/services"
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? "bg1 text1 text-xl border-b-2 py-2"
+                          : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
+                      }`
+                    }
+                  >
+                    Services
+                  </NavLink>
+                </li>
+                {/* <li>
                 <details>
                   <summary className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">
                     Services
@@ -208,35 +209,35 @@ const Navbar = () => {
                   </ul>
                 </details>
               </li> */}
-              <li>
-                <NavLink
-                  to="/features"
-                  className={({ isActive }) =>
-                    `${
-                      isActive
-                        ? "bg1 text1 text-xl border-b-2 py-2"
-                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
-                    }`
-                  }
-                >
-                  Features
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/partnership"
-                  className={({ isActive }) =>
-                    `${
-                      isActive
-                        ? "bg1 text1 text-xl border-b-2 py-2"
-                        : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
-                    }`
-                  }
-                >
-                  Partnership
-                </NavLink>
-              </li>
-              {/* <li>
+                <li>
+                  <NavLink
+                    to="/features"
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? "bg1 text1 text-xl border-b-2 py-2"
+                          : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
+                      }`
+                    }
+                  >
+                    Features
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/partnership"
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? "bg1 text1 text-xl border-b-2 py-2"
+                          : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
+                      }`
+                    }
+                  >
+                    Partnership
+                  </NavLink>
+                </li>
+                {/* <li>
                 <details>
                   <summary className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">
                     Partnership
@@ -301,83 +302,83 @@ const Navbar = () => {
                   </ul>
                 </details>
               </li> */}
-              <li>
-                <NavLink
-                 className={({ isActive }) =>
-                  `${
-                    isActive
-                      ? "bg1 text1 text-xl border-b-2 py-2"
-                      : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
-                  }`
-                }
-                  to="/contact"
-                >
-                  Contact
-                </NavLink>
-              </li>
-              <li>
-                <Link to="/contact" className="btn1 uppercase w-48">
-                  Get started
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <Link to="/" className="btn btn-ghost text-xl">
-            <div className="flex items-center gap-2">
-              <img src={Logo} alt="logo" />
-              <h1 className="text-4xl">Fundrax</h1>
+                <li>
+                  <NavLink
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? "bg1 text1 text-xl border-b-2 py-2"
+                          : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
+                      }`
+                    }
+                    to="/contact"
+                  >
+                    Contact
+                  </NavLink>
+                </li>
+                <li>
+                  <Link to="/contact" className="btn1 uppercase w-48">
+                    Get started
+                  </Link>
+                </li>
+              </ul>
             </div>
-          </Link>
-        </div>
-        <div className=" ">
-          <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal items-center gap-2 text-xl  font-medium">
-              <li>
-                <NavLink
-                  className={({ isActive }) =>
-                    `${
-                      isActive
-                        ? "bg-none text2 border-b-2 border-[#228800]"
-                        : ""
-                    }`
-                  }
-                  to="/"
-                  onClick={closeAllDetails}
-                >
-                  Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  className={({ isActive }) =>
-                    `${
-                      isActive
-                        ? "bg-none text2 border-b-2 border-[#228800]"
-                        : ""
-                    }`
-                  }
-                  to="/about"
-                  onClick={closeAllDetails}
-                >
-                  About
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  className={({ isActive }) =>
-                    `${
-                      isActive
-                        ? "bg-none text2 border-b-2 border-[#228800]"
-                        : ""
-                    }`
-                  }
-                  to="/services"
-                  onClick={closeAllDetails}
-                >
-                  Services
-                </NavLink>
-              </li>
-              {/* <li>
+            <Link to="/" className="btn btn-ghost text-xl">
+              <div className="flex items-center gap-2">
+                <img src={Logo} alt="logo" />
+                <h1 className="text-4xl">Fundrax</h1>
+              </div>
+            </Link>
+          </div>
+          <div className=" ">
+            <div className="navbar-center hidden lg:flex">
+              <ul className="menu menu-horizontal items-center gap-2 text-xl  font-medium">
+                <li>
+                  <NavLink
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? "bg-none text2 border-b-2 border-[#228800]"
+                          : ""
+                      }`
+                    }
+                    to="/"
+                    onClick={closeAllDetails}
+                  >
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? "bg-none text2 border-b-2 border-[#228800]"
+                          : ""
+                      }`
+                    }
+                    to="/about"
+                    onClick={closeAllDetails}
+                  >
+                    About
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? "bg-none text2 border-b-2 border-[#228800]"
+                          : ""
+                      }`
+                    }
+                    to="/services"
+                    onClick={closeAllDetails}
+                  >
+                    Services
+                  </NavLink>
+                </li>
+                {/* <li>
                 <details>
                   <summary>Services</summary>
                   <ul className="bg-white text-black border-b-2 space-y-1 rounded-sm w-40">
@@ -489,37 +490,37 @@ const Navbar = () => {
                   </ul>
                 </details>
               </li> */}
-              <li>
-                <NavLink
-                  className={({ isActive }) =>
-                    `${
-                      isActive
-                        ? "bg-none text2 border-b-2 border-[#228800]"
-                        : ""
-                    }`
-                  }
-                  to="/features"
-                  onClick={closeAllDetails}
-                >
-                  Features
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  className={({ isActive }) =>
-                    `${
-                      isActive
-                        ? "bg-none text2 border-b-2 border-[#228800]"
-                        : ""
-                    }`
-                  }
-                  to="/partnership"
-                  onClick={closeAllDetails}
-                >
-                Partnership
-                </NavLink>
-              </li>
-              {/* <li>
+                <li>
+                  <NavLink
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? "bg-none text2 border-b-2 border-[#228800]"
+                          : ""
+                      }`
+                    }
+                    to="/features"
+                    onClick={closeAllDetails}
+                  >
+                    Features
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? "bg-none text2 border-b-2 border-[#228800]"
+                          : ""
+                      }`
+                    }
+                    to="/partnership"
+                    onClick={closeAllDetails}
+                  >
+                    Partnership
+                  </NavLink>
+                </li>
+                {/* <li>
                 <details>
                   <summary>Partnership</summary>
                   <ul className="bg-white text-black border-b-2  rounded-sm space-y-1 w-52">
@@ -586,27 +587,28 @@ const Navbar = () => {
                   </ul>
                 </details>
               </li> */}
-              <li>
-                <NavLink
-                  to="/contact"
-                  onClick={closeAllDetails}
-                  className={({ isActive }) =>
-                    `${
-                      isActive
-                        ? "bg-none text2 border-b-2 border-[#228800]"
-                        : ""
-                    }`
-                  }
-                >
-                  Contact
-                </NavLink>
-              </li>
-              <li>
-                <Link to="/contact" className="btn1 uppercase">
-                  Get started
-                </Link>
-              </li>
-            </ul>
+                <li>
+                  <NavLink
+                    to="/contact"
+                    onClick={closeAllDetails}
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? "bg-none text2 border-b-2 border-[#228800]"
+                          : ""
+                      }`
+                    }
+                  >
+                    Contact
+                  </NavLink>
+                </li>
+                <li>
+                  <Link to="/contact" className="btn1 uppercase">
+                    Get started
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
