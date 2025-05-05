@@ -20,7 +20,7 @@ const Smartphone = () => {
           </h2>
             <div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center items-center gap-10 mt-20 text-center">
-                <div className="card bg-base-300 shadow-xl w-96 h-60 py-6">
+                <div className="card bgs2 shadow-xl w-96 h-60 py-6">
                   <div className="card-body">
                     <h1 className="text-2xl text2 font-medium mb-4">
                       • Offline Mode:
@@ -30,7 +30,7 @@ const Smartphone = () => {
                     </span>
                   </div>
                 </div>
-                <div className="card bg-base-300 shadow-xl w-96 h-60 py-6">
+                <div className="card bgs2 shadow-xl w-96 h-60 py-6">
                   <div className="card-body">
                     <h1 className="text-2xl text2 font-medium mb-4">
                       • Multi-Store Management:
@@ -40,7 +40,7 @@ const Smartphone = () => {
                     </span>
                   </div>
                 </div>
-                <div className="card bg-base-300 shadow-xl w-96 h-60 py-6">
+                <div className="card bgs2 shadow-xl w-96 h-60 py-6">
                   <div className="card-body">
                     <h1 className="text-2xl  text2 font-medium mb-4">
                       • Inventory Management:
@@ -50,7 +50,7 @@ const Smartphone = () => {
                     </span>
                   </div>
                 </div>
-                <div className="card bg-base-300 shadow-xl w-96 h-60 py-6">
+                <div className="card bgs2 shadow-xl w-96 h-60 py-6">
                   <div className="card-body">
                     <h1 className="text-2xl text2 font-medium mb-4">
                       • Integrated Payments:
@@ -60,7 +60,7 @@ const Smartphone = () => {
                     </span>
                   </div>
                 </div>
-                <div className="card bg-base-300 shadow-xl w-96 h-60 py-6">
+                <div className="card bgs2 shadow-xl w-96 h-60 py-6">
                   <div className="card-body">
                     <h1 className="text-2xl text2 font-medium mb-4">
                       • Secure Transactions:
@@ -70,7 +70,7 @@ const Smartphone = () => {
                     </span>
                   </div>
                 </div>
-                <div className="card bg-base-300 shadow-xl w-96 h-60 py-6">
+                <div className="card bgs2 shadow-xl w-96 h-60 py-6">
                   <div className="card-body">
                     <h1 className="text-2xl text2 font-medium mb-4">
                       • Real-Time Monitoring:
