@@ -3,7 +3,7 @@ import { FaFacebookF, FaPinterestP, FaTwitter } from "react-icons/fa";
 import { PiMapPinAreaFill } from "react-icons/pi";
 import { RiInstagramFill } from "react-icons/ri";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import Logo from "/public/images/LOGO.png";
+import Logo from "/images/LOGO.png";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -323,8 +323,8 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <Link to="/" className=" text-xl">
-              <div className="w-20 lg:w-28 lg:h-28">
+            <Link to="/">
+              <div className="w-28 p-2">
                 <img src={Logo} alt="logo" />
               </div>
             </Link>

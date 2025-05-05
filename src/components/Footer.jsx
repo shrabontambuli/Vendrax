@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="bg-[#5da869]">
       <div className="max-w-7xl mx-auto pt-20">
-        <div className=" grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-14 px-4 lg:px-10">
+        <div className=" grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-14 px-4">
           <div>
             <h1 className="text-xl md:text-3xl leading-tight text-white font-bold mb-6">
               Ready To Clutch The Growth Curve For The Success Of Your{" "}
@@ -48,9 +48,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center md:max-w-screen-xl px-4 md:px-0 lg:ms-10 mb-2">
+        <div className="flex items-center max-w-7xl mx-auto px-4 md:px-0 mb-2">
           <div className="w-36 bg-white h-[10px]"></div>
-          <div className="w-full lg:me-32 bg-white h-[1px]"></div>
+          <div className="w-[100%]  bg-white h-[1px]"></div>
         </div>
         {/* <footer className="footer sm:footer-horizontal items-center text-lg text-white p-10">
           <nav>
@@ -158,17 +158,15 @@ const Footer = () => {
             </nav>
           </div>
         </footer> */}
-        <footer className="footer sm:footer-horizontal text-neutral-content items-center p-4 mt-5">
-          <aside className="grid-flow-col items-center">
-            <div className="w-24 h-24">
-              <img className="rounded-xl" src="/images/LOGO.jpeg" alt="logo" />
+        <footer className=" max-w-7xl mx-auto sm:footer-horizontal text-neutral-content items-center p-4 mt-5">
+          <div className="flex justify-between items-center">
+            <div className="w-24 bg-white p-2 rounded-lg">
+              <img className="rounded-xl" src="/images/LOGO.png" alt="logo" />
             </div>
-          </aside>
-          <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
             <p className="text-base text-white">
               Copyright © {new Date().getFullYear()} Fundrax. All right reserved
             </p>
-          </nav>
+          </div>
         </footer>
       </div>
     </div>
