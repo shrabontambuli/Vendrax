@@ -3,7 +3,7 @@ import { FaFacebookF, FaPinterestP, FaTwitter } from "react-icons/fa";
 import { PiMapPinAreaFill } from "react-icons/pi";
 import { RiInstagramFill } from "react-icons/ri";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import Logo from "/public/images/logo3.png";
+import Logo from "/public/images/LOGO.png";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -323,10 +323,9 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <Link to="/" className="btn btn-ghost text-xl">
-              <div className="flex items-center gap-2">
+            <Link to="/" className=" text-xl">
+              <div className="w-28 h-28">
                 <img src={Logo} alt="logo" />
-                <h1 className="text-4xl">Fundrax</h1>
               </div>
             </Link>
           </div>

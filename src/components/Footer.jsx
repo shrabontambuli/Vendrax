@@ -160,9 +160,8 @@ const Footer = () => {
         </footer> */}
         <footer className="footer sm:footer-horizontal text-neutral-content items-center p-4 mt-5">
           <aside className="grid-flow-col items-center">
-            <div className="flex items-center gap-3">
-              <img src="/images/logo3.png" alt="logo" />
-              <h1 className="text-4xl font-medium text-white">Fundrax</h1>
+            <div className="w-24 h-24">
+              <img className="rounded-xl" src="/images/LOGO.jpeg" alt="logo" />
             </div>
           </aside>
           <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
