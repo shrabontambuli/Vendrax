@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed z-30 w-[100%]">
+    <div className="fixed z-50 w-[100%]">
       {/* top nav  */}
 
       <div className="bgs2">
@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className="bgs3">
         <div className="flex justify-between items-center text2 py-2 max-w-7xl mx-auto relative">
           <div>
-            <div className="dropdown lg:hidden absolute right-2">
+            <div className="dropdown lg:hidden absolute right-2 top-6">
               <div
                 tabIndex={0}
                 // onClick={() => setIsOpen(!isOpen)}
@@ -324,7 +324,7 @@ const Navbar = () => {
               </ul>
             </div>
             <Link to="/" className=" text-xl">
-              <div className="w-28 h-28">
+              <div className="w-20 lg:w-28 lg:h-28">
                 <img src={Logo} alt="logo" />
               </div>
             </Link>
