@@ -159,7 +159,7 @@ const Footer = () => {
           </div>
         </footer> */}
         <footer className=" max-w-7xl mx-auto sm:footer-horizontal text-neutral-content items-center p-4 mt-5">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between gap-4 items-center">
             <div className="w-24 bg-white p-2 rounded-lg">
               <img className="rounded-xl" src="/images/LOGO.png" alt="logo" />
             </div>
