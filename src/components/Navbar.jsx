@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className="bgs3">
         <div className="flex justify-between items-center text2 py-2 max-w-7xl mx-auto relative">
           <div>
-            <div className="dropdown lg:hidden absolute right-2 top-6">
+            <div className="dropdown lg:hidden absolute -right-5 top-7">
               <div
                 tabIndex={0}
                 // onClick={() => setIsOpen(!isOpen)}
