@@ -16,7 +16,7 @@ const Features = () => {
             {/* <VendraxOffers/> */}
             {/* <AcceptPayments/> */}
             <Smartphone/>
-            <Comprehensive/>
+            {/* <Comprehensive/> */}
             {/* <Minimize/> */}
         </>
     );
