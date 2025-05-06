@@ -20,86 +20,86 @@ const Smartphone = () => {
           </h2>
             <div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center items-center gap-10 mt-20 text-center">
-                <div className="card bgs2 shadow-xl w-96 h-60 py-14 flex">
-                  <div className="card-body">
-                    <span className="text-lg lg:text-xl text-white">
+                <div className="card bgs2 shadow-xl w-96 h-60 flex justify-center items-center p-2">
+                  <div>
+                    <span className="text-2xl text-white">
                     CBD / C8 / C9 POS industry
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
-                  <div className="card-body">
-                    <span className="text-lg lg:text-xl text-white">
+                <div className="card bgs2 shadow-xl w-96 h-60 flex justify-center items-center p-2">
+                  <div>
+                    <span className="text-2xl text-white">
                     Liquor stores
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
-                  <div className="card-body">
-                    <span className="text-lg lg:text-xl text-white">
+                <div className="card bgs2 shadow-xl w-96 h-60 flex justify-center items-center p-2">
+                  <div>
+                    <span className="text-2xl text-white">
                     Cigarette & E-cigarette shops
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
-                  <div className="card-body">
-                    <span className="text-lg lg:text-xl text-white">
+                <div className="card bgs2 shadow-xl w-96 h-60 flex justify-center items-center p-2">
+                  <div>
+                    <span className="text-2xl text-white">
                     Pubs & bars
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
-                  <div className="card-body">
-                    <span className="text-lg lg:text-xl text-white">
+                <div className="card bgs2 shadow-xl w-96 h-60 flex justify-center items-center p-2">
+                  <div>
+                    <span className="text-2xl text-white">
                     Cigarette & E-cigarette shops
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
-                  <div className="card-body">
-                    <span className="text-lg lg:text-xl text-white">
+                <div className="card bgs2 shadow-xl w-96 h-60 flex justify-center items-center p-2">
+                  <div>
+                    <span className="text-2xl text-white">
                     Restaurants & quick-service 
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
-                  <div className="card-body">
-                    <span className="text-lg lg:text-xl text-white">
+                <div className="card bgs2 shadow-xl w-96 h-60 flex justify-center items-center p-2">
+                  <div>
+                    <span className="text-2xl text-white">
                     restaurants (QSR)
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
-                  <div className="card-body">
-                    <span className="text-lg lg:text-xl text-white">
+                <div className="card bgs2 shadow-xl w-96 h-60 flex justify-center items-center p-2">
+                  <div>
+                    <span className="text-2xl text-white">
                     Taxi fleets & transportation services
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
-                  <div className="card-body">
-                    <span className="text-lg lg:text-xl text-white">
+                <div className="card bgs2 shadow-xl w-96 h-60 flex justify-center items-center p-2">
+                  <div>
+                    <span className="text-2xl text-white">
                     Grocery stores & supermarkets 
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
-                  <div className="card-body">
-                    <span className="text-lg lg:text-xl text-white">
+                <div className="card bgs2 shadow-xl w-96 h-60 flex justify-center items-center p-2">
+                  <div>
+                    <span className="text-2xl text-white">
                     Convenience stores
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
-                  <div className="card-body">
-                    <span className="text-lg lg:text-xl text-white">
+                <div className="card bgs2 shadow-xl w-96 h-60 flex justify-center items-center p-2">
+                  <div>
+                    <span className="text-2xl text-white">
                     Retail boutiques
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
-                  <div className="card-body">
-                    <span className="text-lg lg:text-xl text-white">
+                <div className="card bgs2 shadow-xl w-96 h-60 flex justify-center items-center p-2">
+                  <div>
+                    <span className="text-2xl text-white">
                     Specialty stores (vape shops, dispensaries, gift shops)
                     </span>
                   </div>
