@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="w-[50%] flex justify-start items-center gap-2">
             <PiMapPinAreaFill size={25} />
             <p className="font-medium text-sm">
-            9431 Haven Avenue Suite 100 Rancho Cucamonga CA 91730
+              9431 Haven Avenue Suite 100 Rancho Cucamonga CA 91730
             </p>
           </div>
           <div className="w-[50%] flex justify-end items-center gap-2">
@@ -44,13 +44,15 @@ const Navbar = () => {
       <div className="bgs3">
         <div className="flex justify-between items-center text2 py-2 max-w-7xl mx-auto relative">
           <div>
-            <div className="dropdown lg:hidden absolute -right-5 top-7">
+            <div className="dropdown lg:hidden absolute right-0 top-7">
               <div
                 tabIndex={0}
                 // onClick={() => setIsOpen(!isOpen)}
-                onClick={() => setIsOpen((o) => !o)}
+                // onClick={() => setIsOpen((o) => !o)}
+                onMouseEnter={() => setIsOpen(true)}
+                onMouseLeave={() => setIsOpen(false)}
                 role="button"
-                className="btn btn-ghost lg:hidden absolute right-2"
+                className=" lg:hidden absolute right-2"
               >
                 {isOpen ? <X size={28} /> : <Menu size={28} />}
               </div>
