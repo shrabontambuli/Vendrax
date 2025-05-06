@@ -47,7 +47,7 @@ const Mobile = () => {
         <div className="w-full h-[600px] mt-10 md:mt-0">
           <img
             className="w-full h-full object-cover rounded-2xl"
-            src="https://media.istockphoto.com/id/1946645580/photo/contactless-payment-by-phone.jpg?s=612x612&w=0&k=20&c=o8zKG-VpVJ3qIokqCQ59gW08PhG5nsxSlCiV2i6yR58="
+            src="/images/istockphoto-1946645580-612x612.jpg"
             alt="img"
           />
         </div>

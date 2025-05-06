@@ -29,12 +29,12 @@ const Navbar = () => {
           <div className="w-[50%] flex justify-start items-center gap-2">
             <PiMapPinAreaFill size={25} />
             <p className="font-medium text-sm">
-              15500 **************************
+            9431 Haven Avenue Suite 100 Rancho Cucamonga CA 91730
             </p>
           </div>
           <div className="w-[50%] flex justify-end items-center gap-2">
             <BiSolidPhoneCall size={24} />
-            <p>833-*****************</p>
+            <p> (855) 262-0796</p>
           </div>
         </div>
       </div>

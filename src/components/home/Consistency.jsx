@@ -26,7 +26,7 @@ const Consistency = () => {
             <div className="w-full h-full">
               <img
                 className="w-full h-full rounded-2xl object-cover"
-                src="https://media.istockphoto.com/id/1048192018/photo/latin-engineer-working-on-laptop-and-drill.jpg?s=612x612&w=0&k=20&c=Rz7ZGsikctEEIqX58Nw-PnehmNVr-TgqtVzqDfxjM5U="
+                src="/images/istockphoto-1048192018-612x612.jpg"
                 alt="icon"
               />
             </div>

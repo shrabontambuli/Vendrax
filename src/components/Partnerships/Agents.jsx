@@ -18,7 +18,7 @@ const Agents = () => {
           <div className="w-full h-full">
             <img
               className="w-full h-full rounded-2xl"
-              src="https://media.istockphoto.com/id/1413761479/photo/mature-couple-meeting-financial-advisor-for-investment.jpg?s=612x612&w=0&k=20&c=kKraGQ3d_90VsQVIwAx6mi3gNsiytiLT9jlEbmEh1lE="
+              src="/images/istockphoto-1413761479-612x612.jpg"
               alt=""
               style={{ objectFit: "cover" }}
             />

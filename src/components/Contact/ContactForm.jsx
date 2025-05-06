@@ -35,24 +35,24 @@ const ContactForm = () => {
                 <div className="flex items-center gap-4 mb-10">
                   <div>
                     <p className="text2 text-2xl mb-2">• Phone:</p>
-                    <h3 className="text-2xl lg:text-3xl text2 font-medium">
-                      01**********
+                    <h3 className="text-2xl text2 font-medium">
+                    (855) 262-0796
                     </h3>
                   </div>
                 </div>
-                <div className="flex items-center gap-4 mb-10">
+                {/* <div className="flex items-center gap-4 mb-10">
                   <div>
                     <p className="text2 text-2xl mb-2">• Email:</p>
-                    <h3 className="text-2xl lg:text-3xl text2 font-medium">
+                    <h3 className="text-2xl text2 font-medium">
                       *****@gmail.com
                     </h3>
                   </div>
-                </div>
+                </div> */}
                 <div className="flex items-center gap-4">
                   <div>
                     <p className="text2 text-2xl mb-2">• Address:</p>
-                    <h3 className="text-2xl lg:text-3xl text2 font-medium w-80">
-                      ******************
+                    <h3 className="text-xl text2 font-medium w-80">
+                    9431 Haven Avenue Suite 100 Rancho Cucamonga CA 91730
                     </h3>
                   </div>
                 </div>

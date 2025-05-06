@@ -10,7 +10,7 @@ const HeroSection = () => {
         "At Fundrax, we specialize in delivering state-of-the-art Point-of-Sale (POS) systems designed to streamline your operations and enhance customer experiences. Our solutions are tailored to meet the unique needs of various industries, ensuring efficiency and growth.",
       btn: "Get Started",
       imageUrl:
-        "https://img.freepik.com/free-photo/female-sound-engineer-studio-using-digital-tablet_107420-96160.jpg?ga=GA1.1.2098199704.1726909822&semt=ais_hybrid&w=740",
+        "/images/female-sound-engineer-studio-using-digital-tablet_107420-96160.avif",
       // points: [
       //   "Retail Stores",
       //   "Restaurants",
@@ -25,7 +25,7 @@ const HeroSection = () => {
         "At Fundrax, we specialize in delivering state-of-the-art Point-of-Sale (POS) systems designed to streamline your operations and enhance customer experiences. Our solutions are tailored to meet the unique needs of various industries, ensuring efficiency and growth.",
       btn: "Submit Referral",
       imageUrl:
-        "https://img.freepik.com/free-photo/happy-family-paying-with-credit-card_171337-2413.jpg?ga=GA1.1.2098199704.1726909822&semt=ais_hybrid&w=740",
+        "/images/happy-family-paying-with-credit-card_171337-2413.avif",
       // points: [
       //   "Retail Stores",
       //   "Restaurants",
@@ -103,7 +103,7 @@ const HeroSection = () => {
       {/* down */}
       <div className="bg1 mt-24 py-20"
        style={{
-        backgroundImage: "url(https://img.freepik.com/free-photo/glasses-lie-laptop-reflecting-light-from-screen-dark_169016-52267.jpg?t=st=1746139319~exp=1746142919~hmac=8c70a0c2a8a876069345fabb497b526588dcdf21bb9f3ac288df37c303d73b9d&w=1380)",
+        backgroundImage: "url(/images/glasses-lie-laptop-reflecting-light-from-screen-dark_169016-52267.avif)",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",

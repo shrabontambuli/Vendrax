@@ -21,7 +21,7 @@ const Collaborate = () => {
         <div className="w-full h-full mx-auto mt-10 md:mt-0">
           <img
             className="w-full h-full rounded-2xl"
-            src="https://media.istockphoto.com/id/1392016982/photo/mixed-group-of-business-people-sitting-around-a-table-and-talking.jpg?s=612x612&w=0&k=20&c=d7mWQhdzKrowHYTWXXcCrNn02uyfLYQYB78M75G8lKg="
+            src="/images/istockphoto-1392016982-612x612.jpg"
             alt=""
             style={{ objectFit: "cover" }}
           />

@@ -22,7 +22,7 @@ const Resellers = () => {
             <div>
               <img
                 className="w-full h-full object-cover rounded-2xl"
-                src="https://media.istockphoto.com/id/2196141508/photo/senior-woman-selling-clothes-and-accessories-online.jpg?s=612x612&w=0&k=20&c=TZ84ob7uzEetjxRcUD0rJx2qBdUmbeb_QnLgnNRtI3Q="
+                src="/images/istockphoto-2196141508-612x612.jpg"
                 alt=""
               />
             </div>

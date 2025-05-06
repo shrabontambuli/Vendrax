@@ -8,7 +8,7 @@ const TailoringPos = () => {
           <div className="h-full w-full">
             <img
               className="h-full w-full rounded-2xl object-cover"
-              src="https://media.istockphoto.com/id/1183280519/photo/success-on-top-of-success-on-top-of-success.jpg?s=612x612&w=0&k=20&c=G1yQ11UHeh9vD1IyjPtSjcoplC6CMWuTs7x4xoUCVas="
+              src="/images/istockphoto-1183280519-612x612.jpg"
               alt="img"
             />
           </div>

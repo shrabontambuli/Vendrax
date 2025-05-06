@@ -11,7 +11,7 @@ const Desktop = () => {
         <div className="w-full h-full mt-10 md:mt-0">
           <img
             className="w-full h-full rounded-2xl"
-            src="https://media.istockphoto.com/id/894929304/photo/workplace-in-modern-blue-interior.jpg?s=612x612&w=0&k=20&c=rEtHuv5LvTVBQKEGzjLTd-f5uht4VVFK7Cnu6DP7Y7o="
+            src="/images/istockphoto-894929304-612x612.jpg"
             alt="img"
           />
         </div>

@@ -19,7 +19,7 @@ const PosSystems = () => {
             </Link>
         </div>
         <div className="w-full h-full">
-          <img className="w-full h-full object-cover rounded-2xl md:mx-auto lg:mx-0" src="https://media.istockphoto.com/id/1336299094/photo/business-team-discussing-a-marketing-strategy-in-a-meeting-at-the-office.jpg?s=612x612&w=0&k=20&c=gDDUxXDnlqTGeaRsxj7yQ21pF-P9j2ULHfY6eV0Yr5s=" alt="img" />
+          <img className="w-full h-full object-cover rounded-2xl md:mx-auto lg:mx-0" src="/images/istockphoto-1336299094-612x612.jpg" alt="img" />
         </div>
       </div>
     </div>

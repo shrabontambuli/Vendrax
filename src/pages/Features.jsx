@@ -4,6 +4,7 @@ import VendraxOffers from '../components/Features/VendraxOffers';
 import AcceptPayments from '../components/Features/AcceptPayments';
 import Smartphone from '../components/Features/Smartphone';
 import Minimize from '../components/Minimize';
+import Comprehensive from '../components/Features/Comprehensive';
 
 const Features = () => {
     useEffect(() => {
@@ -14,6 +15,7 @@ const Features = () => {
             {/* <FeaturesBanner/> */}
             {/* <VendraxOffers/> */}
             {/* <AcceptPayments/> */}
+            <Comprehensive/>
             <Smartphone/>
             {/* <Minimize/> */}
         </>

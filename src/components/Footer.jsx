@@ -27,7 +27,7 @@ const Footer = () => {
                   <p className="text-white mb-3">Call Us</p>
                   <div className="flex items-center gap-4">
                     <BiPhoneCall className="text-white" size={28} />
-                    <h4 className="text-white text-2xl">833-*********</h4>
+                    <h4 className="text-white text-2xl">(855) 262-0796</h4>
                   </div>
                 </div>
               </div>
@@ -36,7 +36,7 @@ const Footer = () => {
                   <p className="text-white mb-3">Address</p>
                   <div className="flex items-center gap-4">
                     <IoLocationOutline className="text-white" size={28} />
-                    <h4 className="text-white text-2xl">*************</h4>
+                    <h4 className="text-white text-xl w-64">9431 Haven Avenue Suite 100 Rancho Cucamonga CA 91730</h4>
                   </div>
                 </div>
               </div>

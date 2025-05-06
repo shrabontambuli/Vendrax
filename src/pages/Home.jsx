@@ -5,6 +5,7 @@ import POSSection from "../components/home/POSSection";
 import Consistency from "../components/home/Consistency";
 import PosSolution from "../components/home/PosSolution";
 import EarnRewards from "../components/home/EarnRewards";
+import Platform from "../components/home/Platform";
 
 const Home = () => {
   useEffect(() => {
@@ -16,6 +17,7 @@ const Home = () => {
       {/* <Features /> */}
       {/* <POSSection /> */}
       <Consistency />
+      <Platform/>
       {/* <PosSolution /> */}
       {/* <EarnRewards /> */}
     </>

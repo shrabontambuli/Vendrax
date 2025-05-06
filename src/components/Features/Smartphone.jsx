@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Smartphone = () => {
   return (
-    <div className="pt-16">
+    <div>
       <div
         className="my-24 py-20"
         style={{
           backgroundImage:
-            "url(https://media.istockphoto.com/id/1210766757/photo/calling-it-a-night-after-a-long-day-of-work.jpg?s=612x612&w=0&k=20&c=APN7Rzo1ooqFk0ii8vrR2TJC06zDYhFM_UtSwq_L9HM=)",
+            "url(/images/istockphoto-1210766757-612x612.jpg)",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",
