@@ -118,7 +118,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/ecommerce"
+                          to="/demo"
                         >
                           Clover Flex 3G & 4G
                         </NavLink>
@@ -132,7 +132,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/pos-service"
+                          to="/demo"
                         >
                           Clover Duo Station
                         </NavLink>
@@ -146,7 +146,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/restaurant"
+                          to="/demo"
                         >
                           A920 Android SmartPOS
                         </NavLink>
@@ -174,7 +174,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/Pay"
+                          to="/demo"
                         >
                           Desk/5000 Countertop Terminal
                         </NavLink>
@@ -188,7 +188,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/wireless"
+                          to="/demo"
                         >
                           Move/5000 Wireless Terminal
                         </NavLink>
@@ -202,7 +202,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/mobile-payment"
+                          to="/demo"
                         >
                           Newland N910 Smart Terminal
                         </NavLink>
@@ -216,7 +216,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/mobile-payment"
+                          to="/demo"
                         >
                           Poynt C Smart Terminal
                         </NavLink>
@@ -421,7 +421,7 @@ const Navbar = () => {
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
                       <NavLink
                         className="block px-4 py-2 hover:bg-green-700 hover:text-white text-sm"
-                        to="/ecommerce"
+                        to="/demo"
                         onClick={closeAllDetails}
                       >
                         Clover Flex 3G & 4G
@@ -436,7 +436,7 @@ const Navbar = () => {
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/pos-service"
+                        to="/demo"
                         onClick={closeAllDetails}
                       >
                         Clover Duo Station
@@ -451,7 +451,7 @@ const Navbar = () => {
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/restaurant"
+                        to="/demo"
                         onClick={closeAllDetails}
                       >
                         A920 Android SmartPOS
@@ -466,7 +466,7 @@ const Navbar = () => {
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/desktop-terminal"
+                        to="/demo"
                         onClick={closeAllDetails}
                       >
                         A80 Android Desktop
@@ -481,7 +481,7 @@ const Navbar = () => {
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/pay"
+                        to="/demo"
                         onClick={closeAllDetails}
                       >
                         Desk/5000 Countertop Terminal
@@ -496,7 +496,7 @@ const Navbar = () => {
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/wireless"
+                        to="/demo"
                         onClick={closeAllDetails}
                       >
                         Move/5000 Wireless Terminal
@@ -511,7 +511,7 @@ const Navbar = () => {
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/mobile-payment"
+                        to="/demo"
                         onClick={closeAllDetails}
                       >
                         Newland N910 Smart Terminal
@@ -526,7 +526,7 @@ const Navbar = () => {
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/mobile-payment"
+                        to="/demo"
                         onClick={closeAllDetails}
                       >
                         Poynt C Smart Terminal

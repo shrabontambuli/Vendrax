@@ -17,6 +17,7 @@ import Wireless from "../pages/Wireless";
 import MobilePayment from "../pages/MobilePayment";
 import Service from "../pages/Service";
 import Partnership from "../pages/Partnership";
+import Demo from "../components/Demo";
 
 export const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ export const router = createBrowserRouter([
         path: "/partnership",
         element: <Partnership/>
       },
+      {
+        path: "/demo",
+        element: <Demo/>,
+      },
       // {
       //   path: "/referral",
       //   element: <Referral/>,
@@ -63,34 +68,34 @@ export const router = createBrowserRouter([
       //   path: "/agent",
       //   element: <Agent/>,
       // },
-      {
-        path: "/ecommerce",
-        element: <Ecommerce/>,
-      },
-      {
-        path: "/pos-service",
-        element: <PoSservice/>,
-      },
-      {
-        path: "/restaurant",
-        element: <Restaurant/>,
-      },
-      {
-        path: "/desktop-terminal",
-        element: <DesktopTerminal/>,
-      },
-      {
-        path: "/pay",
-        element: <Pay/>,
-      },
-      {
-        path: "/wireless",
-        element: <Wireless/>,
-      },
-      {
-        path: "/mobile-payment",
-        element: <MobilePayment/>,
-      },
+      // {
+      //   path: "/ecommerce",
+      //   element: <Ecommerce/>,
+      // },
+      // {
+      //   path: "/pos-service",
+      //   element: <PoSservice/>,
+      // },
+      // {
+      //   path: "/restaurant",
+      //   element: <Restaurant/>,
+      // },
+      // {
+      //   path: "/desktop-terminal",
+      //   element: <DesktopTerminal/>,
+      // },
+      // {
+      //   path: "/pay",
+      //   element: <Pay/>,
+      // },
+      // {
+      //   path: "/wireless",
+      //   element: <Wireless/>,
+      // },
+      // {
+      //   path: "/mobile-payment",
+      //   element: <MobilePayment/>,
+      // },
     ],
   },
 
