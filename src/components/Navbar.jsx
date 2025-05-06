@@ -57,7 +57,7 @@ const Navbar = () => {
               </div>
               <ul
                 tabIndex={0}
-                className={`menu menu-sm overflow-y-auto left-0 bgC text2 z-10 mt-10 w-96  h-screen md:h-full rounded-lg p-6 pt-20 shadow space-y-10 transition-all ${
+                className={`menu menu-sm overflow-y-auto left-0 bgC text2 z-20 mt-10 w-96 h-screen rounded-lg p-6 pt-16 shadow space-y-10 transition-all ${
                   isOpen ? "block" : "hidden"
                 }`}
               >
