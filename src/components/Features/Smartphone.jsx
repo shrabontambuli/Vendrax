@@ -5,7 +5,7 @@ const Smartphone = () => {
   return (
     <div>
       <div
-        className="my-24 py-20"
+        className="pt-32 lg:pt-52 mb-24 py-20"
         style={{
           backgroundImage:
             "url(/images/istockphoto-1210766757-612x612.jpg)",
@@ -20,63 +20,87 @@ const Smartphone = () => {
           </h2>
             <div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center items-center gap-10 mt-20 text-center">
-                <div className="card bgs2 shadow-xl w-96 h-60 py-6">
+                <div className="card bgs2 shadow-xl w-96 h-60 py-14 flex">
                   <div className="card-body">
-                    <h1 className="text-2xl text2 font-medium mb-4">
-                      • Offline Mode:
-                    </h1>
                     <span className="text-lg lg:text-xl text-white">
-                      Continue operations without internet connectivity.
+                    CBD / C8 / C9 POS industry
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-6">
+                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
                   <div className="card-body">
-                    <h1 className="text-2xl text2 font-medium mb-4">
-                      • Multi-Store Management:
-                    </h1>
                     <span className="text-lg lg:text-xl text-white">
-                      Oversee multiple locations from a single dashboard.
+                    Liquor stores
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-6">
+                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
                   <div className="card-body">
-                    <h1 className="text-2xl  text2 font-medium mb-4">
-                      • Inventory Management:
-                    </h1>
                     <span className="text-lg lg:text-xl text-white">
-                      Real-time stock updates and alerts.
+                    Cigarette & E-cigarette shops
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-6">
+                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
                   <div className="card-body">
-                    <h1 className="text-2xl text2 font-medium mb-4">
-                      • Integrated Payments:
-                    </h1>
                     <span className="text-lg lg:text-xl text-white">
-                      Support for various payment methods.
+                    Pubs & bars
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-6">
+                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
                   <div className="card-body">
-                    <h1 className="text-2xl text2 font-medium mb-4">
-                      • Secure Transactions:
-                    </h1>
                     <span className="text-lg lg:text-xl text-white">
-                      Advanced encryption and fraud prevention.
+                    Cigarette & E-cigarette shops
                     </span>
                   </div>
                 </div>
-                <div className="card bgs2 shadow-xl w-96 h-60 py-6">
+                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
                   <div className="card-body">
-                    <h1 className="text-2xl text2 font-medium mb-4">
-                      • Real-Time Monitoring:
-                    </h1>
                     <span className="text-lg lg:text-xl text-white">
-                      Instant alerts for unusual activities
+                    Restaurants & quick-service 
+                    </span>
+                  </div>
+                </div>
+                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
+                  <div className="card-body">
+                    <span className="text-lg lg:text-xl text-white">
+                    restaurants (QSR)
+                    </span>
+                  </div>
+                </div>
+                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
+                  <div className="card-body">
+                    <span className="text-lg lg:text-xl text-white">
+                    Taxi fleets & transportation services
+                    </span>
+                  </div>
+                </div>
+                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
+                  <div className="card-body">
+                    <span className="text-lg lg:text-xl text-white">
+                    Grocery stores & supermarkets 
+                    </span>
+                  </div>
+                </div>
+                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
+                  <div className="card-body">
+                    <span className="text-lg lg:text-xl text-white">
+                    Convenience stores
+                    </span>
+                  </div>
+                </div>
+                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
+                  <div className="card-body">
+                    <span className="text-lg lg:text-xl text-white">
+                    Retail boutiques
+                    </span>
+                  </div>
+                </div>
+                <div className="card bgs2 shadow-xl w-96 h-60 py-14">
+                  <div className="card-body">
+                    <span className="text-lg lg:text-xl text-white">
+                    Specialty stores (vape shops, dispensaries, gift shops)
                     </span>
                   </div>
                 </div>

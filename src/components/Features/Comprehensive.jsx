@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Comprehensive = () => {
   return (
-    <div className="max-w-7xl mx-auto px-2 lg:px-0 pt-32 lg:pt-52 mb-24">
+    <div className="max-w-7xl mx-auto px-2 lg:px-0 my-24">
       <h2 className="text-3xl lg:text-5xl font-bold text2 text-center lg:w-9/12 mx-auto">
         Markets We Serve:
       </h2>
