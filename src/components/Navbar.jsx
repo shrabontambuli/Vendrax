@@ -49,8 +49,8 @@ const Navbar = () => {
                 tabIndex={0}
                 // onClick={() => setIsOpen(!isOpen)}
                 // onClick={() => setIsOpen((o) => !o)}
-                onMouseEnter={() => setIsOpen(true)}
-                onMouseLeave={() => setIsOpen(false)}
+                onMouseEnter={() => setIsOpen((o) => !o)}
+                onMouseLeave={() => setIsOpen((o) => !o)}
                 role="button"
                 className=" lg:hidden absolute right-2"
               >
