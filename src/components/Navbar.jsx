@@ -44,12 +44,12 @@ const Navbar = () => {
       <div className="bgs3">
         <div className="flex justify-between items-center text2 py-2 max-w-7xl mx-auto relative">
           <div>
-            <div className="dropdown lg:hidden absolute right-1 top-7">
+            <div className="dropdown dropdown-hover lg:hidden absolute right-1 top-7">
               <div
                 tabIndex={0}
                 // onClick={() => setIsOpen(!isOpen)}
-                // onClick={() => setIsOpen((o) => !o)}
-                onMouseEnter={() => setIsOpen((o) => !o)}
+                onClick={() => setIsOpen((o) => !o)}
+                // onMouseEnter={() => setIsOpen((o) => !o)}
                 role="button"
                 className=" lg:hidden absolute right-2"
               >
