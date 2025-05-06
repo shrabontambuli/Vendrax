@@ -18,7 +18,7 @@ const ContactForm = () => {
   };
   return (
     <div className="pt-32 lg:pt-48">
-      <div className="max-w-7xl mx-auto rounded-2xl bgs shadow-xl lg:px-20 py-10 mb-28 relative p-4">
+      <div className="max-w-7xl mx-auto rounded-2xl bgs shadow-xl lg:px-20 py-10 mb-28 p-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="w-11/12 ">
             <div className="text-center">
@@ -36,7 +36,7 @@ const ContactForm = () => {
                   <div>
                     <p className="text2 text-2xl mb-2">• Phone:</p>
                     <h3 className="text-2xl text2 font-medium">
-                    (855) 262-0796
+                      (855) 262-0796
                     </h3>
                   </div>
                 </div>
@@ -52,7 +52,7 @@ const ContactForm = () => {
                   <div>
                     <p className="text2 text-2xl mb-2">• Address:</p>
                     <h3 className="text-xl text2 font-medium w-80">
-                    9431 Haven Avenue Suite 100 Rancho Cucamonga CA 91730
+                      9431 Haven Avenue Suite 100 Rancho Cucamonga CA 91730
                     </h3>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ const ContactForm = () => {
           </div>
           <div>
             <div>
-              <h1 className="text-xl lg:text-2xl text-center lg:w-9/12 mx-auto text2 font-bold">
+              <h1 className="text-xl lg:text-2xl text-center lg:w-11/12 mx-auto text2 font-bold">
                 Alternatively, fill out our contact form, and a member of our
                 team will reach out to you promptly.
               </h1>
@@ -94,28 +94,36 @@ const ContactForm = () => {
                             },
                           })}
                           className={`border p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800] ${
-                            errors.name ? 'border-red-500' : ''
+                            errors.name ? "border-red-500" : ""
                           }`}
                         />
-                         {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name.message}</p>}
+                        {errors.name && (
+                          <p className="text-red-500 text-sm mt-1">
+                            {errors.name.message}
+                          </p>
+                        )}
                       </div>
                       <div className="w-full h-28">
                         <label className="label">Email Address*</label>
                         <input
                           type="email"
                           placeholder="Add email"
-                          {...register('email', {
-                            required: 'Email is required',
+                          {...register("email", {
+                            required: "Email is required",
                             pattern: {
                               value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-                              message: 'Invalid email address',
+                              message: "Invalid email address",
                             },
                           })}
                           className={`border p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800] ${
-                            errors.email ? 'border-red-500' : ''
+                            errors.email ? "border-red-500" : ""
                           }`}
                         />
-                        {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>}
+                        {errors.email && (
+                          <p className="text-red-500 text-sm mt-1">
+                            {errors.email.message}
+                          </p>
+                        )}
                       </div>
                     </div>
 
@@ -125,30 +133,40 @@ const ContactForm = () => {
                         <input
                           type="number"
                           placeholder="Your number"
-                          {...register('number', {
-                            required: 'Phone number is required',
+                          {...register("number", {
+                            required: "Phone number is required",
                             pattern: {
-                              value: /^\+?[0-9]{7,15}$/, 
-                              message: 'Invalid phone number',
+                              value: /^\+?[0-9]{7,15}$/,
+                              message: "Invalid phone number",
                             },
                           })}
                           className={`border p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800] ${
-                            errors.number ? 'border-red-500' : ''
+                            errors.number ? "border-red-500" : ""
                           }`}
                         />
-                        {errors.number && <p className="text-red-500 text-sm mt-1">{errors.number.message}</p>}
+                        {errors.number && (
+                          <p className="text-red-500 text-sm mt-1">
+                            {errors.number.message}
+                          </p>
+                        )}
                       </div>
                       <div className="w-full h-28">
                         <label className="label">Subject*</label>
                         <input
                           type="text"
                           placeholder="Business Name"
-                          {...register('business', { required: 'Subject is required' })}
-                        className={`border p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800] ${
-                          errors.business ? 'border-red-500' : ''
-                        }`}
+                          {...register("business", {
+                            required: "Subject is required",
+                          })}
+                          className={`border p-3 w-full bg-white rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800] ${
+                            errors.business ? "border-red-500" : ""
+                          }`}
                         />
-                        {errors.business && <p className="text-red-500 text-sm mt-1">{errors.business.message}</p>}
+                        {errors.business && (
+                          <p className="text-red-500 text-sm mt-1">
+                            {errors.business.message}
+                          </p>
+                        )}
                       </div>
                     </div>
 
@@ -157,16 +175,23 @@ const ContactForm = () => {
                         <label className="label">Comments/Questions*</label>
                         <textarea
                           placeholder="Enter Your Message Here"
-                          {...register('sms', {
-                            required: 'Message is required',
-                            minLength: { value: 10, message: 'At least 10 characters' },
+                          {...register("sms", {
+                            required: "Message is required",
+                            minLength: {
+                              value: 10,
+                              message: "At least 10 characters",
+                            },
                           })}
                           className={`w-full bg-white border p-3 rounded-sm focus:outline-none focus:ring-1 focus:ring-[#228800] resize-none ${
-                            errors.sms ? 'border-red-500' : ''
+                            errors.sms ? "border-red-500" : ""
                           }`}
                           rows="4"
                         />
-                         {errors.sms && <p className="text-red-500 text-sm mt-1">{errors.sms.message}</p>}
+                        {errors.sms && (
+                          <p className="text-red-500 text-sm mt-1">
+                            {errors.sms.message}
+                          </p>
+                        )}
                       </div>
                     </div>
 
@@ -181,16 +206,6 @@ const ContactForm = () => {
             </div>
           </div>
         </div>
-        <img
-          className="absolute hidden lg:flex top-10 lg:-right-0"
-          src="/images/cont-bg2.webp"
-          alt="icon"
-        />
-        <img
-          className="absolute hidden lg:flex top-10 lg:-left-10"
-          src="/images/cont-bg1.webp"
-          alt="icon"
-        />
       </div>
     </div>
   );
