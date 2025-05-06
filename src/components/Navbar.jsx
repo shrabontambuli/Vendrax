@@ -103,113 +103,127 @@ const Navbar = () => {
                     Services
                   </NavLink>
                 </li>
-                {/* <li>
-                <details>
-                  <summary className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">
-                    Services
-                  </summary>
-                  <ul className=" lg:bg-white text-black lg:border-b-2 rounded-sm w-40">
-                    <li>
-                      <NavLink
-                        className={({ isActive }) =>
-                          `${
-                            isActive
-                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
-                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
-                          }`
-                        }
-                        to="/ecommerce"
-                      >
-                        Ecommerce
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        className={({ isActive }) =>
-                          `${
-                            isActive
-                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
-                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
-                          }`
-                        }
-                        to="/pos-service"
-                      >
-                        POS service
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        className={({ isActive }) =>
-                          `${
-                            isActive
-                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
-                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
-                          }`
-                        }
-                        to="/restaurant"
-                      >
-                        Restaurant
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        className={({ isActive }) =>
-                          `${
-                            isActive
-                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
-                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
-                          }`
-                        }
-                        to="/desktop-terminal"
-                      >
-                        Desktop Terminal
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        className={({ isActive }) =>
-                          `${
-                            isActive
-                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
-                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
-                          }`
-                        }
-                        to="/Pay"
-                      >
-                        Pay at the table
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        className={({ isActive }) =>
-                          `${
-                            isActive
-                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
-                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
-                          }`
-                        }
-                        to="/wireless"
-                      >
-                        Wireless Terminal
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        className={({ isActive }) =>
-                          `${
-                            isActive
-                              ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
-                              : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
-                          }`
-                        }
-                        to="/mobile-payment"
-                      >
-                        Mobile Payment
-                      </NavLink>
-                    </li>
-                  </ul>
-                </details>
-              </li> */}
+                <li>
+                  <details>
+                    <summary className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">
+                      Our Products
+                    </summary>
+                    <ul className=" lg:bg-white text-black lg:border-b-2 rounded-sm w-40">
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            `${
+                              isActive
+                                ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                                : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                            }`
+                          }
+                          to="/ecommerce"
+                        >
+                          Clover Flex 3G & 4G
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            `${
+                              isActive
+                                ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                                : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                            }`
+                          }
+                          to="/pos-service"
+                        >
+                          Clover Duo Station
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            `${
+                              isActive
+                                ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                                : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                            }`
+                          }
+                          to="/restaurant"
+                        >
+                          A920 Android SmartPOS
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            `${
+                              isActive
+                                ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                                : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                            }`
+                          }
+                          to="/desktop-terminal"
+                        >
+                          A80 Android Desktop
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            `${
+                              isActive
+                                ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                                : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                            }`
+                          }
+                          to="/Pay"
+                        >
+                          Desk/5000 Countertop Terminal
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            `${
+                              isActive
+                                ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                                : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                            }`
+                          }
+                          to="/wireless"
+                        >
+                          Move/5000 Wireless Terminal
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            `${
+                              isActive
+                                ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                                : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                            }`
+                          }
+                          to="/mobile-payment"
+                        >
+                          Newland N910 Smart Terminal
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          className={({ isActive }) =>
+                            `${
+                              isActive
+                                ? "bg1 text1 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                                : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
+                            }`
+                          }
+                          to="/mobile-payment"
+                        >
+                          Poynt C Smart Terminal
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </details>
+                </li>
                 <li>
                   <NavLink
                     to="/features"
@@ -378,23 +392,39 @@ const Navbar = () => {
                     Services
                   </NavLink>
                 </li>
-                {/* <li>
-                <details>
-                  <summary>Services</summary>
-                  <ul className="bg-white text-black border-b-2 space-y-1 rounded-sm w-40">
+                <li className="relative group">
+                  <span className="cursor-pointer flex items-center">
+                    Our Products
+                    <svg
+                      className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </span>
+                  <ul
+                    className="bg-white text-black border-b-2 space-y-1  w-72 absolute top-full left-0 p-4 
+                    shadow-lg rounded
+                    opacity-0 scale-95
+                    pointer-events-none
+                    transition
+                    group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto"
+                  >
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
                       <NavLink
-                        className={({ isActive }) =>
-                          `${
-                            isActive
-                              ? "bg1 text-white rounded-none"
-                              : "hover:bg-[#228800] hover:text-white"
-                          }`
-                        }
+                        className="block px-4 py-2 hover:bg-green-700 hover:text-white text-sm"
                         to="/ecommerce"
                         onClick={closeAllDetails}
                       >
-                        Ecommerce
+                        Clover Flex 3G & 4G
                       </NavLink>
                     </li>
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
@@ -409,7 +439,7 @@ const Navbar = () => {
                         to="/pos-service"
                         onClick={closeAllDetails}
                       >
-                        POS service
+                        Clover Duo Station
                       </NavLink>
                     </li>
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
@@ -424,7 +454,7 @@ const Navbar = () => {
                         to="/restaurant"
                         onClick={closeAllDetails}
                       >
-                        Restaurant
+                        A920 Android SmartPOS
                       </NavLink>
                     </li>
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
@@ -439,7 +469,7 @@ const Navbar = () => {
                         to="/desktop-terminal"
                         onClick={closeAllDetails}
                       >
-                        Desktop Terminal
+                        A80 Android Desktop
                       </NavLink>
                     </li>
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
@@ -454,7 +484,7 @@ const Navbar = () => {
                         to="/pay"
                         onClick={closeAllDetails}
                       >
-                        Pay at the table
+                        Desk/5000 Countertop Terminal
                       </NavLink>
                     </li>
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
@@ -469,7 +499,7 @@ const Navbar = () => {
                         to="/wireless"
                         onClick={closeAllDetails}
                       >
-                        Wireless Terminal
+                        Move/5000 Wireless Terminal
                       </NavLink>
                     </li>
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
@@ -484,12 +514,26 @@ const Navbar = () => {
                         to="/mobile-payment"
                         onClick={closeAllDetails}
                       >
-                        Mobile Payment
+                        Newland N910 Smart Terminal
+                      </NavLink>
+                    </li>
+                    <li className="hover:bg-[#228800] hover:text-white  text-sm">
+                      <NavLink
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text-white rounded-none"
+                              : "hover:bg-[#228800] hover:text-white"
+                          }`
+                        }
+                        to="/mobile-payment"
+                        onClick={closeAllDetails}
+                      >
+                        Poynt C Smart Terminal
                       </NavLink>
                     </li>
                   </ul>
-                </details>
-              </li> */}
+                </li>
                 <li>
                   <NavLink
                     className={({ isActive }) =>
