@@ -35,7 +35,7 @@ const ContactForm = () => {
                 <div className="flex items-center gap-4 mb-10">
                   <div>
                     <p className="text2 text-2xl mb-2">• Phone:</p>
-                    <h3 className="text-2xl text2 font-medium">
+                    <h3 className="text-xl text2 font-medium">
                       (855) 262-0796
                     </h3>
                   </div>
