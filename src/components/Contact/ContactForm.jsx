@@ -44,7 +44,7 @@ const ContactForm = () => {
                   <div>
                     <p className="text2 text-2xl mb-2">• Email:</p>
                     <h3 className="text-xl text2 font-medium">
-                      *****@gmail.com
+                      info@fundrax.com
                     </h3>
                   </div>
                 </div>

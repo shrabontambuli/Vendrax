@@ -49,7 +49,35 @@ export const router = createBrowserRouter([
         element: <Partnership/>
       },
       {
-        path: "/demo",
+        path: "/clover-flex",
+        element: <Demo/>,
+      },
+      {
+        path: "/clover-duo",
+        element: <Demo/>,
+      },
+      {
+        path: "/android",
+        element: <Demo/>,
+      },
+      {
+        path: "/desktop",
+        element: <Demo/>,
+      },
+      {
+        path: "/counter",
+        element: <Demo/>,
+      },
+      {
+        path: "/wireless",
+        element: <Demo/>,
+      },
+      {
+        path: "/smart",
+        element: <Demo/>,
+      },
+      {
+        path: "/poynt",
         element: <Demo/>,
       },
       // {

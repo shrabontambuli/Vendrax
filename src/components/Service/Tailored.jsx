@@ -11,7 +11,7 @@ const Tailored = () => {
         <div className="w-full h-[600px] mt-10 md:mt-0">
           <img
             className="w-full h-full object-cover rounded-2xl"
-            src="/images/istockphoto-1666863080-612x612.jpg"
+            src="/images/e-commerce-online-shopping-plant-sale_53876-125021.avif"
             alt="img"
           />
         </div>

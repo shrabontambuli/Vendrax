@@ -57,7 +57,7 @@ const Navbar = () => {
               </div>
               <ul
                 tabIndex={0}
-                className={`menu menu-sm left-0 bgC text2 z-10 mt-10 w-96  h-screen md:h-full rounded-lg p-6 pt-20 shadow space-y-10 transition-all ${
+                className={`menu menu-sm overflow-y-auto left-0 bgC text2 z-10 mt-10 w-96  h-screen md:h-full rounded-lg p-6 pt-20 shadow space-y-10 transition-all ${
                   isOpen ? "block" : "hidden"
                 }`}
               >
@@ -106,7 +106,7 @@ const Navbar = () => {
                 <li>
                   <details>
                     <summary className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">
-                      Our Products
+                     POS
                     </summary>
                     <ul className=" lg:bg-white text-black lg:border-b-2 rounded-sm w-40">
                       <li>
@@ -118,7 +118,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/demo"
+                          to="/clover-flex"
                         >
                           Clover Flex 3G & 4G
                         </NavLink>
@@ -132,7 +132,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/demo"
+                          to="/clover-duo"
                         >
                           Clover Duo Station
                         </NavLink>
@@ -146,7 +146,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/demo"
+                          to="/androidv"
                         >
                           A920 Android SmartPOS
                         </NavLink>
@@ -160,7 +160,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/desktop-terminal"
+                          to="/desktop"
                         >
                           A80 Android Desktop
                         </NavLink>
@@ -174,7 +174,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/demo"
+                          to="/counter"
                         >
                           Desk/5000 Countertop Terminal
                         </NavLink>
@@ -188,7 +188,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/demo"
+                          to="/wireless"
                         >
                           Move/5000 Wireless Terminal
                         </NavLink>
@@ -202,7 +202,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/demo"
+                          to="/smart"
                         >
                           Newland N910 Smart Terminal
                         </NavLink>
@@ -216,7 +216,7 @@ const Navbar = () => {
                                 : "text2 text-xl border-b-2 md:border-b-2 py-2 w-64 mt-2"
                             }`
                           }
-                          to="/demo"
+                          to="/poynt"
                         >
                           Poynt C Smart Terminal
                         </NavLink>
@@ -389,12 +389,12 @@ const Navbar = () => {
                     to="/services"
                     onClick={closeAllDetails}
                   >
-                    Services
+                    Product & Services
                   </NavLink>
                 </li>
                 <li className="relative group">
                   <span className="cursor-pointer flex items-center">
-                    Our Products
+                    POS
                     <svg
                       className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180"
                       xmlns="http://www.w3.org/2000/svg"
@@ -420,8 +420,14 @@ const Navbar = () => {
                   >
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
                       <NavLink
-                        className="block px-4 py-2 hover:bg-green-700 hover:text-white text-sm"
-                        to="/demo"
+                          className={({ isActive }) =>
+                            `${
+                              isActive
+                                ? "bg1 text1"
+                                : "hover:bg-[#228800] hover:text-white"
+                            }`
+                          }
+                        to="/clover-flex"
                         onClick={closeAllDetails}
                       >
                         Clover Flex 3G & 4G
@@ -432,11 +438,11 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white rounded-none"
+                              ? "bg1 text1"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/demo"
+                        to="/clover-duo"
                         onClick={closeAllDetails}
                       >
                         Clover Duo Station
@@ -447,11 +453,11 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white rounded-none"
+                              ? "bg1 text1"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/demo"
+                        to="/android"
                         onClick={closeAllDetails}
                       >
                         A920 Android SmartPOS
@@ -462,11 +468,11 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white rounded-none"
+                              ? "bg1 text1"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/demo"
+                        to="/desktop"
                         onClick={closeAllDetails}
                       >
                         A80 Android Desktop
@@ -477,11 +483,11 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white rounded-none"
+                              ? "bg1 text1"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/demo"
+                        to="/counter"
                         onClick={closeAllDetails}
                       >
                         Desk/5000 Countertop Terminal
@@ -492,11 +498,11 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white rounded-none"
+                              ? "bg1 text1"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/demo"
+                        to="/wireless"
                         onClick={closeAllDetails}
                       >
                         Move/5000 Wireless Terminal
@@ -507,11 +513,11 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white rounded-none"
+                              ? "bg1 text1"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/demo"
+                        to="/smart"
                         onClick={closeAllDetails}
                       >
                         Newland N910 Smart Terminal
@@ -522,11 +528,11 @@ const Navbar = () => {
                         className={({ isActive }) =>
                           `${
                             isActive
-                              ? "bg1 text-white rounded-none"
+                              ? "bg1 text1"
                               : "hover:bg-[#228800] hover:text-white"
                           }`
                         }
-                        to="/demo"
+                        to="/poynt"
                         onClick={closeAllDetails}
                       >
                         Poynt C Smart Terminal

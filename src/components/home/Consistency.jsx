@@ -10,11 +10,39 @@ const Consistency = () => {
             Industries We Serve:
           </h2>
           <div className="space-y-6">
-            <p className="text2 text-xl lg:text-3xl font-medium">• Retail Stores</p>
-            <p className="text2 text-xl lg:text-3xl font-medium">• Restaurants</p>
-            <p className="text2 text-xl lg:text-3xl font-medium">• E-commerce Platforms</p>
-            <p className="text2 text-xl lg:text-3xl font-medium">
-              • Service-Based Businesses
+            <p className="text2 text-xl font-medium">
+              CBD / C8 / C9 POS industry
+            </p>
+            <p className="text2 text-xl font-medium">
+              Liquor stores
+            </p>
+            <p className="text2 text-xl font-medium">
+              Cigarette & E-cigarette shops
+            </p>
+            <p className="text2 text-xl font-medium">Pubs & bars</p>
+            <p className="text2 text-xl font-medium">
+              Cigarette & E-cigarette shops
+            </p>
+            <p className="text2 text-xl font-medium">
+              Restaurants & quick-service{" "}
+            </p>
+            <p className="text2 text-xl font-medium">
+              restaurants (QSR)
+            </p>
+            <p className="text2 text-xl font-medium">
+              Taxi fleets & transportation services
+            </p>
+            <p className="text2 text-xl font-medium">
+              Grocery stores & supermarkets
+            </p>
+            <p className="text2 text-xl font-medium">
+              Convenience stores
+            </p>
+            <p className="text2 text-xl font-medium">
+              Retail boutiques
+            </p>
+            <p className="text2 text-xl font-medium">
+              Specialty stores (vape shops, dispensaries, gift shops)
             </p>
           </div>
           <Link to="/contact">
