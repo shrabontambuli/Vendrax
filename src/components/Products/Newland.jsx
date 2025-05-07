@@ -32,6 +32,8 @@ const Newland = () => {
         </div>
       </div>
 
+      {/* Last section */}
+      
       <div className="my-24">
         <div className="bg1 mt-24 py-20">
           <div className="max-w-7xl mx-auto">
