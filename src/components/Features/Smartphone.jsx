@@ -25,7 +25,7 @@ const Smartphone = () => {
               <div className="card bgs2 shadow-xl w-96 h-60 flex justify-center items-center p-2">
                 <div>
                   <span className="text-2xl text-white">
-                    CBD / C8 / C9 POS industry
+                    CBD / C8 / C9 
                   </span>
                 </div>
               </div>

@@ -18,6 +18,15 @@ import MobilePayment from "../pages/MobilePayment";
 import Service from "../pages/Service";
 import Partnership from "../pages/Partnership";
 import Demo from "../components/Demo";
+import Clover from "../components/Products/Clover";
+import Duo from "../components/Products/Duo";
+import SmartPos from "../components/Products/SmartPos";
+import ADesk from "../components/Products/ADesk";
+import Desk from "../components/Products/Desk";
+import Move from "../components/Products/Move";
+import Newland from "../components/Products/Newland";
+import PoyntC from "../components/Products/PoyntC";
+import ADesk2 from "../components/Products/ADesk2";
 
 export const router = createBrowserRouter([
   {
@@ -50,35 +59,35 @@ export const router = createBrowserRouter([
       },
       {
         path: "/clover-flex",
-        element: <Demo/>,
+        element: <Clover/>,
       },
       {
         path: "/clover-duo",
-        element: <Demo/>,
+        element: <Duo/>,
       },
       {
         path: "/android",
-        element: <Demo/>,
+        element: <ADesk/>,
       },
       {
         path: "/desktop",
-        element: <Demo/>,
+        element: <ADesk2/>,
       },
       {
         path: "/counter",
-        element: <Demo/>,
+        element: <Desk/>
       },
       {
         path: "/wireless",
-        element: <Demo/>,
+        element: <Move/>
       },
       {
         path: "/smart",
-        element: <Demo/>,
+        element: <Newland/>,
       },
       {
         path: "/poynt",
-        element: <Demo/>,
+        element: <PoyntC/>,
       },
       // {
       //   path: "/referral",

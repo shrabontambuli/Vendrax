@@ -19,7 +19,7 @@ const Comprehensive = () => {
           <div className="space-y-3 mt-10">
             <div>
               <span className="text-lg text-gray-600">
-                CBD / C8 / C9 POS industry
+                CBD / C8 / C9 
               </span>
             </div>
             <div>

@@ -11,7 +11,7 @@ const Consistency = () => {
           </h2>
           <div className="space-y-6">
             <p className="text2 text-xl font-medium">
-              CBD / C8 / C9 POS industry
+              CBD / C8 / C9 
             </p>
             <p className="text2 text-xl font-medium">
               Liquor stores

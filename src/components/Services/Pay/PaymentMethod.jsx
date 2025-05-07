@@ -2,7 +2,7 @@ import React from "react";
 
 const PaymentMethod = () => {
   return (
-    <div className="max-w-7xl mx-auto px-2 lg:px-0 my-24">
+    <div className="max-w-7xl mx-auto px-2 lg:px-0 lg:pt-48 pt-32 pb-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center gap-10">
         <div className="space-y-10 p-4">
           <span className="inline-block w-80 py-1 bgs text2 rounded-full font-semibold text-lg text-center tracking-widest">

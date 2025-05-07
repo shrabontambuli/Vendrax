@@ -10,10 +10,10 @@ const Pay = () => {
       }, []);
     return (
         <>
-            <PayBanner/>
+            {/* <PayBanner/> */}
             <PaymentMethod/>
             <Turnaround/>
-            <Minimize/>
+            {/* <Minimize/> */}
         </>
     );
 };

@@ -90,23 +90,9 @@ const Navbar = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink
-                    to="/services"
-                    className={({ isActive }) =>
-                      `${
-                        isActive
-                          ? "bg1 text1 text-xl border-b-2 py-2"
-                          : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
-                      }`
-                    }
-                  >
-                    Services
-                  </NavLink>
-                </li>
-                <li>
                   <details>
                     <summary className="text-xl border-b-2 md:border-b-2 pb-4 md:pb-0">
-                     POS
+                      Products
                     </summary>
                     <ul className=" lg:bg-white text-black lg:border-b-2 rounded-sm w-40">
                       <li>
@@ -223,6 +209,20 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </details>
+                </li>
+                <li>
+                  <NavLink
+                    to="/services"
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? "bg1 text1 text-xl border-b-2 py-2"
+                          : "hover:bg-[#228800] hover:text-white text-xl border-b-2 md:border-b-2 py-2"
+                      }`
+                    }
+                  >
+                    Services
+                  </NavLink>
                 </li>
                 <li>
                   <NavLink
@@ -377,24 +377,9 @@ const Navbar = () => {
                     About
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink
-                    className={({ isActive }) =>
-                      `${
-                        isActive
-                          ? "bg-none text2 border-b-2 border-[#228800]"
-                          : ""
-                      }`
-                    }
-                    to="/services"
-                    onClick={closeAllDetails}
-                  >
-                    Product & Services
-                  </NavLink>
-                </li>
                 <li className="relative group">
                   <span className="cursor-pointer flex items-center">
-                    POS
+                    Products
                     <svg
                       className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180"
                       xmlns="http://www.w3.org/2000/svg"
@@ -420,13 +405,13 @@ const Navbar = () => {
                   >
                     <li className="hover:bg-[#228800] hover:text-white  text-sm">
                       <NavLink
-                          className={({ isActive }) =>
-                            `${
-                              isActive
-                                ? "bg1 text1"
-                                : "hover:bg-[#228800] hover:text-white"
-                            }`
-                          }
+                        className={({ isActive }) =>
+                          `${
+                            isActive
+                              ? "bg1 text1"
+                              : "hover:bg-[#228800] hover:text-white"
+                          }`
+                        }
                         to="/clover-flex"
                         onClick={closeAllDetails}
                       >
@@ -539,6 +524,21 @@ const Navbar = () => {
                       </NavLink>
                     </li>
                   </ul>
+                </li>
+                <li>
+                  <NavLink
+                    className={({ isActive }) =>
+                      `${
+                        isActive
+                          ? "bg-none text2 border-b-2 border-[#228800]"
+                          : ""
+                      }`
+                    }
+                    to="/services"
+                    onClick={closeAllDetails}
+                  >
+                    Services
+                  </NavLink>
                 </li>
                 <li>
                   <NavLink
