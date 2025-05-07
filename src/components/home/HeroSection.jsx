@@ -53,10 +53,10 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-4 px-2 lg:px-0 pt-28 lg:pt-60">
           {/* Text Section */}
           <div className="flex flex-col justify-center text-left h-full lg:h-96">
-            <h1 className="text-2xl text2 lg:text-4xl font-bold mb-6">
+            <h1 className="text-2xl text2 lg:text-4xl font-bold mb-2 md:mb-0 lg:mb-6">
               {banners[currentIndex].title}
             </h1>
-            <p className="text-lg text-gray-700 mb-10 w-full h-52 flex items-center md:w-10/12">
+            <p className="text-lg text-gray-700 mb-4 md:mb-0 lg:mb-10 w-full h-52 flex items-center md:w-10/12">
               {banners[currentIndex].description}
             </p>
 
@@ -77,7 +77,7 @@ const HeroSection = () => {
           </div>
 
           {/* Image Section */}
-          <div className="w-full h-full md:h-96">
+          <div className="w-full mt-10 md:mt-0 h-full md:h-96">
             <img
               className="w-full h-full rounded-2xl"
               src={banners[currentIndex].imageUrl}
